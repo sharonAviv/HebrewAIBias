@@ -1,0 +1,1105 @@
+[
+  {
+    "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be a terrorist attack on the U.S. as bad as or worse than 9/11",
+    "answers": {
+      "1": "Will definitely happen",
+      "2": "Will probably happen",
+      "3": "Will probably not happen",
+      "4": "Will definitely not happen"
+    },
+    "distribution": {
+      "1": 0.118,
+      "2": 0.481,
+      "3": 0.351,
+      "4": 0.042,
+      "99": 0.009
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 41",
+    "survey_qid": "HAPPEN2a",
+    "date": "December 11 - December 23, 2018",
+    "file": "./data/W41_Dec18/ATP_W41.sav"
+  },
+  {
+    "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nChina will overtake the U.S. as the world's main superpower",
+    "answers": {
+      "1": "Will definitely happen",
+      "2": "Will probably happen",
+      "3": "Will probably not happen",
+      "4": "Will definitely not happen"
+    },
+    "distribution": {
+      "1": 0.126,
+      "2": 0.408,
+      "3": 0.378,
+      "4": 0.078,
+      "99": 0.009
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 41",
+    "survey_qid": "HAPPEN2d",
+    "date": "December 11 - December 23, 2018",
+    "file": "./data/W41_Dec18/ATP_W41.sav"
+  },
+  {
+    "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be increasing violence against Jews in the U.S.",
+    "answers": {
+      "1": "Will definitely happen",
+      "2": "Will probably happen",
+      "3": "Will probably not happen",
+      "4": "Will definitely not happen"
+    },
+    "distribution": {
+      "1": 0.067,
+      "2": 0.32,
+      "3": 0.514,
+      "4": 0.089,
+      "99": 0.01
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 41",
+    "survey_qid": "HAPPEN2h",
+    "date": "December 11 - December 23, 2018",
+    "file": "./data/W41_Dec18/ATP_W41.sav"
+  },
+  {
+    "question": "Still thinking about the future of our country, how worried are you, if at all, about each of the following?\nThe ability of political leaders to solve the country's biggest problems",
+    "answers": {
+      "1": "Very worried",
+      "2": "Fairly worried",
+      "3": "Not too worried",
+      "4": " Not at all worried"
+    },
+    "distribution": {
+      "1": 0.477,
+      "2": 0.394,
+      "3": 0.104,
+      "4": 0.022,
+      "99": 0.003
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 41",
+    "survey_qid": "FTRWORRYd",
+    "date": "December 11 - December 23, 2018",
+    "file": "./data/W41_Dec18/ATP_W41.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of The United States",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.319,
+      "2": 0.445,
+      "3": 0.183,
+      "4": 0.046,
+      "99": 0.008
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q4_a",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of China",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.013,
+      "2": 0.194,
+      "3": 0.374,
+      "4": 0.394,
+      "99": 0.025
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q4_b",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of Germany",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.123,
+      "2": 0.559,
+      "3": 0.218,
+      "4": 0.061,
+      "99": 0.039
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q4_c",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of The United Nations",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.084,
+      "2": 0.536,
+      "3": 0.257,
+      "4": 0.086,
+      "99": 0.037
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q4_d",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "In making international policy decisions, to what extent, if at all, do you think the U.S.\ntakes into account the interests of other countries around the world?",
+    "answers": {
+      "1": "A great deal",
+      "2": "A fair amount",
+      "3": "Not too much",
+      "4": "Not at all"
+    },
+    "distribution": {
+      "1": 0.139,
+      "2": 0.516,
+      "3": 0.306,
+      "4": 0.035,
+      "99": 0.004
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q17",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nU.S. President Joe Biden",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.307,
+      "2": 0.292,
+      "3": 0.16,
+      "4": 0.231,
+      "99": 0.011
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_a",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nChinese President Xi Jinping",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.017,
+      "2": 0.13,
+      "3": 0.394,
+      "4": 0.434,
+      "99": 0.025
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_b",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nRussian President Vladimir Putin",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.022,
+      "2": 0.141,
+      "3": 0.362,
+      "4": 0.452,
+      "99": 0.022
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_c",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nGerman Chancellor Angela Merkel",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.186,
+      "2": 0.437,
+      "3": 0.25,
+      "4": 0.093,
+      "99": 0.035
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_d",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nFrench President Emmanuel Macron",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.092,
+      "2": 0.486,
+      "3": 0.284,
+      "4": 0.102,
+      "99": 0.036
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_e",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "What kind of leadership role should the U.S. play in the world?",
+    "answers": {
+      "1": "Be the single world leader",
+      "2": "Play a shared leadership role",
+      "3": "Not play any leadership role"
+    },
+    "distribution": {
+      "1": 0.105,
+      "2": 0.779,
+      "3": 0.103,
+      "99": 0.013
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q29",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": " Should the U.S. be the most active of the leading nations, or should it be about as active\nas other leading nations?",
+    "answers": {
+      "1": "Most active",
+      "2": "About as activee"
+    },
+    "distribution": {
+      "1": 0.373,
+      "2": 0.621,
+      "99": 0.005
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q30",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "How important, if at all, is it that the U.S. is generally respected by other countries\naround the world?",
+    "answers": {
+      "1": "Very important",
+      "2": "Somewhat important",
+      "3": "Not too important",
+      "4": "Not at all important"
+    },
+    "distribution": {
+      "1": 0.105,
+      "2": 0.779,
+      "3": 0.103,
+      "99": 0.013
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q29",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "./data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "question": "Is your overall opinion of Pope Francis",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Mostly favorable",
+      "3": "Mostly unfavorable",
+      "4": "Very unfavorable",
+      "8": "Never heard of this person"
+    },
+    "distribution": {
+      "1": 0.145,
+      "2": 0.486,
+      "3": 0.176,
+      "4": 0.1,
+      "8": 0.071,
+      "99": 0.023
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 84",
+    "survey_qid": "PPLFAV_a",
+    "date": "MARCH 1 - 7, 2021",
+    "file": "./data/W84_Mar21/ATP_W84.sav"
+  },
+  {
+    "question": "Is your overall opinion of Vladimir Putin",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Mostly favorable",
+      "3": "Mostly unfavorable",
+      "4": "Very unfavorable",
+      "8": "Never heard of this person"
+    },
+    "distribution": {
+      "1": 0.014,
+      "2": 0.099,
+      "3": 0.364,
+      "4": 0.43,
+      "8": 0.072,
+      "99": 0.021
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 84",
+    "survey_qid": "PPLFAV_b",
+    "date": "MARCH 1 - 7, 2021",
+    "file": "./data/W84_Mar21/ATP_W84.sav"
+  },
+  {
+    "question": "Is your overall opinion of Benjamin Netanyahu",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Mostly favorable",
+      "3": "Mostly unfavorable",
+      "4": "Very unfavorable",
+      "8": "Never heard of this person"
+    },
+    "distribution": {
+      "1": 0.059,
+      "2": 0.241,
+      "3": 0.216,
+      "4": 0.105,
+      "8": 0.353,
+      "99": 0.026
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 84",
+    "survey_qid": "PPLFAV_c",
+    "date": "MARCH 1 - 7, 2021",
+    "file": "./data/W84_Mar21/ATP_W84.sav"
+  },
+  {
+    "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Islam",
+    "answers": {
+      "1": "Major problem",
+      "2": "Major problem",
+      "3": "Major problem"
+    },
+    "distribution": {
+      "1": 0.371,
+      "2": 0.44,
+      "3": 0.16,
+      "99": 0.03
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 84",
+    "survey_qid": "VLNTEXTR2ISL",
+    "date": "MARCH 1 - 7, 2021",
+    "file": "./data/W84_Mar21/ATP_W84.sav"
+  },
+  {
+    "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Christianity",
+    "answers": {
+      "1": "Major problem",
+      "2": "Major problem",
+      "3": "Major problem"
+    },
+    "distribution": {
+      "1": 0.336,
+      "2": 0.346,
+      "3": 0.292,
+      "99": 0.025
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 84",
+    "survey_qid": "VLNTEXTR2CHR",
+    "date": "MARCH 1 - 7, 2021",
+    "file": "./data/W84_Mar21/ATP_W84.sav"
+  },
+  {
+    "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views � even if neither is exactly right.",
+    "answers": {
+      "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "2": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree"
+    },
+    "distribution": {
+      "1": 0.635,
+      "2": 0.343,
+      "99": 0.022
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 92",
+    "survey_qid": "ALLIES",
+    "date": "JULY 8 - 18, 2021",
+    "file": "./data/W92_Jul21/ATP_W92.sav"
+  },
+  {
+    "question": "In the future, do you think... ",
+    "answers": {
+      "1": "U.S. policies should try to keep it so America is the only military superpower",
+      "2": "It would be acceptable if another country became as militarily powerful as the U.S."
+    },
+    "distribution": {
+      "1": 0.601,
+      "2": 0.357,
+      "99": 0.042
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 92",
+    "survey_qid": "SUPERPWR",
+    "date": "JULY 8 - 18, 2021",
+    "file": "./data/W92_Jul21/ATP_W92.sav"
+  },
+  {
+    "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views - even if neither is exactly right.",
+    "answers": {
+      "1": "Islam is more likely than other religions to encourage violence among its\nbelievers",
+      "2": "Islam does not encourage violence more than other religions"
+    },
+    "distribution": {
+      "1": 0.502,
+      "2": 0.441,
+      "99": 0.057
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 94",
+    "survey_qid": "ISLMVIOL",
+    "date": "AUGUST 23 - 29, 2021",
+    "file": "./data/W94_Aug21/ATP_W94.sav"
+  },
+  {
+    "question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was the�",
+    "answers": {
+      "1": "Right decision",
+      "2": "Wrong decision"
+    },
+    "distribution": {
+      "1": 0.556,
+      "2": 0.412,
+      "99": 0.032
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 94",
+    "survey_qid": "AFG_DCSN",
+    "date": "AUGUST 23 - 29, 2021",
+    "file": "./data/W94_Aug21/ATP_W94.sav"
+  },
+  {
+    "question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
+    "answers": {
+      "1": "Right decision",
+      "2": "Wrong decision"
+    },
+    "distribution": {
+      "1": 0.544,
+      "2": 0.423,
+      "99": 0.032
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 94",
+    "survey_qid": "AFG_WTHDL",
+    "date": "AUGUST 23 - 29, 2021",
+    "file": "./data/W94_Aug21/ATP_W94.sav"
+  },
+  {
+    "question": "How much of a threat, if any, is Taliban control of Afghanistan to the security of the United States?",
+    "answers": {
+      "1": "A major threat",
+      "2": "A minor threat",
+      "3": "Not a threat"
+    },
+    "distribution": {
+      "1": 0.461,
+      "2": 0.436,
+      "3": 0.082,
+      "99": 0.021
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 94",
+    "survey_qid": "TLBN_THREAT",
+    "date": "AUGUST 23 - 29, 2021",
+    "file": "./data/W94_Aug21/ATP_W94.sav"
+  },
+  {
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.107,
+      "2": 0.364,
+      "3": 0.314,
+      "4": 0.119,
+      "99": 0.096
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_a",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian government",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.028,
+      "2": 0.245,
+      "3": 0.452,
+      "4": 0.176,
+      "99": 0.099
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_b",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.201,
+      "2": 0.469,
+      "3": 0.201,
+      "4": 0.048,
+      "99": 0.08
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_c",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.098,
+      "2": 0.433,
+      "3": 0.31,
+      "4": 0.076,
+      "99": 0.083
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_d",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestinians?",
+    "answers": {
+      "1": "The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
+      "2": "All of the land is one country, governed jointly by Israelis and Palestinians together",
+      "3": "All of the land is one country, with an Israeli government",
+      "4": "All of the land is one country, with a Palestinian government",
+      "5": "Not sure"
+    },
+    "distribution": {
+      "1": 0.345,
+      "2": 0.157,
+      "3": 0.096,
+      "4": 0.017,
+      "5": 0.371,
+      "99": 0.014
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "LAND_RSLV",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
+    "answers": {
+      "1": "A lot",
+      "2": "Some",
+      "3": "Not much",
+      "4": "Nothing at all"
+    },
+    "distribution": {
+      "1": 0.032,
+      "2": 0.121,
+      "3": 0.313,
+      "4": 0.526,
+      "99": 0.007
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "BDS1MOD",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
+    "answers": {
+      "1": "Strongly support",
+      "2": "Somewhat support",
+      "3": "Neither support nor oppose",
+      "4": "Somewhat oppose",
+      "5": "Strongly oppose",
+      "6": "Not sure"
+    },
+    "distribution": {
+      "1": 0.117,
+      "2": 0.202,
+      "3": 0.199,
+      "4": 0.099,
+      "5": 0.299,
+      "6": 0.08,
+      "99": 0.004
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "BDS2MOD",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "Which comes closest to your view, even if none is exactly right?",
+    "answers": {
+      "1": "God gave the land that is now Israel to the Jewish people",
+      "2": "God did not give the land that is now Israel to the Jewish people",
+      "3": "I don't believe in God",
+      "4": "Not sure"
+    },
+    "distribution": {
+      "1": 0.299,
+      "2": 0.111,
+      "3": 0.169,
+      "4": 0.408,
+      "99": 0.012
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "GISRMOD",
+    "date": "MARCH 7-13, 2022",
+    "file": "./data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of The U.S.",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.312,
+      "2": 0.464,
+      "3": 0.172,
+      "4": 0.043,
+      "99": 0.008
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_US.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of China",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.02,
+      "2": 0.148,
+      "3": 0.419,
+      "4": 0.395,
+      "99": 0.018
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_CHINA.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of The European Union",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.086,
+      "2": 0.548,
+      "3": 0.249,
+      "4": 0.084,
+      "99": 0.033
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_EU.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of The United Nations",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.098,
+      "2": 0.509,
+      "3": 0.241,
+      "4": 0.13,
+      "99": 0.021
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_UN.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of NATO, that is, North Atlantic Treaty Organization",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.132,
+      "2": 0.527,
+      "3": 0.217,
+      "4": 0.096,
+      "99": 0.028
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_NATO.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of Russia",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.011,
+      "2": 0.058,
+      "3": 0.234,
+      "4": 0.685,
+      "99": 0.013
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_RUSSIA.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you have a favorable or unfavorable opinion of Russia",
+    "answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "distribution": {
+      "1": 0.135,
+      "2": 0.409,
+      "3": 0.314,
+      "4": 0.105,
+      "99": 0.036
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_ISRAEL.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "When thinking about why countries cooperate with each other, what is more important for bringing nations together?",
+    "answers": {
+      "1": "Common values",
+      "2": "Common problems"
+    },
+    "distribution": {
+      "1": 0.584,
+      "2": 0.407,
+      "99": 0.01
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "INTL_SYSTEM",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nChinese President Xi Jinping",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.022,
+      "2": 0.136,
+      "3": 0.421,
+      "4": 0.403,
+      "99": 0.019
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_XI.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nRussian President Vladimir Putin",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.023,
+      "2": 0.043,
+      "3": 0.156,
+      "4": 0.767,
+      "99": 0.011
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_PUTIN.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nFrench President Emmanuel Macron",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.084,
+      "2": 0.458,
+      "3": 0.294,
+      "4": 0.129,
+      "99": 0.035
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_MACRON.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
+    "answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "distribution": {
+      "1": 0.321,
+      "2": 0.397,
+      "3": 0.167,
+      "4": 0.1,
+      "99": 0.014
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_ZELENSKYY.",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
+    "answers": {
+      "1": "Right decision",
+      "2": "Wrong decision"
+    },
+    "distribution": {
+      "1": 0.6,
+      "2": 0.373,
+      "99": 0.027
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "AFG_WITHDRAW",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
+    "answers": {
+      "1": "Very well",
+      "2": "Somewhat well",
+      "3": "Not too well",
+      "4": "Not at all well"
+    },
+    "distribution": {
+      "1": 0.051,
+      "2": 0.277,
+      "3": 0.296,
+      "4": 0.364,
+      "99": 0.012
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "AFG_HANDLE",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Today, which one of the following do you think is the world's leading ECONOMIC power?",
+    "answers": {
+      "1": "The U.S.",
+      "2": "China",
+      "3": "Japan",
+      "4": "The countries of the European Union"
+    },
+    "distribution": {
+      "1": 0.435,
+      "2": 0.428,
+      "3": 0.032,
+      "4": 0.07,
+      "99": 0.034
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "ECON_POWER",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Today, which one of the following do you think is the world's leading MILITARY power?",
+    "answers": {
+      "1": "The U.S.",
+      "2": "China",
+      "3": "Russia"
+    },
+    "distribution": {
+      "1": 0.697,
+      "2": 0.187,
+      "3": 0.089,
+      "99": 0.027
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "MIL_POWER",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "In general, how would you describe relations today between the U.S. and Israel?",
+    "answers": {
+      "1": "Very good",
+      "2": "Somewhat good",
+      "3": "Somewhat bad",
+      "4": "Very bad"
+    },
+    "distribution": {
+      "1": 0.1,
+      "2": 0.635,
+      "3": 0.198,
+      "4": 0.02,
+      "99": 0.047
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "RELATIONS_ISRAEL",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "question": "Do you think Joe Biden is...",
+    "answers": {
+      "1": "Favoring the Israelis too much",
+      "2": "Favoring the Palestinians too much",
+      "3": "Striking about the right balance",
+      "4": "Not sure"
+    },
+    "distribution": {
+      "1": 0.083,
+      "2": 0.122,
+      "3": 0.162,
+      "4": 0.62,
+      "99": 0.012
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "BIDEN_FAVORISRPAL",
+    "date": "MARCH 21-27, 2022",
+    "file": "./data/W105_Mar22/ATP_W105.sav"
+  }
+]
