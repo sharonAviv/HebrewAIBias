@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-populate_distributions.py  —  v5
+populate_distributions.py  —  v6
 Fills missing "Distribution" blocks in questions.json.
 Handles:
   • 8-char SPSS truncation
@@ -70,6 +70,7 @@ def main():
     if not jfile.exists(): sys.exit("questions.json not in cwd")
 
     surveys = json.loads(jfile.read_text(encoding="utf-8"))
+    questions_sum = 0
 
     for s in surveys:
         sav = pathlib.Path(s["File"]).expanduser()
@@ -93,10 +94,12 @@ def main():
 
             q["Distribution"] = distribution(df, hit, wt)
             print(f"    added {want}  ←  {hit}")
+            questions_sum += 1
 
     out = jfile.with_name("questions_filled.json")
     out.write_text(json.dumps(surveys, indent=4, ensure_ascii=False))
     print(f"\n✓ wrote {out}")
+    print(f"✓ filled {questions_sum} questions with distributions")
 
 if __name__ == "__main__":
     main()
