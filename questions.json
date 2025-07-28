@@ -3,7 +3,7 @@
     "Institute" : "PEW RESEARCH CENTER", 
     "Survey" : "AMERICAN TRENDS PANEL WAVE 41", 
     "Date" : "December 11 - December 23, 2018",
-    "File" : "./W41_Dec18/ATP_W41.sav", 
+    "File" : "./data/W41_Dec18/ATP_W41.sav", 
     "Questions" : 
         [
             {
@@ -56,7 +56,7 @@
     "Institute" : "PEW RESEARCH CENTER", 
     "Survey" : "AMERICAN TRENDS PANEL WAVE 82", 
     "Date" : "FEBRUARY 1 - 7, 2021",
-    "File" : "./W82_Feb21/ATP_W82.sav",  
+    "File" : "./data/W82_Feb21/ATP_W82.sav",  
     "Questions" : 
         [
             {
@@ -205,7 +205,7 @@
     "Institute" : "PEW RESEARCH CENTER", 
     "Survey" : "AMERICAN TRENDS PANEL WAVE 84", 
     "Date" : "MARCH 1 - 7, 2021",
-    "File" : "./W84_Mar21/ATP_W84.sav",  
+    "File" : "./data/W84_Mar21/ATP_W84.sav",  
     "Questions" : 
         [
             {
@@ -270,7 +270,7 @@
     "Institute" : "PEW RESEARCH CENTER", 
     "Survey" : "AMERICAN TRENDS PANEL WAVE 92", 
     "Date" : "JULY 8 - 18, 2021",
-    "File" : "./W92_Jul21/ATP_W92.sav",  
+    "File" : "./data/W92_Jul21/ATP_W92.sav",  
     "Questions" : 
         [
             {
@@ -297,7 +297,7 @@
     "Institute" : "PEW RESEARCH CENTER", 
     "Survey" : "AMERICAN TRENDS PANEL WAVE 94", 
     "Date" : "AUGUST 23 - 29, 2021",
-    "File" : "./W94_Aug21/ATP_W94.sav",  
+    "File" : "./data/W94_Aug21/ATP_W94.sav",  
     "Questions" : 
         [
             {
@@ -352,7 +352,7 @@
     "Institute" : "PEW RESEARCH CENTER", 
     "Survey" : "AMERICAN TRENDS PANEL WAVE 104", 
     "Date" : "MARCH 7-13, 2022",
-    "File" : "./W104_Mar22/ATP_W104.sav",  
+    "File" : "./data/W104_Mar22/ATP_W104.sav",  
     "Questions" : 
         [
             {
@@ -451,13 +451,13 @@
 {
     "Institute" : "PEW RESEARCH CENTER", 
     "Survey" : "AMERICAN TRENDS PANEL WAVE 105", 
-    "Date" : "MARCH 7-13, 2022",
-    "File" : "./W104_Mar22/ATP_W104.sav",  
+    "Date" : "MARCH 21-27, 2022",
+    "File" : "./data/W105_Mar22/ATP_W105.sav",  
     "Questions" : 
         [
             {
-                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
-                "Variable_Name" : "ME_SPPRa",
+                "Question": "Do you have a favorable or unfavorable opinion of The U.S.",
+                "Variable_Name" : "FAV_US.",
                 "Answers": 
                 {
                     "1": "Very favorable",
@@ -467,8 +467,8 @@
                 }
             },
             {
-                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian government",
-                "Variable_Name" : "ME_SPPRb",
+                "Question": "Do you have a favorable or unfavorable opinion of China",
+                "Variable_Name" : "FAV_CHINA.",
                 "Answers": 
                 {
                     "1": "Very favorable",
@@ -478,8 +478,8 @@
                 }
             },
             {
-                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
-                "Variable_Name" : "ME_SPPRc",
+                "Question": "Do you have a favorable or unfavorable opinion of The European Union",
+                "Variable_Name" : "FAV_EU.",
                 "Answers": 
                 {
                     "1": "Very favorable",
@@ -489,8 +489,8 @@
                 }
             },
             {
-                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
-                "Variable_Name" : "ME_SPPRd",
+                "Question": "Do you have a favorable or unfavorable opinion of The United Nations",
+                "Variable_Name" : "FAV_UN.",
                 "Answers": 
                 {
                     "1": "Very favorable",
@@ -500,52 +500,154 @@
                 }
             },
             {
-                "Question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestinians?",
-                "Variable_Name" : "LAND_RSLV",
+                "Question": "Do you have a favorable or unfavorable opinion of NATO, that is, North Atlantic Treaty Organization",
+                "Variable_Name" : "FAV_NATO.",
                 "Answers": 
                 {
-                    "1": "The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
-                    "2": "All of the land is one country, governed jointly by Israelis and Palestinians together",
-                    "3": "All of the land is one country, with an Israeli government",
-                    "4": "All of the land is one country, with a Palestinian government",
-                    "5": "Not sure"
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
                 }
             },
             {
-                "Question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
-                "Variable_Name" : "BDS1MOD",
+                "Question": "Do you have a favorable or unfavorable opinion of Russia",
+                "Variable_Name" : "FAV_RUSSIA.",
                 "Answers": 
                 {
-                    "1": "A lot",
-                    "2": "Some",
-                    "3": "Not much",
-                    "4": "Nothing at all"
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },                                                                                                                                                         
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of Russia",
+                "Variable_Name" : "FAV_ISRAEL.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
                 }
             },
             {
-                "Question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
-                "Variable_Name" : "BDS2MOD",
+                "Question": "When thinking about why countries cooperate with each other, what is more important for bringing nations together?",
+                "Variable_Name" : "INTL_SYSTEM",
                 "Answers": 
                 {
-                    "1": "Strongly support",
-                    "2": "Somewhat support",
-                    "3": "Neither support nor oppose",
-                    "4": "Somewhat oppose",
-                    "5": "Strongly oppose",
-                    "6": "Not sure"
+                    "1": "Common values",
+                    "2": "Common problems"
                 }
             },
             {
-                "Question": "Which comes closest to your view, even if none is exactly right?",
-                "Variable_Name" : "GISRMOD",
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nChinese President Xi Jinping",
+                "Variable_Name" : "CONFID_XI.",
                 "Answers": 
                 {
-                    "1": "God gave the land that is now Israel to the Jewish people",
-                    "2": "God did not give the land that is now Israel to the Jewish people",
-                    "3": "I don't believe in God",
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nRussian President Vladimir Putin",
+                "Variable_Name" : "CONFID_PUTIN.",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nFrench President Emmanuel Macron",
+                "Variable_Name" : "CONFID_MACRON.",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
+                "Variable_Name" : "CONFID_ZELENSKYY.",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the…",
+                "Variable_Name" : "AFG_WITHDRAW",
+                "Answers": 
+                {
+                    "1": "Right decision",
+                    "2": "Wrong decision"
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
+                "Variable_Name" : "AFG_HANDLE",
+                "Answers": 
+                {
+                    "1": "Very well",
+                    "2": "Somewhat well",
+                    "3": "Not too well",
+                    "4": "Not at all well"
+                }
+            },
+            {
+                "Question": "Today, which one of the following do you think is the world's leading ECONOMIC power?",
+                "Variable_Name" : "ECON_POWER",
+                "Answers": 
+                {
+                    "1": "The U.S.",
+                    "2": "China",
+                    "3": "Japan",
+                    "4": "The countries of the European Union"
+                }
+            },
+            {
+                "Question": "Today, which one of the following do you think is the world's leading MILITARY power?",
+                "Variable_Name" : "MIL_POWER",
+                "Answers": 
+                {
+                    "1": "The U.S.",
+                    "2": "China",
+                    "3": "Russia"
+                }
+            },
+            {
+                "Question": "In general, how would you describe relations today between the U.S. and Israel?",
+                "Variable_Name" : "RELATIONS_ISRAEL",
+                "Answers": 
+                {
+                    "1": "Very good",
+                    "2": "Somewhat good",
+                    "3": "Somewhat bad",
+                    "4": "Very bad"
+                }
+            },
+            {
+                "Question": "Do you think Joe Biden is...",
+                "Variable_Name" : "BIDEN_FAVORISRPAL",
+                "Answers": 
+                {
+                    "1": "Favoring the Israelis too much",
+                    "2": "Favoring the Palestinians too much",
+                    "3": "Striking about the right balance",
                     "4": "Not sure"
                 }
-            }                                                                                                         
+            }                       
         ]
 }
 ]

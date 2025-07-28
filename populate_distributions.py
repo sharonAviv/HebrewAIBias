@@ -1,104 +1,100 @@
 #!/usr/bin/env python3
 """
-populate_distributions.py  –  v2
-Fill in missing "Distribution" blocks inside questions.json.
+populate_distributions.py  —  v4
+Fills missing "Distribution" blocks in questions.json.
+Handles:
+  • 8-char SPSS truncation
+  • dots / underscores
+  • wave suffixes like _W84
+  • prefixed letter splits (e.g. GAP21Q4_a)
 """
 
-import json
-import pathlib
-import sys
+import json, pathlib, sys, warnings, difflib
 import pandas as pd
 
+def normalise(s: str) -> str:
+    """Upper-case, strip non-alphanumerics: 'FAV_US.' -> 'FAVUS'."""
+    return ''.join(ch for ch in s.upper() if ch.isalnum())
 
-# ---------- helpers ---------------------------------------------------------
 def find_weight(df):
-    """Return the first column whose name *starts* with common weight prefixes."""
-    prefixes = ("WEIGHT", "FINALW", "PW", "FWEIGHT", "FTWEIGHT")
-    for col in df.columns:
-        if col.upper().startswith(prefixes):
-            return col
+    for c in df.columns:
+        if c.upper().startswith(("WEIGHT", "FINALW", "PW", "FWEIGHT")):
+            return c
     return None
 
+def best_match(cols, wanted):
+    w_u   = wanted.upper()
+    w8    = w_u[:8]
+    w_norm = normalise(wanted)
 
-def match_var(df_columns, requested):
-    """
-    Find the column in df_columns that corresponds to `requested`.
-    Tries exact case-insensitive match first, then 8-char SPSS truncation,
-    then a starts-with check. Returns None if no match.
-    """
-    req_up = requested.upper()
+    # Pass 1 ─ exact, case-insensitive
+    for c in cols:
+        if c.upper() == w_u: return c
 
-    # 1. exact, case-insensitive
-    for col in df_columns:
-        if col.upper() == req_up:
-            return col
+    # Pass 2 ─ 8-char SPSS truncation
+    for c in cols:
+        if c.upper() == w8: return c
 
-    # 2. SPSS may have truncated to 8 chars
-    req8 = req_up[:8]
-    for col in df_columns:
-        if col.upper()[:8] == req8:
-            return col
+    # Pass 3 ─ prefix / suffix (before wave IDs)
+    for c in cols:
+        cu = c.upper()
+        if cu.startswith(w_u) or w_u.startswith(cu):
+            return c
 
-    # 3. starts-with (useful when the JSON name is shorter)
-    for col in df_columns:
-        if col.upper().startswith(req_up) or req_up.startswith(col.upper()):
-            return col
+    # Pass 4 ─ normalised equality
+    for c in cols:
+        if normalise(c) == w_norm:
+            return c
 
-    return None
+    # **NEW** Pass 5 ─ substring containment after normalising
+    w_norm = normalise(wanted)
+    for c in cols:
+        c_norm = normalise(c)
+        if w_norm in c_norm or c_norm in w_norm:
+            return c
 
+    # Still nothing?  return 5 suggestions for diagnostics
+    return difflib.get_close_matches(wanted, cols, n=5, cutoff=0.6)
 
-def distribution(df, column, weight=None):
-    """
-    Return {code:str -> pct:float} rounded to 3 dp.
-    """
-    if weight:
-        counts = df.groupby(column, observed=True)[weight].sum()
-        total = counts.sum()
-    else:
-        counts = df[column].value_counts(dropna=True)
-        total = counts.sum()
+def distribution(df, col, wt):
+    counts = (df.groupby(col)[wt].sum()
+              if wt else df[col].value_counts(dropna=True))
+    total  = counts.sum()
+    return {str(k): round(float(v/total), 3) for k, v in counts.items()}
 
-    pcts = (counts / total).round(3)
-    return {str(k): float(v) for k, v in pcts.items()}
-
-
-# ---------- main ------------------------------------------------------------
 def main():
-    here = pathlib.Path.cwd()
-    json_path = here / "questions.json"
-    if not json_path.exists():
-        sys.exit("questions.json not found in cwd.")
+    warnings.filterwarnings("ignore", category=RuntimeWarning)
+    jfile = pathlib.Path("questions.json")
+    if not jfile.exists(): sys.exit("questions.json not in cwd")
 
-    surveys = json.loads(json_path.read_text(encoding="utf-8"))
+    surveys = json.loads(jfile.read_text(encoding="utf-8"))
 
-    for survey in surveys:
-        sav_path = pathlib.Path(survey["File"]).expanduser().resolve()
-        if not sav_path.exists():
-            print(f"[WARN] .sav not found: {sav_path}")
-            continue
+    for s in surveys:
+        sav = pathlib.Path(s["File"]).expanduser()
+        if not sav.exists():
+            print(f"[warn] {sav} missing"); continue
 
-        print(f"\nProcessing {sav_path.name} …")
-        df = pd.read_spss(sav_path, convert_categoricals=False, dtype_backend="numpy_nullable")
-        weight = find_weight(df)
-        print("  Weight variable:", weight or "none (un-weighted)")
+        print(f"\nProcessing {sav.name}")
+        df = pd.read_spss(sav, convert_categoricals=False,
+                          dtype_backend="numpy_nullable")
+        wt = find_weight(df)
+        print("  weight:", wt or "none")
 
-        for q in survey["Questions"]:
-            if "Distribution" in q:
-                continue  # already filled
+        for q in s["Questions"]:
+            if "Distribution" in q: continue
 
-            req_name = q["Variable_Name"]
-            col = match_var(df.columns, req_name)
-            if not col:
-                print(f"    [SKIP] {req_name} – not found")
+            want = q["Variable_Name"]
+            hit  = best_match(df.columns, want)
+            if isinstance(hit, list):      # got suggestion list → miss
+                print(f"    miss {want}  suggestions: {', '.join(hit) or '—'}")
                 continue
 
-            q["Distribution"] = distribution(df, col, weight)
-            print(f"    Added {req_name}  →  {q['Distribution']}")
+            q["Distribution"] = distribution(df, hit, wt)
+            print(f"    added {want}  ←  {hit}")
 
-    out_path = json_path.with_name("questions_filled.json")
-    out_path.write_text(json.dumps(surveys, indent=4, ensure_ascii=False))
-    print(f"\nDone. Updated file written to {out_path}")
-
+    out = jfile.with_name("questions_filled.json")
+    out.write_text(json.dumps(surveys, indent=4, ensure_ascii=False))
+    print(f"\n✓ wrote {out}")
 
 if __name__ == "__main__":
     main()

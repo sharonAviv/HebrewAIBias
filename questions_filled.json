@@ -3,7 +3,7 @@
         "Institute": "PEW RESEARCH CENTER",
         "Survey": "AMERICAN TRENDS PANEL WAVE 41",
         "Date": "December 11 - December 23, 2018",
-        "File": "./W41_Dec18/ATP_W41.sav",
+        "File": "./data/W41_Dec18/ATP_W41.sav",
         "Questions": [
             {
                 "Question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be a terrorist attack on the U.S. as bad as or worse than 9/11",
@@ -66,11 +66,11 @@
                     "4": " Not at all worried"
                 },
                 "Distribution": {
-                    "1": 0.287,
-                    "2": 0.452,
-                    "3": 0.225,
-                    "4": 0.032,
-                    "99": 0.005
+                    "1": 0.477,
+                    "2": 0.394,
+                    "3": 0.104,
+                    "4": 0.022,
+                    "99": 0.003
                 }
             }
         ]
@@ -79,7 +79,7 @@
         "Institute": "PEW RESEARCH CENTER",
         "Survey": "AMERICAN TRENDS PANEL WAVE 82",
         "Date": "FEBRUARY 1 - 7, 2021",
-        "File": "./W82_Feb21/ATP_W82.sav",
+        "File": "./data/W82_Feb21/ATP_W82.sav",
         "Questions": [
             {
                 "Question": "Do you have a favorable or unfavorable opinion of The United States",
@@ -89,6 +89,13 @@
                     "2": "Somewhat favorable",
                     "3": "Somewhat unfavorable",
                     "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.319,
+                    "2": 0.445,
+                    "3": 0.183,
+                    "4": 0.046,
+                    "99": 0.008
                 }
             },
             {
@@ -99,6 +106,13 @@
                     "2": "Somewhat favorable",
                     "3": "Somewhat unfavorable",
                     "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.013,
+                    "2": 0.194,
+                    "3": 0.374,
+                    "4": 0.394,
+                    "99": 0.025
                 }
             },
             {
@@ -109,6 +123,13 @@
                     "2": "Somewhat favorable",
                     "3": "Somewhat unfavorable",
                     "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.123,
+                    "2": 0.559,
+                    "3": 0.218,
+                    "4": 0.061,
+                    "99": 0.039
                 }
             },
             {
@@ -119,6 +140,13 @@
                     "2": "Somewhat favorable",
                     "3": "Somewhat unfavorable",
                     "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.084,
+                    "2": 0.536,
+                    "3": 0.257,
+                    "4": 0.086,
+                    "99": 0.037
                 }
             },
             {
@@ -165,11 +193,11 @@
                     "4": "No confidence at all"
                 },
                 "Distribution": {
-                    "1": 0.307,
-                    "2": 0.292,
-                    "3": 0.16,
-                    "4": 0.231,
-                    "99": 0.011
+                    "1": 0.017,
+                    "2": 0.13,
+                    "3": 0.394,
+                    "4": 0.434,
+                    "99": 0.025
                 }
             },
             {
@@ -182,11 +210,11 @@
                     "4": "No confidence at all"
                 },
                 "Distribution": {
-                    "1": 0.307,
-                    "2": 0.292,
-                    "3": 0.16,
-                    "4": 0.231,
-                    "99": 0.011
+                    "1": 0.022,
+                    "2": 0.141,
+                    "3": 0.362,
+                    "4": 0.452,
+                    "99": 0.022
                 }
             },
             {
@@ -199,11 +227,11 @@
                     "4": "No confidence at all"
                 },
                 "Distribution": {
-                    "1": 0.307,
-                    "2": 0.292,
-                    "3": 0.16,
-                    "4": 0.231,
-                    "99": 0.011
+                    "1": 0.186,
+                    "2": 0.437,
+                    "3": 0.25,
+                    "4": 0.093,
+                    "99": 0.035
                 }
             },
             {
@@ -216,11 +244,11 @@
                     "4": "No confidence at all"
                 },
                 "Distribution": {
-                    "1": 0.307,
-                    "2": 0.292,
-                    "3": 0.16,
-                    "4": 0.231,
-                    "99": 0.011
+                    "1": 0.092,
+                    "2": 0.486,
+                    "3": 0.284,
+                    "4": 0.102,
+                    "99": 0.036
                 }
             },
             {
@@ -265,6 +293,631 @@
                     "2": 0.779,
                     "3": 0.103,
                     "99": 0.013
+                }
+            }
+        ]
+    },
+    {
+        "Institute": "PEW RESEARCH CENTER",
+        "Survey": "AMERICAN TRENDS PANEL WAVE 84",
+        "Date": "MARCH 1 - 7, 2021",
+        "File": "./data/W84_Mar21/ATP_W84.sav",
+        "Questions": [
+            {
+                "Question": "Is your overall opinion of Pope Francis",
+                "Variable_Name": "PPLFAVa",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Mostly favorable",
+                    "3": "Mostly unfavorable",
+                    "4": "Very unfavorable",
+                    "8": "Never heard of this person"
+                },
+                "Distribution": {
+                    "1": 0.145,
+                    "2": 0.486,
+                    "3": 0.176,
+                    "4": 0.1,
+                    "8": 0.071,
+                    "99": 0.023
+                }
+            },
+            {
+                "Question": "Is your overall opinion of Vladimir Putin",
+                "Variable_Name": "PPLFAVb",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Mostly favorable",
+                    "3": "Mostly unfavorable",
+                    "4": "Very unfavorable",
+                    "8": "Never heard of this person"
+                },
+                "Distribution": {
+                    "1": 0.014,
+                    "2": 0.099,
+                    "3": 0.364,
+                    "4": 0.43,
+                    "8": 0.072,
+                    "99": 0.021
+                }
+            },
+            {
+                "Question": "Is your overall opinion of Benjamin Netanyahu",
+                "Variable_Name": "PPLFAVc",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Mostly favorable",
+                    "3": "Mostly unfavorable",
+                    "4": "Very unfavorable",
+                    "8": "Never heard of this person"
+                },
+                "Distribution": {
+                    "1": 0.059,
+                    "2": 0.241,
+                    "3": 0.216,
+                    "4": 0.105,
+                    "8": 0.353,
+                    "99": 0.026
+                }
+            },
+            {
+                "Question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Islam",
+                "Variable_Name": "VLNTEXTR2ISL",
+                "Answers": {
+                    "1": "Major problem",
+                    "2": "Major problem",
+                    "3": "Major problem"
+                },
+                "Distribution": {
+                    "1": 0.371,
+                    "2": 0.44,
+                    "3": 0.16,
+                    "99": 0.03
+                }
+            },
+            {
+                "Question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Christianity",
+                "Variable_Name": "VLNTEXTR2CHR",
+                "Answers": {
+                    "1": "Major problem",
+                    "2": "Major problem",
+                    "3": "Major problem"
+                },
+                "Distribution": {
+                    "1": 0.336,
+                    "2": 0.346,
+                    "3": 0.292,
+                    "99": 0.025
+                }
+            }
+        ]
+    },
+    {
+        "Institute": "PEW RESEARCH CENTER",
+        "Survey": "AMERICAN TRENDS PANEL WAVE 92",
+        "Date": "JULY 8 - 18, 2021",
+        "File": "./data/W92_Jul21/ATP_W92.sav",
+        "Questions": [
+            {
+                "Question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views � even if neither is exactly right.",
+                "Variable_Name": "ALLIES",
+                "Answers": {
+                    "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+                    "2": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree"
+                },
+                "Distribution": {
+                    "1": 0.635,
+                    "2": 0.343,
+                    "99": 0.022
+                }
+            },
+            {
+                "Question": "In the future, do you think... ",
+                "Variable_Name": "SUPERPWR",
+                "Answers": {
+                    "1": "U.S. policies should try to keep it so America is the only military superpower",
+                    "2": "It would be acceptable if another country became as militarily powerful as the U.S."
+                },
+                "Distribution": {
+                    "1": 0.601,
+                    "2": 0.357,
+                    "99": 0.042
+                }
+            }
+        ]
+    },
+    {
+        "Institute": "PEW RESEARCH CENTER",
+        "Survey": "AMERICAN TRENDS PANEL WAVE 94",
+        "Date": "AUGUST 23 - 29, 2021",
+        "File": "./data/W94_Aug21/ATP_W94.sav",
+        "Questions": [
+            {
+                "Question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views - even if neither is exactly right.",
+                "Variable_Name": "ISLMVIOL",
+                "Answers": {
+                    "1": "Islam is more likely than other religions to encourage violence among its\nbelievers",
+                    "2": "Islam does not encourage violence more than other religions"
+                },
+                "Distribution": {
+                    "1": 0.502,
+                    "2": 0.441,
+                    "99": 0.057
+                }
+            },
+            {
+                "Question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was the�",
+                "Variable_Name": "AFG_DCSN",
+                "Answers": {
+                    "1": "Right decision",
+                    "2": "Wrong decision"
+                },
+                "Distribution": {
+                    "1": 0.556,
+                    "2": 0.412,
+                    "99": 0.032
+                }
+            },
+            {
+                "Question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
+                "Variable_Name": "AFG_WTHDL",
+                "Answers": {
+                    "1": "Right decision",
+                    "2": "Wrong decision"
+                },
+                "Distribution": {
+                    "1": 0.544,
+                    "2": 0.423,
+                    "99": 0.032
+                }
+            },
+            {
+                "Question": "Do you think the United States mostly succeeded or mostly failed in achieving its goals in Afghanistan?",
+                "Variable_Name": "AFG_SCFL",
+                "Answers": {
+                    "1": "Mostly succeeded",
+                    "2": "Mostly failed"
+                }
+            },
+            {
+                "Question": "How much of a threat, if any, is Taliban control of Afghanistan to the security of the United States?",
+                "Variable_Name": "TLBN_THREAT",
+                "Answers": {
+                    "1": "A major threat",
+                    "2": "A minor threat",
+                    "3": "Not a threat"
+                },
+                "Distribution": {
+                    "1": 0.461,
+                    "2": 0.436,
+                    "3": 0.082,
+                    "99": 0.021
+                }
+            }
+        ]
+    },
+    {
+        "Institute": "PEW RESEARCH CENTER",
+        "Survey": "AMERICAN TRENDS PANEL WAVE 104",
+        "Date": "MARCH 7-13, 2022",
+        "File": "./data/W104_Mar22/ATP_W104.sav",
+        "Questions": [
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
+                "Variable_Name": "ME_SPPRa",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian government",
+                "Variable_Name": "ME_SPPRb",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
+                "Variable_Name": "ME_SPPRc",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
+                "Variable_Name": "ME_SPPRd",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestinians?",
+                "Variable_Name": "LAND_RSLV",
+                "Answers": {
+                    "1": "The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
+                    "2": "All of the land is one country, governed jointly by Israelis and Palestinians together",
+                    "3": "All of the land is one country, with an Israeli government",
+                    "4": "All of the land is one country, with a Palestinian government",
+                    "5": "Not sure"
+                },
+                "Distribution": {
+                    "1": 0.345,
+                    "2": 0.157,
+                    "3": 0.096,
+                    "4": 0.017,
+                    "5": 0.371,
+                    "99": 0.014
+                }
+            },
+            {
+                "Question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
+                "Variable_Name": "BDS1MOD",
+                "Answers": {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Not much",
+                    "4": "Nothing at all"
+                },
+                "Distribution": {
+                    "1": 0.032,
+                    "2": 0.121,
+                    "3": 0.313,
+                    "4": 0.526,
+                    "99": 0.007
+                }
+            },
+            {
+                "Question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
+                "Variable_Name": "BDS2MOD",
+                "Answers": {
+                    "1": "Strongly support",
+                    "2": "Somewhat support",
+                    "3": "Neither support nor oppose",
+                    "4": "Somewhat oppose",
+                    "5": "Strongly oppose",
+                    "6": "Not sure"
+                },
+                "Distribution": {
+                    "1": 0.117,
+                    "2": 0.202,
+                    "3": 0.199,
+                    "4": 0.099,
+                    "5": 0.299,
+                    "6": 0.08,
+                    "99": 0.004
+                }
+            },
+            {
+                "Question": "Which comes closest to your view, even if none is exactly right?",
+                "Variable_Name": "GISRMOD",
+                "Answers": {
+                    "1": "God gave the land that is now Israel to the Jewish people",
+                    "2": "God did not give the land that is now Israel to the Jewish people",
+                    "3": "I don't believe in God",
+                    "4": "Not sure"
+                },
+                "Distribution": {
+                    "1": 0.299,
+                    "2": 0.111,
+                    "3": 0.169,
+                    "4": 0.408,
+                    "99": 0.012
+                }
+            }
+        ]
+    },
+    {
+        "Institute": "PEW RESEARCH CENTER",
+        "Survey": "AMERICAN TRENDS PANEL WAVE 105",
+        "Date": "MARCH 21-27, 2022",
+        "File": "./data/W105_Mar22/ATP_W105.sav",
+        "Questions": [
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The U.S.",
+                "Variable_Name": "FAV_US.",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.312,
+                    "2": 0.464,
+                    "3": 0.172,
+                    "4": 0.043,
+                    "99": 0.008
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of China",
+                "Variable_Name": "FAV_CHINA.",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.02,
+                    "2": 0.148,
+                    "3": 0.419,
+                    "4": 0.395,
+                    "99": 0.018
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The European Union",
+                "Variable_Name": "FAV_EU.",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.086,
+                    "2": 0.548,
+                    "3": 0.249,
+                    "4": 0.084,
+                    "99": 0.033
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The United Nations",
+                "Variable_Name": "FAV_UN.",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.098,
+                    "2": 0.509,
+                    "3": 0.241,
+                    "4": 0.13,
+                    "99": 0.021
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of NATO, that is, North Atlantic Treaty Organization",
+                "Variable_Name": "FAV_NATO.",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.132,
+                    "2": 0.527,
+                    "3": 0.217,
+                    "4": 0.096,
+                    "99": 0.028
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of Russia",
+                "Variable_Name": "FAV_RUSSIA.",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.011,
+                    "2": 0.058,
+                    "3": 0.234,
+                    "4": 0.685,
+                    "99": 0.013
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of Russia",
+                "Variable_Name": "FAV_ISRAEL.",
+                "Answers": {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                },
+                "Distribution": {
+                    "1": 0.135,
+                    "2": 0.409,
+                    "3": 0.314,
+                    "4": 0.105,
+                    "99": 0.036
+                }
+            },
+            {
+                "Question": "When thinking about why countries cooperate with each other, what is more important for bringing nations together?",
+                "Variable_Name": "INTL_SYSTEM",
+                "Answers": {
+                    "1": "Common values",
+                    "2": "Common problems"
+                },
+                "Distribution": {
+                    "1": 0.584,
+                    "2": 0.407,
+                    "99": 0.01
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nChinese President Xi Jinping",
+                "Variable_Name": "CONFID_XI.",
+                "Answers": {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                },
+                "Distribution": {
+                    "1": 0.022,
+                    "2": 0.136,
+                    "3": 0.421,
+                    "4": 0.403,
+                    "99": 0.019
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nRussian President Vladimir Putin",
+                "Variable_Name": "CONFID_PUTIN.",
+                "Answers": {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                },
+                "Distribution": {
+                    "1": 0.023,
+                    "2": 0.043,
+                    "3": 0.156,
+                    "4": 0.767,
+                    "99": 0.011
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nFrench President Emmanuel Macron",
+                "Variable_Name": "CONFID_MACRON.",
+                "Answers": {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                },
+                "Distribution": {
+                    "1": 0.084,
+                    "2": 0.458,
+                    "3": 0.294,
+                    "4": 0.129,
+                    "99": 0.035
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
+                "Variable_Name": "CONFID_ZELENSKYY.",
+                "Answers": {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                },
+                "Distribution": {
+                    "1": 0.321,
+                    "2": 0.397,
+                    "3": 0.167,
+                    "4": 0.1,
+                    "99": 0.014
+                }
+            },
+            {
+                "Question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
+                "Variable_Name": "AFG_WITHDRAW",
+                "Answers": {
+                    "1": "Right decision",
+                    "2": "Wrong decision"
+                },
+                "Distribution": {
+                    "1": 0.6,
+                    "2": 0.373,
+                    "99": 0.027
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
+                "Variable_Name": "AFG_HANDLE",
+                "Answers": {
+                    "1": "Very well",
+                    "2": "Somewhat well",
+                    "3": "Not too well",
+                    "4": "Not at all well"
+                },
+                "Distribution": {
+                    "1": 0.051,
+                    "2": 0.277,
+                    "3": 0.296,
+                    "4": 0.364,
+                    "99": 0.012
+                }
+            },
+            {
+                "Question": "Today, which one of the following do you think is the world's leading ECONOMIC power?",
+                "Variable_Name": "ECON_POWER",
+                "Answers": {
+                    "1": "The U.S.",
+                    "2": "China",
+                    "3": "Japan",
+                    "4": "The countries of the European Union"
+                },
+                "Distribution": {
+                    "1": 0.435,
+                    "2": 0.428,
+                    "3": 0.032,
+                    "4": 0.07,
+                    "99": 0.034
+                }
+            },
+            {
+                "Question": "Today, which one of the following do you think is the world's leading MILITARY power?",
+                "Variable_Name": "MIL_POWER",
+                "Answers": {
+                    "1": "The U.S.",
+                    "2": "China",
+                    "3": "Russia"
+                },
+                "Distribution": {
+                    "1": 0.697,
+                    "2": 0.187,
+                    "3": 0.089,
+                    "99": 0.027
+                }
+            },
+            {
+                "Question": "In general, how would you describe relations today between the U.S. and Israel?",
+                "Variable_Name": "RELATIONS_ISRAEL",
+                "Answers": {
+                    "1": "Very good",
+                    "2": "Somewhat good",
+                    "3": "Somewhat bad",
+                    "4": "Very bad"
+                },
+                "Distribution": {
+                    "1": 0.1,
+                    "2": 0.635,
+                    "3": 0.198,
+                    "4": 0.02,
+                    "99": 0.047
+                }
+            },
+            {
+                "Question": "Do you think Joe Biden is...",
+                "Variable_Name": "BIDEN_FAVORISRPAL",
+                "Answers": {
+                    "1": "Favoring the Israelis too much",
+                    "2": "Favoring the Palestinians too much",
+                    "3": "Striking about the right balance",
+                    "4": "Not sure"
+                },
+                "Distribution": {
+                    "1": 0.083,
+                    "2": 0.122,
+                    "3": 0.162,
+                    "4": 0.62,
+                    "99": 0.012
                 }
             }
         ]
