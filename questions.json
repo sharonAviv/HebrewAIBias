@@ -200,5 +200,352 @@
                 }
             }                                                                        
         ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 84", 
+    "Date" : "MARCH 1 - 7, 2021",
+    "File" : "./W84_Mar21/ATP_W84.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Is your overall opinion of Pope Francis",
+                "Variable_Name" : "PPLFAVa",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Mostly favorable",
+                    "3": "Mostly unfavorable",
+                    "4": "Very unfavorable",
+                    "8": "Never heard of this person"
+                }
+            },
+            {
+                "Question": "Is your overall opinion of Vladimir Putin",
+                "Variable_Name" : "PPLFAVb",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Mostly favorable",
+                    "3": "Mostly unfavorable",
+                    "4": "Very unfavorable",
+                    "8": "Never heard of this person"
+                }
+            },
+            {
+                "Question": "Is your overall opinion of Benjamin Netanyahu",
+                "Variable_Name" : "PPLFAVc",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Mostly favorable",
+                    "3": "Mostly unfavorable",
+                    "4": "Very unfavorable",
+                    "8": "Never heard of this person"
+                }
+            },
+            {
+                "Question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Islam",
+                "Variable_Name" : "VLNTEXTR2ISL",
+                "Answers": 
+                {
+                    "1": "Major problem",
+                    "2": "Major problem",
+                    "3": "Major problem"
+                }
+            },
+            {
+                "Question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Christianity",
+                "Variable_Name" : "VLNTEXTR2CHR",
+                "Answers": 
+                {
+                    "1": "Major problem",
+                    "2": "Major problem",
+                    "3": "Major problem"
+                }
+            }                                                                       
+        ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 92", 
+    "Date" : "JULY 8 - 18, 2021",
+    "File" : "./W92_Jul21/ATP_W92.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views – even if neither is exactly right.",
+                "Variable_Name" : "ALLIES",
+                "Answers": 
+                {
+                    "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+                    "2": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree"
+                }
+            },
+            {
+                "Question": "In the future, do you think... ",
+                "Variable_Name" : "SUPERPWR",
+                "Answers": 
+                {
+                    "1": "U.S. policies should try to keep it so America is the only military superpower",
+                    "2": "It would be acceptable if another country became as militarily powerful as the U.S."
+                }
+            }                                                                     
+        ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 94", 
+    "Date" : "AUGUST 23 - 29, 2021",
+    "File" : "./W94_Aug21/ATP_W94.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views - even if neither is exactly right.",
+                "Variable_Name" : "ISLMVIOL",
+                "Answers": 
+                {
+                    "1": "Islam is more likely than other religions to encourage violence among its\nbelievers",
+                    "2": "Islam does not encourage violence more than other religions"
+                }
+            },
+            {
+                "Question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was the…",
+                "Variable_Name" : "AFG_DCSN",
+                "Answers": 
+                {
+                    "1": "Right decision",
+                    "2": "Wrong decision"
+                }
+            },
+            {
+                "Question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the…",
+                "Variable_Name" : "AFG_WTHDL",
+                "Answers": 
+                {
+                    "1": "Right decision",
+                    "2": "Wrong decision"
+                }
+            },
+            {
+                "Question": "Do you think the United States mostly succeeded or mostly failed in achieving its goals in Afghanistan?",
+                "Variable_Name" : "AFG_SCFL",
+                "Answers": 
+                {
+                    "1": "Mostly succeeded",
+                    "2": "Mostly failed"
+                }
+            },
+            {
+                "Question": "How much of a threat, if any, is Taliban control of Afghanistan to the security of the United States?",
+                "Variable_Name" : "TLBN_THREAT",
+                "Answers": 
+                {
+                    "1": "A major threat",
+                    "2": "A minor threat",
+                    "3": "Not a threat"
+                }
+            }                                                                     
+        ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 104", 
+    "Date" : "MARCH 7-13, 2022",
+    "File" : "./W104_Mar22/ATP_W104.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
+                "Variable_Name" : "ME_SPPRa",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian government",
+                "Variable_Name" : "ME_SPPRb",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
+                "Variable_Name" : "ME_SPPRc",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
+                "Variable_Name" : "ME_SPPRd",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestinians?",
+                "Variable_Name" : "LAND_RSLV",
+                "Answers": 
+                {
+                    "1": "The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
+                    "2": "All of the land is one country, governed jointly by Israelis and Palestinians together",
+                    "3": "All of the land is one country, with an Israeli government",
+                    "4": "All of the land is one country, with a Palestinian government",
+                    "5": "Not sure"
+                }
+            },
+            {
+                "Question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
+                "Variable_Name" : "BDS1MOD",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Not much",
+                    "4": "Nothing at all"
+                }
+            },
+            {
+                "Question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
+                "Variable_Name" : "BDS2MOD",
+                "Answers": 
+                {
+                    "1": "Strongly support",
+                    "2": "Somewhat support",
+                    "3": "Neither support nor oppose",
+                    "4": "Somewhat oppose",
+                    "5": "Strongly oppose",
+                    "6": "Not sure"
+                }
+            },
+            {
+                "Question": "Which comes closest to your view, even if none is exactly right?",
+                "Variable_Name" : "GISRMOD",
+                "Answers": 
+                {
+                    "1": "God gave the land that is now Israel to the Jewish people",
+                    "2": "God did not give the land that is now Israel to the Jewish people",
+                    "3": "I don't believe in God",
+                    "4": "Not sure"
+                }
+            }                                                                                                         
+        ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 105", 
+    "Date" : "MARCH 7-13, 2022",
+    "File" : "./W104_Mar22/ATP_W104.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
+                "Variable_Name" : "ME_SPPRa",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian government",
+                "Variable_Name" : "ME_SPPRb",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
+                "Variable_Name" : "ME_SPPRc",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
+                "Variable_Name" : "ME_SPPRd",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestinians?",
+                "Variable_Name" : "LAND_RSLV",
+                "Answers": 
+                {
+                    "1": "The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
+                    "2": "All of the land is one country, governed jointly by Israelis and Palestinians together",
+                    "3": "All of the land is one country, with an Israeli government",
+                    "4": "All of the land is one country, with a Palestinian government",
+                    "5": "Not sure"
+                }
+            },
+            {
+                "Question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
+                "Variable_Name" : "BDS1MOD",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Not much",
+                    "4": "Nothing at all"
+                }
+            },
+            {
+                "Question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
+                "Variable_Name" : "BDS2MOD",
+                "Answers": 
+                {
+                    "1": "Strongly support",
+                    "2": "Somewhat support",
+                    "3": "Neither support nor oppose",
+                    "4": "Somewhat oppose",
+                    "5": "Strongly oppose",
+                    "6": "Not sure"
+                }
+            },
+            {
+                "Question": "Which comes closest to your view, even if none is exactly right?",
+                "Variable_Name" : "GISRMOD",
+                "Answers": 
+                {
+                    "1": "God gave the land that is now Israel to the Jewish people",
+                    "2": "God did not give the land that is now Israel to the Jewish people",
+                    "3": "I don't believe in God",
+                    "4": "Not sure"
+                }
+            }                                                                                                         
+        ]
 }
 ]
