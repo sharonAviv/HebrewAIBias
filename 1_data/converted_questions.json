@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be a terrorist attack on the U.S. as bad as or worse than 9/11",
     "answers": {
       "1": "Will definitely happen",
@@ -21,6 +22,7 @@
     "file": "./data/W41_Dec18/ATP_W41.sav"
   },
   {
+    "id": 1,
     "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nChina will overtake the U.S. as the world's main superpower",
     "answers": {
       "1": "Will definitely happen",
@@ -42,6 +44,7 @@
     "file": "./data/W41_Dec18/ATP_W41.sav"
   },
   {
+    "id": 2,
     "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be increasing violence against Jews in the U.S.",
     "answers": {
       "1": "Will definitely happen",
@@ -63,6 +66,7 @@
     "file": "./data/W41_Dec18/ATP_W41.sav"
   },
   {
+    "id": 3,
     "question": "Still thinking about the future of our country, how worried are you, if at all, about each of the following?\nThe ability of political leaders to solve the country's biggest problems",
     "answers": {
       "1": "Very worried",
@@ -84,6 +88,7 @@
     "file": "./data/W41_Dec18/ATP_W41.sav"
   },
   {
+    "id": 4,
     "question": "Do you have a favorable or unfavorable opinion of The United States",
     "answers": {
       "1": "Very favorable",
@@ -105,6 +110,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 5,
     "question": "Do you have a favorable or unfavorable opinion of China",
     "answers": {
       "1": "Very favorable",
@@ -126,6 +132,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 6,
     "question": "Do you have a favorable or unfavorable opinion of Germany",
     "answers": {
       "1": "Very favorable",
@@ -147,6 +154,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 7,
     "question": "Do you have a favorable or unfavorable opinion of The United Nations",
     "answers": {
       "1": "Very favorable",
@@ -168,6 +176,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 8,
     "question": "In making international policy decisions, to what extent, if at all, do you think the U.S.\ntakes into account the interests of other countries around the world?",
     "answers": {
       "1": "A great deal",
@@ -189,6 +198,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 9,
     "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nU.S. President Joe Biden",
     "answers": {
       "1": "A lot of confidence",
@@ -210,6 +220,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 10,
     "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nChinese President Xi Jinping",
     "answers": {
       "1": "A lot of confidence",
@@ -231,6 +242,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 11,
     "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nRussian President Vladimir Putin",
     "answers": {
       "1": "A lot of confidence",
@@ -252,6 +264,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 12,
     "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nGerman Chancellor Angela Merkel",
     "answers": {
       "1": "A lot of confidence",
@@ -273,6 +286,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 13,
     "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nFrench President Emmanuel Macron",
     "answers": {
       "1": "A lot of confidence",
@@ -294,6 +308,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 14,
     "question": "What kind of leadership role should the U.S. play in the world?",
     "answers": {
       "1": "Be the single world leader",
@@ -313,6 +328,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 15,
     "question": " Should the U.S. be the most active of the leading nations, or should it be about as active\nas other leading nations?",
     "answers": {
       "1": "Most active",
@@ -330,6 +346,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 16,
     "question": "How important, if at all, is it that the U.S. is generally respected by other countries\naround the world?",
     "answers": {
       "1": "Very important",
@@ -350,6 +367,7 @@
     "file": "./data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 17,
     "question": "Is your overall opinion of Pope Francis",
     "answers": {
       "1": "Very favorable",
@@ -373,6 +391,7 @@
     "file": "./data/W84_Mar21/ATP_W84.sav"
   },
   {
+    "id": 18,
     "question": "Is your overall opinion of Vladimir Putin",
     "answers": {
       "1": "Very favorable",
@@ -396,6 +415,7 @@
     "file": "./data/W84_Mar21/ATP_W84.sav"
   },
   {
+    "id": 19,
     "question": "Is your overall opinion of Benjamin Netanyahu",
     "answers": {
       "1": "Very favorable",
@@ -419,6 +439,7 @@
     "file": "./data/W84_Mar21/ATP_W84.sav"
   },
   {
+    "id": 20,
     "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Islam",
     "answers": {
       "1": "Major problem",
@@ -438,6 +459,7 @@
     "file": "./data/W84_Mar21/ATP_W84.sav"
   },
   {
+    "id": 21,
     "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Christianity",
     "answers": {
       "1": "Major problem",
@@ -457,6 +479,7 @@
     "file": "./data/W84_Mar21/ATP_W84.sav"
   },
   {
+    "id": 22,
     "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views � even if neither is exactly right.",
     "answers": {
       "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
@@ -474,6 +497,7 @@
     "file": "./data/W92_Jul21/ATP_W92.sav"
   },
   {
+    "id": 23,
     "question": "In the future, do you think... ",
     "answers": {
       "1": "U.S. policies should try to keep it so America is the only military superpower",
@@ -491,6 +515,7 @@
     "file": "./data/W92_Jul21/ATP_W92.sav"
   },
   {
+    "id": 24,
     "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views - even if neither is exactly right.",
     "answers": {
       "1": "Islam is more likely than other religions to encourage violence among its\nbelievers",
@@ -508,6 +533,7 @@
     "file": "./data/W94_Aug21/ATP_W94.sav"
   },
   {
+    "id": 25,
     "question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was the�",
     "answers": {
       "1": "Right decision",
@@ -525,6 +551,7 @@
     "file": "./data/W94_Aug21/ATP_W94.sav"
   },
   {
+    "id": 26,
     "question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
     "answers": {
       "1": "Right decision",
@@ -542,6 +569,7 @@
     "file": "./data/W94_Aug21/ATP_W94.sav"
   },
   {
+    "id": 27,
     "question": "How much of a threat, if any, is Taliban control of Afghanistan to the security of the United States?",
     "answers": {
       "1": "A major threat",
@@ -561,6 +589,7 @@
     "file": "./data/W94_Aug21/ATP_W94.sav"
   },
   {
+    "id": 28,
     "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
     "answers": {
       "1": "Very favorable",
@@ -582,6 +611,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 29,
     "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian government",
     "answers": {
       "1": "Very favorable",
@@ -603,6 +633,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 30,
     "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
     "answers": {
       "1": "Very favorable",
@@ -624,6 +655,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 31,
     "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
     "answers": {
       "1": "Very favorable",
@@ -645,6 +677,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 32,
     "question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestinians?",
     "answers": {
       "1": "The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
@@ -668,6 +701,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 33,
     "question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
     "answers": {
       "1": "A lot",
@@ -689,6 +723,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 34,
     "question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
     "answers": {
       "1": "Strongly support",
@@ -714,6 +749,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 35,
     "question": "Which comes closest to your view, even if none is exactly right?",
     "answers": {
       "1": "God gave the land that is now Israel to the Jewish people",
@@ -735,6 +771,7 @@
     "file": "./data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 36,
     "question": "Do you have a favorable or unfavorable opinion of The U.S.",
     "answers": {
       "1": "Very favorable",
@@ -756,6 +793,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 37,
     "question": "Do you have a favorable or unfavorable opinion of China",
     "answers": {
       "1": "Very favorable",
@@ -777,6 +815,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 38,
     "question": "Do you have a favorable or unfavorable opinion of The European Union",
     "answers": {
       "1": "Very favorable",
@@ -798,6 +837,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 39,
     "question": "Do you have a favorable or unfavorable opinion of The United Nations",
     "answers": {
       "1": "Very favorable",
@@ -819,6 +859,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 40,
     "question": "Do you have a favorable or unfavorable opinion of NATO, that is, North Atlantic Treaty Organization",
     "answers": {
       "1": "Very favorable",
@@ -840,6 +881,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 41,
     "question": "Do you have a favorable or unfavorable opinion of Russia",
     "answers": {
       "1": "Very favorable",
@@ -861,6 +903,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 42,
     "question": "Do you have a favorable or unfavorable opinion of Russia",
     "answers": {
       "1": "Very favorable",
@@ -882,6 +925,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 43,
     "question": "When thinking about why countries cooperate with each other, what is more important for bringing nations together?",
     "answers": {
       "1": "Common values",
@@ -899,6 +943,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 44,
     "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nChinese President Xi Jinping",
     "answers": {
       "1": "A lot of confidence",
@@ -920,6 +965,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 45,
     "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nRussian President Vladimir Putin",
     "answers": {
       "1": "A lot of confidence",
@@ -941,6 +987,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 46,
     "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nFrench President Emmanuel Macron",
     "answers": {
       "1": "A lot of confidence",
@@ -962,6 +1009,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 47,
     "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
     "answers": {
       "1": "A lot of confidence",
@@ -983,6 +1031,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 48,
     "question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
     "answers": {
       "1": "Right decision",
@@ -1000,6 +1049,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 49,
     "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
     "answers": {
       "1": "Very well",
@@ -1021,6 +1071,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 50,
     "question": "Today, which one of the following do you think is the world's leading ECONOMIC power?",
     "answers": {
       "1": "The U.S.",
@@ -1042,6 +1093,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 51,
     "question": "Today, which one of the following do you think is the world's leading MILITARY power?",
     "answers": {
       "1": "The U.S.",
@@ -1061,6 +1113,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 52,
     "question": "In general, how would you describe relations today between the U.S. and Israel?",
     "answers": {
       "1": "Very good",
@@ -1082,6 +1135,7 @@
     "file": "./data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 53,
     "question": "Do you think Joe Biden is...",
     "answers": {
       "1": "Favoring the Israelis too much",
