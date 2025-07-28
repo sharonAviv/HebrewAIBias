@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-populate_distributions.py  —  v4
+populate_distributions.py  —  v5
 Fills missing "Distribution" blocks in questions.json.
 Handles:
   • 8-char SPSS truncation
@@ -9,7 +9,7 @@ Handles:
   • prefixed letter splits (e.g. GAP21Q4_a)
 """
 
-import json, pathlib, sys, warnings, difflib
+import json, pathlib, sys, warnings, difflib, re
 import pandas as pd
 
 def normalise(s: str) -> str:
@@ -23,38 +23,40 @@ def find_weight(df):
     return None
 
 def best_match(cols, wanted):
+    """Return the matching column *or* None."""
     w_u   = wanted.upper()
     w8    = w_u[:8]
-    w_norm = normalise(wanted)
+    w_norm = re.sub(r'\W', '', wanted.upper())          # letters & digits only
 
-    # Pass 1 ─ exact, case-insensitive
+    # pass-1 exact (case-ins.)
     for c in cols:
-        if c.upper() == w_u: return c
-
-    # Pass 2 ─ 8-char SPSS truncation
+        if c.upper() == w_u:
+            return c
+    # pass-2 8-char SPSS trunc
     for c in cols:
-        if c.upper() == w8: return c
-
-    # Pass 3 ─ prefix / suffix (before wave IDs)
+        if c.upper() == w8:
+            return c
+    # pass-3 prefix / suffix
     for c in cols:
         cu = c.upper()
         if cu.startswith(w_u) or w_u.startswith(cu):
             return c
-
-    # Pass 4 ─ normalised equality
+    # pass-4 normalised equality
     for c in cols:
-        if normalise(c) == w_norm:
+        if re.sub(r'\W', '', c.upper()) == w_norm:
             return c
-
-    # **NEW** Pass 5 ─ substring containment after normalising
-    w_norm = normalise(wanted)
+    # **NEW** pass-5 substring (normalised)
     for c in cols:
-        c_norm = normalise(c)
+        c_norm = re.sub(r'\W', '', c.upper())
         if w_norm in c_norm or c_norm in w_norm:
             return c
+    # **NEW** pass-6 single very-close fuzzy hit
+    close = difflib.get_close_matches(wanted, cols, n=2, cutoff=0.80)
+    if len(close) == 1:
+        return close[0]
 
-    # Still nothing?  return 5 suggestions for diagnostics
-    return difflib.get_close_matches(wanted, cols, n=5, cutoff=0.6)
+    # no good match → return list of suggestions for diagnostics
+    return difflib.get_close_matches(wanted, cols, n=5, cutoff=0.60)
 
 def distribution(df, col, wt):
     counts = (df.groupby(col)[wt].sum()

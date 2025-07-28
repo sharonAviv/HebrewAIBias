@@ -328,15 +328,6 @@
                 }
             },
             {
-                "Question": "Do you think the United States mostly succeeded or mostly failed in achieving its goals in Afghanistan?",
-                "Variable_Name" : "AFG_SCFL",
-                "Answers": 
-                {
-                    "1": "Mostly succeeded",
-                    "2": "Mostly failed"
-                }
-            },
-            {
                 "Question": "How much of a threat, if any, is Taliban control of Afghanistan to the security of the United States?",
                 "Variable_Name" : "TLBN_THREAT",
                 "Answers": 
@@ -357,7 +348,7 @@
         [
             {
                 "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
-                "Variable_Name" : "ME_SPPRa",
+                "Variable_Name" : "ME_SPPRT_a",
                 "Answers": 
                 {
                     "1": "Very favorable",
@@ -368,7 +359,7 @@
             },
             {
                 "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian government",
-                "Variable_Name" : "ME_SPPRb",
+                "Variable_Name" : "ME_SPPRT_b",
                 "Answers": 
                 {
                     "1": "Very favorable",
@@ -379,7 +370,7 @@
             },
             {
                 "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
-                "Variable_Name" : "ME_SPPRc",
+                "Variable_Name" : "ME_SPPRT_c",
                 "Answers": 
                 {
                     "1": "Very favorable",
@@ -390,7 +381,7 @@
             },
             {
                 "Question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
-                "Variable_Name" : "ME_SPPRd",
+                "Variable_Name" : "ME_SPPRT_d",
                 "Answers": 
                 {
                     "1": "Very favorable",
