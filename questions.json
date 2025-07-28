@@ -1,0 +1,204 @@
+[
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 41", 
+    "Date" : "December 11 - December 23, 2018",
+    "File" : "./W41_Dec18/ATP_W41.sav", 
+    "Questions" : 
+        [
+            {
+                "Question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be a terrorist attack on the U.S. as bad as or worse than 9/11",
+                "Variable_Name" : "HAPPEN2a",
+                "Answers": 
+                {
+                    "1": "Will definitely happen",
+                    "2": "Will probably happen",
+                    "3": "Will probably not happen",
+                    "4": "Will definitely not happen"
+                }
+            },
+            {
+                "Question": "How likely do you think it is that each of the following will happen in the next 30 years?\nChina will overtake the U.S. as the world's main superpower",
+                "Variable_Name" : "HAPPEN2d",
+                "Answers": 
+                {
+                    "1": "Will definitely happen",
+                    "2": "Will probably happen",
+                    "3": "Will probably not happen",
+                    "4": "Will definitely not happen"
+                }
+            },
+            {
+                "Question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be increasing violence against Jews in the U.S.",
+                "Variable_Name" : "HAPPEN2h",
+                "Answers": 
+                {
+                    "1": "Will definitely happen",
+                    "2": "Will probably happen",
+                    "3": "Will probably not happen",
+                    "4": "Will definitely not happen"
+                }
+            },
+            {
+                "Question": "Still thinking about the future of our country, how worried are you, if at all, about each of the following?\nThe ability of political leaders to solve the country's biggest problems",
+                "Variable_Name" : "FTRWORRYd",
+                "Answers": 
+                {
+                    "1": "Very worried",
+                    "2": "Fairly worried",
+                    "3": "Not too worried",
+                    "4": " Not at all worried"
+                }
+            }            
+        ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 82", 
+    "Date" : "FEBRUARY 1 - 7, 2021",
+    "File" : "./W82_Feb21/ATP_W82.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The United States",
+                "Variable_Name" : "GAP21Q4a",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of China",
+                "Variable_Name" : "GAP21Q4b",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of Germany",
+                "Variable_Name" : "GAP21Q4c",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The United Nations",
+                "Variable_Name" : "GAP21Q4d",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "In making international policy decisions, to what extent, if at all, do you think the U.S.\ntakes into account the interests of other countries around the world?",
+                "Variable_Name" : "GAP21Q17",
+                "Answers": 
+                {
+                    "1": "A great deal",
+                    "2": "A fair amount",
+                    "3": "Not too much",
+                    "4": "Not at all"
+                }
+            },
+            {
+                "Question":  "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nU.S. President Joe Biden",
+                "Variable_Name" : "GAP21Q19a",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question":  "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nChinese President Xi Jinping",
+                "Variable_Name" : "GAP21Q19b",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question":  "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nRussian President Vladimir Putin",
+                "Variable_Name" : "GAP21Q19c",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question":  "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nGerman Chancellor Angela Merkel",
+                "Variable_Name" : "GAP21Q19d",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nFrench President Emmanuel Macron",
+                "Variable_Name" : "GAP21Q19e",
+                "Answers": 
+                {
+                    "1": "A lot of confidence",
+                    "2": "Some confidence",
+                    "3": "Not too much confidence",
+                    "4": "No confidence at all"
+                }
+            },
+            {
+                "Question": "What kind of leadership role should the U.S. play in the world?",
+                "Variable_Name" : "GAP21Q29",
+                "Answers": 
+                {
+                    "1": "Be the single world leader",
+                    "2": "Play a shared leadership role",
+                    "3": "Not play any leadership role"
+                }
+            },
+            {
+                "Question": " Should the U.S. be the most active of the leading nations, or should it be about as active\nas other leading nations?",
+                "Variable_Name" : "GAP21Q30",
+                "Answers": 
+                {
+                    "1": "Most active",
+                    "2": "About as activee"
+                }
+            },
+            {
+                "Question": "How important, if at all, is it that the U.S. is generally respected by other countries\naround the world?",
+                "Variable_Name" : "GAP21Q29",
+                "Answers": 
+                {
+                    "1": "Very important",
+                    "2": "Somewhat important",
+                    "3": "Not too important",
+                    "4": "Not at all important"
+                }
+            }                                                                        
+        ]
+}
+]
