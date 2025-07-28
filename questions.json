@@ -640,5 +640,277 @@
                 }
             }                       
         ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 116", 
+    "Date" : "OCTOBER 10-16, 2022",
+    "File" : "./data/W116_Oct22/ATP_W116.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Please choose the statement that comes closer to your own views - even if neither is exactly right.",
+                "Variable_Name" : "ALLIES",
+                "Answers": 
+                {
+                    "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+                    "2": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree"
+                }
+            },
+            {
+                "Question": "Please choose the statement that comes closer to your own views - even if neither is exactly right.",
+                "Variable_Name" : "ISLMVIOL",
+                "Answers": 
+                {
+                    "1": "The Islamic religion is more likely than others to encourage violence among its believers",
+                    "2": "The Islamic religion does not encourage violence more than others"
+                }
+            }                                 
+        ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 118", 
+    "Date" : "DECEMBER 5-11, 2022",
+    "File" : "./data/W118_Dec22/ATP_W118.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Black people",
+                "Variable_Name" : "DISCRRIM_a",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Hispanic people",
+                "Variable_Name" : "DISCRRIM_b",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n White people",
+                "Variable_Name" : "DISCRRIM_c",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Asian people",
+                "Variable_Name" : "DISCRRIM_d",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Jews",
+                "Variable_Name" : "DISCRRIM_f",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Muslims",
+                "Variable_Name" : "DISCRRIM_g",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Evangelical Christians",
+                "Variable_Name" : "DISCRRIM_h",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Buddhists",
+                "Variable_Name" : "DISCRRIM_i",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            },
+            {
+                "Question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Hindus",
+                "Variable_Name" : "DISCRRIM_j",
+                "Answers": 
+                {
+                    "1": "A lot",
+                    "2": "Some",
+                    "3": "Only a little",
+                    "4": " None at all"
+                }
+            }                                                                                      
+        ]
+},
+{
+    "Institute" : "PEW RESEARCH CENTER", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 118", 
+    "Date" : "MARCH 20-26, 2023",
+    "File" : "./data/W124_Mar23/ATP_W124.sav",  
+    "Questions" : 
+        [
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The U.S.",
+                "Variable_Name" : "FAV_US.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of China",
+                "Variable_Name" : "FAV_CHINA.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The European Union",
+                "Variable_Name" : "FAV_EU.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of The United Nations",
+                "Variable_Name" : "FAV_UN.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of NATO, that is, North Atlantic Treaty Organization",
+                "Variable_Name" : "FAV_NATO.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of Russia",
+                "Variable_Name" : "FAV_RUSSIA.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of India",
+                "Variable_Name" : "FAV_INDIA.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of Ukraine",
+                "Variable_Name" : "FAV_UKRAINE.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Do you have a favorable or unfavorable opinion of Taiwan",
+                "Variable_Name" : "FAV_TAIWAN.",
+                "Answers": 
+                {
+                    "1": "Very favorable",
+                    "2": "Somewhat favorable",
+                    "3": "Somewhat unfavorable",
+                    "4": "Very unfavorable"
+                }
+            },
+            {
+                "Question": "Which statement comes closer to your view, even if neither is exactly right?",
+                "Variable_Name" : "ACTIVE",
+                "Answers": 
+                {
+                    "1": "It's best for the future of our country to be active in world affairs",
+                    "2": "We should pay less attention to problems overseas and concentrate on problems here at home"
+                }
+            },
+            {
+                "Question": "Which statement comes closer to your view, even if neither is exactly right?\nWhen dealing with major international issues, our country should...",
+                "Variable_Name" : "COMPROMISE",
+                "Answers": 
+                {
+                    "1": "Take into account the interests of other countries even if it means making compromises with them",
+                    "2": "Follow its own interests even when other countries strongly disagree"
+                }
+            },
+            {
+                "Question": "Today, which one of the following do you think is the world's leading ECONOMIC power?",
+                "Variable_Name" : "ECON_POWER",
+                "Answers": 
+                {
+                    "1": "The U.S.",
+                    "2": "China",
+                    "3": "Japan",
+                    "4": "The countries of the European Union"
+                }
+            }                        
+        ]
 }
 ]
