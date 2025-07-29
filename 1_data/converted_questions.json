@@ -2177,7 +2177,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ID_NETAN",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2200,7 +2200,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "DISCHANGE_a",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2222,7 +2222,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "DISCHANGE_b",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2244,7 +2244,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "DISCHANGE_c",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2266,7 +2266,7 @@
             "4": "Very unfavorable"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ME_SPPRT_a",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2288,7 +2288,7 @@
             "4": "Very unfavorable"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ME_SPPRT_b",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2310,7 +2310,7 @@
             "4": "Very unfavorable"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ME_SPPRT_c",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2332,7 +2332,7 @@
             "4": "Very unfavorable"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ME_SPPRT_d",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2354,7 +2354,7 @@
             "4": "Very unfavorable"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ME_SPPRT_e",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2379,7 +2379,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ME_SPPRT_e",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2402,7 +2402,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "HMSVAL",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2426,7 +2426,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ISRVAL",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2451,7 +2451,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "FUNDISR",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2477,7 +2477,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "AIDGZ",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2501,7 +2501,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ISRSEC",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2523,7 +2523,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "PALSTATE",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2547,7 +2547,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "LIKELYPEACE",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2571,7 +2571,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "RESOLV_ISRGZ",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2592,7 +2592,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ACCEPTSPE_SUPISEX",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2612,7 +2612,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ACCEPTSPE_CRIISEX",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2632,7 +2632,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ACCEPTSPE_SUPPAL",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2652,7 +2652,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ACCEPTSPE_CRIPAL",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2672,7 +2672,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ACCEPTSPE_CRIJEW",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2692,7 +2692,7 @@
             "98": "Not sure"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey": "AMERICAN TRENDS PANEL WAVE 143",
         "survey_qid": "ACCEPTSPE_CRIJEW",
         "date": "FEB. 12-25, 2024",
         "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
@@ -2701,6 +2701,474 @@
             "2": 0.734,
             "98": 0.154,
             "99": 0.01
+        }
+    },
+    {
+        "id": 124,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nStrengthening the United Nations",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_b",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.305,
+            "2": 0.464,
+            "3": 0.215,
+            "99": 0.016
+        }
+    },
+    {
+        "id": 125,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nReducing U.S. military commitments overseas",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_c",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.243,
+            "2": 0.578,
+            "3": 0.163,
+            "99": 0.017
+        }
+    },
+    {
+        "id": 126,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of Russia",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_d",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.502,
+            "2": 0.402,
+            "3": 0.082,
+            "99": 0.015
+        }
+    },
+    {
+        "id": 127,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of China",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_f",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.492,
+            "2": 0.416,
+            "3": 0.081,
+            "99": 0.012
+        }
+    },
+    {
+        "id": 128,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nFinding a solution to the conflict between Israelis and Palestinians",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_i",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.286,
+            "2": 0.481,
+            "3": 0.217,
+            "99": 0.015
+        }
+    },
+    {
+        "id": 129,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of Iran",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_n",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.369,
+            "2": 0.479,
+            "3": 0.128,
+            "99": 0.024
+        }
+    },
+    {
+        "id": 130,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of North Korea",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_r",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.377,
+            "2": 0.48,
+            "3": 0.119,
+            "99": 0.025
+        }
+    },
+    {
+        "id": 131,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nStrengthening NATO",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_s",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.272,
+            "2": 0.516,
+            "3": 0.185,
+            "99": 0.026
+        }
+    },
+    {
+        "id": 132,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nSupporting Israel",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_t",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.218,
+            "2": 0.451,
+            "3": 0.312,
+            "99": 0.02
+        }
+    },
+    {
+        "id": 133,
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nSupporting Ukraine",
+        "answers": {
+            "1": "Top priority",
+            "2": "Some priority",
+            "3": "No priority"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "LRNGFP_u",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.234,
+            "2": 0.483,
+            "3": 0.265,
+            "99": 0.018
+        }
+    },
+    {
+        "id": 134,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nChina",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_CHINA",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.708,
+            "2": 0.087,
+            "3": 0.174,
+            "99": 0.031
+        }
+    },
+    {
+        "id": 135,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nRussia",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_RUSSIA",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.484,
+            "2": 0.24,
+            "3": 0.248,
+            "99": 0.028
+        }
+    },
+    {
+        "id": 136,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nIndia",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_INDIA",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.349,
+            "2": 0.102,
+            "3": 0.502,
+            "99": 0.046
+        }
+    },
+    {
+        "id": 137,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nGermany",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_GERMANY",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.182,
+            "2": 0.192,
+            "3": 0.584,
+            "99": 0.041
+        }
+    },
+    {
+        "id": 138,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nFrance",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_FRANCE",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.12,
+            "2": 0.241,
+            "3": 0.601,
+            "99": 0.039
+        }
+    },
+    {
+        "id": 139,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nThe United Kingdom",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_UK",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.121,
+            "2": 0.314,
+            "3": 0.533,
+            "99": 0.032
+        }
+    },
+    {
+        "id": 140,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nIran",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_IRAN",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.393,
+            "2": 0.162,
+            "3": 0.407,
+            "99": 0.039
+        }
+    },
+    {
+        "id": 141,
+        "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nThe U.S.",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU1_COUNTRY",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.145,
+            "2": 0.545,
+            "3": 0.29,
+            "99": 0.021
+        }
+    },
+    {
+        "id": 142,
+        "question": "For each of the following international organizations, would you say its influence in the world in recent years has been...\nNATO, that is, North Atlantic Treaty Organization",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU2_NATO",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.23,
+            "2": 0.283,
+            "3": 0.448,
+            "99": 0.039
+        }
+    },
+    {
+        "id": 143,
+        "question": "For each of the following international organizations, would you say its influence in the world in recent years has been...\nThe European Union",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU2_EU",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.173,
+            "2": 0.28,
+            "3": 0.5,
+            "99": 0.047
+        }
+    },
+    {
+        "id": 144,
+        "question": "For each of the following international organizations, would you say its influence in the world in recent years has been...\nThe United Nations",
+        "answers": {
+            "1": "Getting stronger",
+            "2": "Getting weaker",
+            "3": "Staying about the same"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "GROWINFLU2_UN",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.13,
+            "2": 0.35,
+            "3": 0.484,
+            "99": 0.036
+        }
+    },
+    {
+        "id": 145,
+        "question": "How much confidence do you have in the ability of the United Nations to Provide effective humanitarian aid to Gaza",
+        "answers": {
+            "1": "A great deal of confidence",
+            "2": "A fair amount of confidence",
+            "3": "Not too much confidence",
+            "4": "No confidence at all",
+            "5": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "UNISGZ_AID",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.043,
+            "2": 0.252,
+            "3": 0.339,
+            "4": 0.171,
+            "5": 0.186,
+            "99": 0.01
+        }
+    },
+    {
+        "id": 146,
+        "question": "How much confidence do you have in the ability of the United Nations to Enforce a ceasefire between Israel and Hamas",
+        "answers": {
+            "1": "A great deal of confidence",
+            "2": "A fair amount of confidence",
+            "3": "Not too much confidence",
+            "4": "No confidence at all",
+            "5": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 145",
+        "survey_qid": "UNISGZ_CEASEFIRE",
+        "date": "APRIL 1 -7, 2024",
+        "file": "../0_raw_data/W145_Apr24/ATP_W145.sav",
+        "distribution": {
+            "1": 0.033,
+            "2": 0.115,
+            "3": 0.357,
+            "4": 0.313,
+            "5": 0.173,
+            "99": 0.009
         }
     }
 ]
