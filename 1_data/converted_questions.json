@@ -1173,5 +1173,221 @@
             "2": 0.359,
             "99": 0.032
         }
+    },
+    {
+        "id": 55,
+        "question": "Please choose the statement that comes closer to your own views - even if neither is exactly right.",
+        "answers": {
+            "1": "The Islamic religion is more likely than others to encourage violence among its believers",
+            "2": "The Islamic religion does not encourage violence more than others"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 116",
+        "survey_qid": "ISLMVIOL",
+        "date": "OCTOBER 10-16, 2022",
+        "file": "../0_raw_data/W116_Oct22/ATP_W116.sav",
+        "distribution": {
+            "1": 0.451,
+            "2": 0.496,
+            "99": 0.053
+        }
+    },
+    {
+        "id": 56,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Black people",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_a",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.434,
+            "2": 0.384,
+            "3": 0.133,
+            "4": 0.038,
+            "99": 0.011
+        }
+    },
+    {
+        "id": 57,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Hispanic people",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_b",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.288,
+            "2": 0.499,
+            "3": 0.162,
+            "4": 0.037,
+            "99": 0.013
+        }
+    },
+    {
+        "id": 58,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n White people",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_c",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.118,
+            "2": 0.321,
+            "3": 0.316,
+            "4": 0.233,
+            "99": 0.012
+        }
+    },
+    {
+        "id": 59,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Asian people",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_d",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.274,
+            "2": 0.499,
+            "3": 0.172,
+            "4": 0.04,
+            "99": 0.014
+        }
+    },
+    {
+        "id": 60,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Jews",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_f",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.291,
+            "2": 0.454,
+            "3": 0.172,
+            "4": 0.063,
+            "99": 0.02
+        }
+    },
+    {
+        "id": 61,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Muslims",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_g",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.428,
+            "2": 0.392,
+            "3": 0.116,
+            "4": 0.045,
+            "99": 0.018
+        }
+    },
+    {
+        "id": 62,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Evangelical Christians",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_h",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.118,
+            "2": 0.352,
+            "3": 0.296,
+            "4": 0.214,
+            "99": 0.02
+        }
+    },
+    {
+        "id": 63,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Buddhists",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_i",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.086,
+            "2": 0.412,
+            "3": 0.303,
+            "4": 0.169,
+            "99": 0.029
+        }
+    },
+    {
+        "id": 64,
+        "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Hindus",
+        "answers": {
+            "1": "A lot",
+            "3": "Only a little",
+            "2": "Some",
+            "4": "None at all"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 118",
+        "survey_qid": "DISCRRIM_j",
+        "date": "DECEMBER 5-11, 2022",
+        "file": "../0_raw_data/W118_Dec22/ATP_W118.sav",
+        "distribution": {
+            "1": 0.136,
+            "2": 0.47,
+            "3": 0.253,
+            "4": 0.114,
+            "99": 0.028
+        }
     }
 ]

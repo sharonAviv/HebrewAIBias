@@ -683,7 +683,7 @@
                     "1": "A lot",
                     "2": "Some",
                     "3": "Only a little",
-                    "4": " None at all"
+                    "4": "None at all"
                 }
             },
             {
@@ -778,7 +778,7 @@
 },
 {
     "Institute" : "PEW RESEARCH CENTER", 
-    "Survey" : "AMERICAN TRENDS PANEL WAVE 118", 
+    "Survey" : "AMERICAN TRENDS PANEL WAVE 124", 
     "Date" : "MARCH 20-26, 2023",
     "File" : "./data/W124_Mar23/ATP_W124.sav",  
     "Questions" : 
