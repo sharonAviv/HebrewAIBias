@@ -2060,7 +2060,7 @@
             "2": "No, cannot coexist peacefully"
         },
         "institute": "PEW RESEARCH CENTER",
-        "survey": "AMERICAN TRENDS PANEL WAVE 124",
+        "survey": "AMERICAN TRENDS PANEL WAVE 139",
         "survey_qid": "COEX",
         "date": "NOV. 27 - DEC. 3, 2023",
         "file": "../0_raw_data/W139_Dec23/ATP_W139.sav",
@@ -2068,6 +2068,639 @@
             "1": 0.523,
             "2": 0.449,
             "99": 0.028
+        }
+    },
+    {
+        "id": 96,
+        "question": "Do you agree or disagree with the following statement?\nThe Holocaust is a myth",
+        "answers": {
+            "1": "Strongly agree",
+            "2": "Tend to agree",
+            "3": "Neither agree nor disagree",
+            "4": "Tend to disagree",
+            "5": "Strongly disagree"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ASREP_AGREE_a",
+        "date": "JAN. 16 - 21, 2024",
+        "file": "../0_raw_data/W140_Jan24/ATP_W140.sav",
+        "distribution": {
+            "1": 0.015,
+            "2": 0.016,
+            "3": 0.115,
+            "4": 0.064,
+            "5": 0.778,
+            "99": 0.013
+        }
+    },
+    {
+        "id": 97,
+        "question": "Do you agree or disagree with the following statement?\nJews have too much power in America",
+        "answers": {
+            "1": "Strongly agree",
+            "2": "Tend to agree",
+            "3": "Neither agree nor disagree",
+            "4": "Tend to disagree",
+            "5": "Strongly disagree"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ASREP_AGREE_b",
+        "date": "JAN. 16 - 21, 2024",
+        "file": "../0_raw_data/W140_Jan24/ATP_W140.sav",
+        "distribution": {
+            "1": 0.049,
+            "2": 0.073,
+            "3": 0.428,
+            "4": 0.135,
+            "5": 0.295,
+            "99": 0.019
+        }
+    },
+    {
+        "id": 98,
+        "question": "Do you agree or disagree with the following statement?\nAmerican Jews make a positive contribution to American society",
+        "answers": {
+            "1": "Strongly agree",
+            "2": "Tend to agree",
+            "3": "Neither agree nor disagree",
+            "4": "Tend to disagree",
+            "5": "Strongly disagree"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ASREP_AGREE_c",
+        "date": "JAN. 16 - 21, 2024",
+        "file": "../0_raw_data/W140_Jan24/ATP_W140.sav",
+        "distribution": {
+            "1": 0.355,
+            "2": 0.245,
+            "3": 0.314,
+            "4": 0.025,
+            "5": 0.038,
+            "99": 0.023
+        }
+    },
+    {
+        "id": 99,
+        "question": "Do you agree or disagree with the following statement?\nThe State of Israel has the right to exist",
+        "answers": {
+            "1": "Strongly agree",
+            "2": "Tend to agree",
+            "3": "Neither agree nor disagree",
+            "4": "Tend to disagree",
+            "5": "Strongly disagree"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ASREP_AGREE_d",
+        "date": "JAN. 16 - 21, 2024",
+        "file": "../0_raw_data/W140_Jan24/ATP_W140.sav",
+        "distribution": {
+            "1": 0.454,
+            "2": 0.195,
+            "3": 0.242,
+            "4": 0.038,
+            "5": 0.048,
+            "99": 0.023
+        }
+    },
+    {
+        "id": 100,
+        "question": "Who is the current prime minister of Israel?",
+        "answers": {
+            "1": "Benjamin Netanyahu",
+            "2": "Rishi Sunak",
+            "3": "Benny Gantz",
+            "4": "Abdel Fattah el-Sisi",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ID_NETAN",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.618,
+            "2": 0.008,
+            "3": 0.005,
+            "4": 0.009,
+            "98": 0.355,
+            "99": 0.005
+        }
+    },
+    {
+        "id": 101,
+        "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our society increased, decreased, or stayed about the same?\nArabs",
+        "answers": {
+            "1": "Increased",
+            "2": "Decreased",
+            "3": "Stayed about the same",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "DISCHANGE_a",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.36,
+            "2": 0.046,
+            "3": 0.312,
+            "98": 0.275,
+            "99": 0.008
+        }
+    },
+    {
+        "id": 102,
+        "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our society increased, decreased, or stayed about the same?\nJews",
+        "answers": {
+            "1": "Increased",
+            "2": "Decreased",
+            "3": "Stayed about the same",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "DISCHANGE_b",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.569,
+            "2": 0.026,
+            "3": 0.185,
+            "98": 0.212,
+            "99": 0.008
+        }
+    },
+    {
+        "id": 103,
+        "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our society increased, decreased, or stayed about the same?\nMuslims",
+        "answers": {
+            "1": "Increased",
+            "2": "Decreased",
+            "3": "Stayed about the same",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "DISCHANGE_c",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.385,
+            "2": 0.048,
+            "3": 0.305,
+            "98": 0.255,
+            "99": 0.007
+        }
+    },
+    {
+        "id": 104,
+        "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
+        "answers": {
+            "1": "Very favorable",
+            "2": "Somewhat favorable",
+            "3": "Somewhat unfavorable",
+            "4": "Very unfavorable"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ME_SPPRT_a",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.128,
+            "2": 0.282,
+            "3": 0.305,
+            "4": 0.209,
+            "99": 0.076
+        }
+    },
+    {
+        "id": 105,
+        "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian Authority, which controls the West Bank",
+        "answers": {
+            "1": "Very favorable",
+            "2": "Somewhat favorable",
+            "3": "Somewhat unfavorable",
+            "4": "Very unfavorable"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ME_SPPRT_b",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.029,
+            "2": 0.198,
+            "3": 0.432,
+            "4": 0.248,
+            "99": 0.094
+        }
+    },
+    {
+        "id": 106,
+        "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nHamas, which has controlled Gaza",
+        "answers": {
+            "1": "Very favorable",
+            "2": "Somewhat favorable",
+            "3": "Somewhat unfavorable",
+            "4": "Very unfavorable"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ME_SPPRT_c",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.018,
+            "2": 0.065,
+            "3": 0.239,
+            "4": 0.602,
+            "99": 0.076
+        }
+    },
+    {
+        "id": 107,
+        "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
+        "answers": {
+            "1": "Very favorable",
+            "2": "Somewhat favorable",
+            "3": "Somewhat unfavorable",
+            "4": "Very unfavorable"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ME_SPPRT_d",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.229,
+            "2": 0.412,
+            "3": 0.205,
+            "4": 0.075,
+            "99": 0.079
+        }
+    },
+    {
+        "id": 108,
+        "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
+        "answers": {
+            "1": "Very favorable",
+            "2": "Somewhat favorable",
+            "3": "Somewhat unfavorable",
+            "4": "Very unfavorable"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ME_SPPRT_e",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.124,
+            "2": 0.38,
+            "3": 0.303,
+            "4": 0.111,
+            "99": 0.083
+        }
+    },
+    {
+        "id": 109,
+        "question": "Would you say your sympathies lie...",
+        "answers": {
+            "1": "Entirely with the Israeli people",
+            "2": "Mostly with the Israeli people but also somewhat with the Palestinian people",
+            "3": "Mostly with the Palestinian people but also somewhat with the Israeli people",
+            "4": "Entirely with the Palestinian people",
+            "5": "Equally with both of them",
+            "6": "With neither of them",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ME_SPPRT_e",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.124,
+            "2": 0.38,
+            "3": 0.303,
+            "4": 0.111,
+            "99": 0.083
+        }
+    },
+    {
+        "id": 110,
+        "question": "Regardless of how acceptable you find the way Hamas carried out the Oct. 7 attack, do you think Hamas' reasons for fighting Israel are...",
+        "answers": {
+            "1": "Completely valid",
+            "2": "Somewhat valid",
+            "3": "Not too valid",
+            "4": "Not at all valid",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "HMSVAL",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.06,
+            "2": 0.161,
+            "3": 0.148,
+            "4": 0.341,
+            "98": 0.279,
+            "99": 0.011
+        }
+    },
+    {
+        "id": 111,
+        "question": "Regardless of how acceptable you find the way Israel is carrying out the war in Gaza, do you think Israel's reasons for fighting Hamas are...",
+        "answers": {
+            "1": "Completely valid",
+            "2": "Somewhat valid",
+            "3": "Not too valid",
+            "4": "Not at all valid",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ISRVAL",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.347,
+            "2": 0.233,
+            "3": 0.073,
+            "4": 0.078,
+            "98": 0.259,
+            "99": 0.011
+        }
+    },
+    {
+        "id": 112,
+        "question": "Do you favor or oppose the U.S. providing military aid to Israel to help in its war against Hamas?",
+        "answers": {
+            "1": "Strongly favor",
+            "2": "Somewhat favor",
+            "3": "Neither favor nor oppose",
+            "4": "Somewhat oppose",
+            "5": "Strongly oppose",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "FUNDISR",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.17,
+            "2": 0.185,
+            "3": 0.139,
+            "4": 0.157,
+            "5": 0.187,
+            "98": 0.153,
+            "99": 0.008
+        }
+    },
+    {
+        "id": 113,
+        "question": "Do you favor or oppose the U.S. providing humanitarian aid to help Palestinian civilians in Gaza?",
+        "answers": {
+            "1": "Strongly favor",
+            "2": "Somewhat favor",
+            "3": "Neither favor nor oppose",
+            "4": "Somewhat oppose",
+            "5": "Strongly oppose",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "AIDGZ",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.275,
+            "2": 0.223,
+            "3": 0.156,
+            "4": 0.096,
+            "5": 0.096,
+            "98": 0.145,
+            "99": 0.009
+        }
+    },
+    {
+        "id": 114,
+        "question": "Overall, do you think the way the Israeli government is carrying out the war against Hamas will make the Israeli people...",
+        "answers": {
+            "1": "More secure than they were before the war",
+            "2": "Less secure than they were before the war",
+            "3": "Not really have much effect",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ISRSEC",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.219,
+            "2": 0.266,
+            "3": 0.151,
+            "98": 0.354,
+            "99": 0.01
+        }
+    },
+    {
+        "id": 115,
+        "question": "Overall, do you think Hamas' Oct. 7 attack against Israel and the subsequent war will make the creation of an independent Palestinian state...",
+        "answers": {
+            "1": "More likely than before the war",
+            "2": "Less likely than before the war",
+            "3": "Not really have much effect",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "PALSTATE",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.098,
+            "2": 0.322,
+            "3": 0.154,
+            "98": 0.414,
+            "99": 0.012
+        }
+    },
+    {
+        "id": 116,
+        "question": "How likely do you think it is that there will eventually be lasting peace between Israelis and Palestinians? ",
+        "answers": {
+            "1": "Extremely likely",
+            "2": "Very likely",
+            "3": "Somewhat likely",
+            "4": "Not too likely",
+            "5": "Not at all likely",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "LIKELYPEACE",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.009,
+            "2": 0.016,
+            "3": 0.092,
+            "4": 0.36,
+            "5": 0.316,
+            "98": 0.197,
+            "99": 0.009
+        }
+    },
+    {
+        "id": 117,
+        "question": "Should the U.S. play a major role, a minor role or no role at all in diplomatically resolving the Israel-Hamas war?",
+        "answers": {
+            "1": "A major role",
+            "2": "A minor role",
+            "3": "No role",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "RESOLV_ISRGZ",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.197,
+            "2": 0.35,
+            "3": 0.266,
+            "98": 0.18,
+            "99": 0.007
+        }
+    },
+    {
+        "id": 118,
+        "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that supports Israel's right to exist as a Jewish state",
+        "answers": {
+            "1": "Yes, this should be allowed",
+            "2": "No, this should not be allowed",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ACCEPTSPE_SUPISEX",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.705,
+            "2": 0.07,
+            "98": 0.211,
+            "99": 0.013
+        }
+    },
+    {
+        "id": 119,
+        "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that opposes Israel's right to exist as a Jewish state",
+        "answers": {
+            "1": "Yes, this should be allowed",
+            "2": "No, this should not be allowed",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ACCEPTSPE_CRIISEX",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.585,
+            "2": 0.172,
+            "98": 0.23,
+            "99": 0.014
+        }
+    },
+    {
+        "id": 120,
+        "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that supports Palestinians having their own state",
+        "answers": {
+            "1": "Yes, this should be allowed",
+            "2": "No, this should not be allowed",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ACCEPTSPE_SUPPAL",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.659,
+            "2": 0.091,
+            "98": 0.238,
+            "99": 0.012
+        }
+    },
+    {
+        "id": 121,
+        "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that opposes Palestinians having their own state",
+        "answers": {
+            "1": "Yes, this should be allowed",
+            "2": "No, this should not be allowed",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ACCEPTSPE_CRIPAL",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.611,
+            "2": 0.127,
+            "98": 0.249,
+            "99": 0.013
+        }
+    },
+    {
+        "id": 122,
+        "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that calls for violence against Jews",
+        "answers": {
+            "1": "Yes, this should be allowed",
+            "2": "No, this should not be allowed",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ACCEPTSPE_CRIJEW",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.102,
+            "2": 0.734,
+            "98": 0.154,
+            "99": 0.01
+        }
+    },
+    {
+        "id": 123,
+        "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that calls for violence against Muslims",
+        "answers": {
+            "1": "Yes, this should be allowed",
+            "2": "No, this should not be allowed",
+            "98": "Not sure"
+        },
+        "institute": "PEW RESEARCH CENTER",
+        "survey": "AMERICAN TRENDS PANEL WAVE 140",
+        "survey_qid": "ACCEPTSPE_CRIJEW",
+        "date": "FEB. 12-25, 2024",
+        "file": "../0_raw_data/W143_Feb24/ATP_W143.sav",
+        "distribution": {
+            "1": 0.102,
+            "2": 0.734,
+            "98": 0.154,
+            "99": 0.01
         }
     }
 ]
