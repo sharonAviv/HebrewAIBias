@@ -443,8 +443,8 @@
         "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Islam",
         "answers": {
             "1": "Major problem",
-            "2": "Major problem",
-            "3": "Major problem"
+            "2": "Minor problem",
+            "3": "Not a problem"
         },
         "distribution": {
             "1": 0.371,
@@ -463,8 +463,8 @@
         "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Christianity",
         "answers": {
             "1": "Major problem",
-            "2": "Major problem",
-            "3": "Major problem"
+            "2": "Minor problem",
+            "3": "Not a problem"
         },
         "distribution": {
             "1": 0.336,
