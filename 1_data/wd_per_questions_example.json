@@ -1,590 +1,889 @@
 [
   {
     "id": 0,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 1,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 2,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.01,
+    "Compare_refusal_rate": 0.01
   },
   {
     "id": 3,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.003,
+    "Compare_refusal_rate": 0.003
   },
   {
     "id": 4,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.008,
+    "Compare_refusal_rate": 0.008
   },
   {
     "id": 5,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.025,
+    "Compare_refusal_rate": 0.025
   },
   {
     "id": 6,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.039,
+    "Compare_refusal_rate": 0.039
   },
   {
     "id": 7,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.037,
+    "Compare_refusal_rate": 0.037
   },
   {
     "id": 8,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.004,
+    "Compare_refusal_rate": 0.004
   },
   {
     "id": 9,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.011,
+    "Compare_refusal_rate": 0.011
   },
   {
     "id": 10,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.025,
+    "Compare_refusal_rate": 0.025
   },
   {
     "id": 11,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.022,
+    "Compare_refusal_rate": 0.022
   },
   {
     "id": 12,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.035,
+    "Compare_refusal_rate": 0.035
   },
   {
     "id": 13,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.036,
+    "Compare_refusal_rate": 0.036
   },
   {
     "id": 14,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 15,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.005,
+    "Compare_refusal_rate": 0.005
   },
   {
     "id": 16,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 17,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.023,
+    "Compare_refusal_rate": 0.023
   },
   {
     "id": 18,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.021,
+    "Compare_refusal_rate": 0.021
   },
   {
     "id": 19,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.026,
+    "Compare_refusal_rate": 0.026
   },
   {
     "id": 20,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.03,
+    "Compare_refusal_rate": 0.03
   },
   {
     "id": 21,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.025,
+    "Compare_refusal_rate": 0.025
   },
   {
     "id": 22,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.022,
+    "Compare_refusal_rate": 0.022
   },
   {
     "id": 23,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.042,
+    "Compare_refusal_rate": 0.042
   },
   {
     "id": 24,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.057,
+    "Compare_refusal_rate": 0.057
   },
   {
     "id": 25,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.032,
+    "Compare_refusal_rate": 0.032
   },
   {
     "id": 26,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.032,
+    "Compare_refusal_rate": 0.032
   },
   {
     "id": 27,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.021,
+    "Compare_refusal_rate": 0.021
   },
   {
     "id": 28,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.096,
+    "Compare_refusal_rate": 0.096
   },
   {
     "id": 29,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.099,
+    "Compare_refusal_rate": 0.099
   },
   {
     "id": 30,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.08,
+    "Compare_refusal_rate": 0.08
   },
   {
     "id": 31,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.083,
+    "Compare_refusal_rate": 0.083
   },
   {
     "id": 32,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.014,
+    "Compare_refusal_rate": 0.014
   },
   {
     "id": 33,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.007,
+    "Compare_refusal_rate": 0.007
   },
   {
     "id": 34,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.004,
+    "Compare_refusal_rate": 0.004
   },
   {
     "id": 35,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 36,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.008,
+    "Compare_refusal_rate": 0.008
   },
   {
     "id": 37,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.018,
+    "Compare_refusal_rate": 0.018
   },
   {
     "id": 38,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.033,
+    "Compare_refusal_rate": 0.033
   },
   {
     "id": 39,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.021,
+    "Compare_refusal_rate": 0.021
   },
   {
     "id": 40,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.028,
+    "Compare_refusal_rate": 0.028
   },
   {
     "id": 41,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 42,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.036,
+    "Compare_refusal_rate": 0.036
   },
   {
     "id": 43,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.01,
+    "Compare_refusal_rate": 0.01
   },
   {
     "id": 44,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.019,
+    "Compare_refusal_rate": 0.019
   },
   {
     "id": 45,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.011,
+    "Compare_refusal_rate": 0.011
   },
   {
     "id": 46,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.035,
+    "Compare_refusal_rate": 0.035
   },
   {
     "id": 47,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.014,
+    "Compare_refusal_rate": 0.014
   },
   {
     "id": 48,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.027,
+    "Compare_refusal_rate": 0.027
   },
   {
     "id": 49,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 50,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.034,
+    "Compare_refusal_rate": 0.034
   },
   {
     "id": 51,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.027,
+    "Compare_refusal_rate": 0.027
   },
   {
     "id": 52,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.047,
+    "Compare_refusal_rate": 0.047
   },
   {
     "id": 53,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 54,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.032,
+    "Compare_refusal_rate": 0.032
   },
   {
     "id": 55,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.053,
+    "Compare_refusal_rate": 0.053
   },
   {
     "id": 56,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.011,
+    "Compare_refusal_rate": 0.011
   },
   {
     "id": 57,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 58,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 59,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.014,
+    "Compare_refusal_rate": 0.014
   },
   {
     "id": 60,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.02,
+    "Compare_refusal_rate": 0.02
   },
   {
     "id": 61,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.018,
+    "Compare_refusal_rate": 0.018
   },
   {
     "id": 62,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.02,
+    "Compare_refusal_rate": 0.02
   },
   {
     "id": 63,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.029,
+    "Compare_refusal_rate": 0.029
   },
   {
     "id": 64,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.028,
+    "Compare_refusal_rate": 0.028
   },
   {
     "id": 65,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.011,
+    "Compare_refusal_rate": 0.011
   },
   {
     "id": 66,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.023,
+    "Compare_refusal_rate": 0.023
   },
   {
     "id": 67,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.036,
+    "Compare_refusal_rate": 0.036
   },
   {
     "id": 68,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.024,
+    "Compare_refusal_rate": 0.024
   },
   {
     "id": 69,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.031,
+    "Compare_refusal_rate": 0.031
   },
   {
     "id": 70,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.021,
+    "Compare_refusal_rate": 0.021
   },
   {
     "id": 71,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.044,
+    "Compare_refusal_rate": 0.044
   },
   {
     "id": 72,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.025,
+    "Compare_refusal_rate": 0.025
   },
   {
     "id": 73,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.043,
+    "Compare_refusal_rate": 0.043
   },
   {
     "id": 74,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 75,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.019,
+    "Compare_refusal_rate": 0.019
   },
   {
     "id": 76,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.019,
+    "Compare_refusal_rate": 0.019
   },
   {
     "id": 77,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.032,
+    "Compare_refusal_rate": 0.032
   },
   {
     "id": 78,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.021,
+    "Compare_refusal_rate": 0.021
   },
   {
     "id": 79,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.046,
+    "Compare_refusal_rate": 0.046
   },
   {
     "id": 80,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.03,
+    "Compare_refusal_rate": 0.03
   },
   {
     "id": 81,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.064,
+    "Compare_refusal_rate": 0.064
   },
   {
     "id": 82,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.051,
+    "Compare_refusal_rate": 0.051
   },
   {
     "id": 83,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.005,
+    "Compare_refusal_rate": 0.005
   },
   {
     "id": 84,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 85,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 86,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 87,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.01,
+    "Compare_refusal_rate": 0.01
   },
   {
     "id": 88,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 89,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.008,
+    "Compare_refusal_rate": 0.008
   },
   {
     "id": 90,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 91,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 92,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 93,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.018,
+    "Compare_refusal_rate": 0.018
   },
   {
     "id": 94,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.017,
+    "Compare_refusal_rate": 0.017
   },
   {
     "id": 95,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.028,
+    "Compare_refusal_rate": 0.028
   },
   {
     "id": 96,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 97,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.019,
+    "Compare_refusal_rate": 0.019
   },
   {
     "id": 98,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.023,
+    "Compare_refusal_rate": 0.023
   },
   {
     "id": 99,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.023,
+    "Compare_refusal_rate": 0.023
   },
   {
     "id": 100,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.005,
+    "Compare_refusal_rate": 0.005
   },
   {
     "id": 101,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.008,
+    "Compare_refusal_rate": 0.008
   },
   {
     "id": 102,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.008,
+    "Compare_refusal_rate": 0.008
   },
   {
     "id": 103,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.007,
+    "Compare_refusal_rate": 0.007
   },
   {
     "id": 104,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.076,
+    "Compare_refusal_rate": 0.076
   },
   {
     "id": 105,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.094,
+    "Compare_refusal_rate": 0.094
   },
   {
     "id": 106,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.076,
+    "Compare_refusal_rate": 0.076
   },
   {
     "id": 107,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.079,
+    "Compare_refusal_rate": 0.079
   },
   {
     "id": 108,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.083,
+    "Compare_refusal_rate": 0.083
   },
   {
     "id": 109,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.083,
+    "Compare_refusal_rate": 0.083
   },
   {
     "id": 110,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.011,
+    "Compare_refusal_rate": 0.011
   },
   {
     "id": 111,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.011,
+    "Compare_refusal_rate": 0.011
   },
   {
     "id": 112,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.008,
+    "Compare_refusal_rate": 0.008
   },
   {
     "id": 113,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 114,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.01,
+    "Compare_refusal_rate": 0.01
   },
   {
     "id": 115,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 116,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
   },
   {
     "id": 117,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.007,
+    "Compare_refusal_rate": 0.007
   },
   {
     "id": 118,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 119,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.014,
+    "Compare_refusal_rate": 0.014
   },
   {
     "id": 120,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 121,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.013,
+    "Compare_refusal_rate": 0.013
   },
   {
     "id": 122,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.01,
+    "Compare_refusal_rate": 0.01
   },
   {
     "id": 123,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.01,
+    "Compare_refusal_rate": 0.01
   },
   {
     "id": 124,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.016,
+    "Compare_refusal_rate": 0.016
   },
   {
     "id": 125,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.017,
+    "Compare_refusal_rate": 0.017
   },
   {
     "id": 126,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.015,
+    "Compare_refusal_rate": 0.015
   },
   {
     "id": 127,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.012,
+    "Compare_refusal_rate": 0.012
   },
   {
     "id": 128,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.015,
+    "Compare_refusal_rate": 0.015
   },
   {
     "id": 129,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.024,
+    "Compare_refusal_rate": 0.024
   },
   {
     "id": 130,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.025,
+    "Compare_refusal_rate": 0.025
   },
   {
     "id": 131,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.026,
+    "Compare_refusal_rate": 0.026
   },
   {
     "id": 132,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.02,
+    "Compare_refusal_rate": 0.02
   },
   {
     "id": 133,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.018,
+    "Compare_refusal_rate": 0.018
   },
   {
     "id": 134,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.031,
+    "Compare_refusal_rate": 0.031
   },
   {
     "id": 135,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.028,
+    "Compare_refusal_rate": 0.028
   },
   {
     "id": 136,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.046,
+    "Compare_refusal_rate": 0.046
   },
   {
     "id": 137,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.041,
+    "Compare_refusal_rate": 0.041
   },
   {
     "id": 138,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.039,
+    "Compare_refusal_rate": 0.039
   },
   {
     "id": 139,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.032,
+    "Compare_refusal_rate": 0.032
   },
   {
     "id": 140,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.039,
+    "Compare_refusal_rate": 0.039
   },
   {
     "id": 141,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.021,
+    "Compare_refusal_rate": 0.021
   },
   {
     "id": 142,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.039,
+    "Compare_refusal_rate": 0.039
   },
   {
     "id": 143,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.047,
+    "Compare_refusal_rate": 0.047
   },
   {
     "id": 144,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.036,
+    "Compare_refusal_rate": 0.036
   },
   {
     "id": 145,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.01,
+    "Compare_refusal_rate": 0.01
   },
   {
     "id": 146,
-    "WD_without_refusal": 0.0
+    "WD_without_refusal": 0.0,
+    "Origin_refusal_rate": 0.009,
+    "Compare_refusal_rate": 0.009
+  },
+  {
+    "Average_WD_without_refusal": 0.0,
+    "Average_refusal_origin": 0.02551,
+    "Average_refusal_compare": 0.02551
   }
 ]
