@@ -480,7 +480,7 @@
     },
     {
         "id": 22,
-        "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views � even if neither is exactly right.",
+        "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views even if neither is exactly right.",
         "answers": {
             "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
             "2": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree"
@@ -534,7 +534,7 @@
     },
     {
         "id": 25,
-        "question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was the�",
+        "question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was the",
         "answers": {
             "1": "Right decision",
             "2": "Wrong decision"
