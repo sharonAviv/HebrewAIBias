@@ -15,34 +15,43 @@ from utils import (
     parse_response,
     get_user_inputs,
     run_batch,
-    run_individual
+    run_individual,
+    PROMPTS
 )
 from models import get_model, get_schema
 
 def main():
-    # Initialize
     logger = get_logger(__name__)
     args = parse_args()
     logger.info(f"Args: {args}")
     
-    # Load config and keys
     config = load_config(args)
     set_keys(yaml.safe_load(open("keys.yaml")))
     set_seed(config["seed"])
     
-    # Prepare experiment directory
-    exp_dir = setup_experiment_dir(config)
-    
-    # Load data
     data = pd.read_json(config["data_file"])
-    if config["debug"]:
-        data = data.sample(n=config["num_samples"], random_state=config["seed"])
     
-    # Run selected mode
-    if config["mode"] == "inference":
-        run_inference(config, data, exp_dir, logger)
-    else:
-        run_evaluation(config, data, exp_dir, logger)
+    # Run selected mode for all models (new loop)
+    for model_config in config["models"]:
+        current_config = {
+            **config,          # Global settings (prompt_type, seed, mode)
+            **model_config     # Model-specific configurations
+        }
+        
+        if current_config["debug"]:
+            current_data = data.sample(
+                n=current_config["num_samples"], 
+                random_state=current_config["seed"]
+            )
+        else:
+            current_data = data
+        
+        exp_dir = setup_experiment_dir(current_config)
+        
+        if current_config["mode"] == "inference":
+            run_inference(current_config, current_data, exp_dir, logger)
+        else:
+            run_evaluation(current_config, current_data, exp_dir, logger)
 
 def parse_args():
     """Parse command line arguments"""
@@ -88,8 +97,8 @@ def run_inference(config, data, exp_dir, logger):
         llm = llm.with_structured_output(schema, include_raw=True)
     
     prompt = ChatPromptTemplate.from_messages([
-        ("system", config["system_prompt"]),
-        ("human", "{input}")
+        ("system", PROMPTS["system"]),
+        ("human", PROMPTS["user"].format(question="{question}", answers="{answers}"))
     ])
     
     chain = prompt | llm
