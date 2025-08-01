@@ -1,7 +1,3 @@
-"""
-Wrapper for different LLM APIs.
-"""
-
 ####################################################################################################
 # Imports
 import os
@@ -10,8 +6,7 @@ from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-
-# from langchain_cohere import ChatCohere
+from langchain_openai import ChatOpenAI
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langchain_huggingface.llms import HuggingFacePipeline
 from langchain_core.rate_limiters import InMemoryRateLimiter
@@ -61,39 +56,15 @@ sys.path.append("../")
 BATCH_SIZE = 16
 
 MODEL_CONFIGS = {
-    "gemini-2.0-flash": {
-        "display_name": "Gemini-2 Flash",
-        "model_id": "gemini-2.0-flash",
-        "structured_output": "pydantic",
-        "provider": "google",
-    },
-    "gemini-2.5-flash": {
-        "display_name": "Gemini-2.5 Flash",
-        "model_id": "gemini-2.5-flash",
-        "structured_output": "pydantic",
-        "provider": "google",
-    },
-    "gemini-2.5-pro": {
-        "display_name": "Gemini-2.5 Pro",
-        "model_id": "gemini-2.5-pro",
-        "structured_output": "pydantic",
-        "provider": "google",
-    },
-    "TowerInstruct-7B": {
-        "display_name": "TowerInstruct-7B",
-        "model_id": "Unbabel/TowerInstruct-7B-v0.2",
-        "structured_output": None,
-        "provider": "local",
+    "gpt-4o-mini": {
+        "display_name": "GPT-4o-mini",
+        "model_id": "gpt-4o-mini", 
+        "structured_output": "pydantic", 
+        "provider": "openai", 
     },
     "EMMA-500-7B": {
         "display_name": "EMMA-500-7B",
         "model_id": "MaLA-LM/emma-500-llama2-7b",
-        "structured_output": None,
-        "provider": "local",
-    },
-    "BayLing-2-8B": {
-        "display_name": "BayLing-2-8B",
-        "model_id": "ICTNLP/bayling-2-llama-3-8b",
         "structured_output": None,
         "provider": "local",
     },
@@ -102,13 +73,7 @@ MODEL_CONFIGS = {
         "model_id": "LLaMAX/LLaMAX3-8B",
         "structured_output": None,
         "provider": "local",
-    },
-    "TiLamb-7B": {
-        "display_name": "TiLamb-7B",
-        "model_id": "YoLo2000/TiLamb-7B",
-        "structured_output": None,
-        "provider": "local",
-    },
+    }
 }
 
 ####################################################################################################
@@ -166,5 +131,7 @@ def get_model(model_name: str, temperature: float = 0.0, use_rate_limiter: bool 
             device_map="auto",
         )
         return llm
+    elif provider == "openai":
+        return ChatOpenAI(model=model_name, temperature=temperature)
     else:
         raise ValueError(f"Unknown model {model_name}")
