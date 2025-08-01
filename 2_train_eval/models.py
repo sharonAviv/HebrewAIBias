@@ -15,11 +15,44 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langchain_huggingface.llms import HuggingFacePipeline
 from langchain_core.rate_limiters import InMemoryRateLimiter
+from pydantic import BaseModel, Field
+from typing import Optional, List
+
+
+
+
+
+###############################################################################
+# Schemas
+
+class TagTextPair(BaseModel):
+    LABEL: str = Field(..., description="The predicted label for the text span")
+    SPAN: str = Field(..., description="The corresponding text span")
+
+class Prediction(BaseModel):
+    """Prediction schema"""
+    prediction: List[TagTextPair] = Field(
+        ..., description="Nested list of predicted dictionaries with LABEL and SPAN"
+    )
+
+class Label(BaseModel):
+    """Label"""
+    label: str = Field(
+        description="The predicted label for the classification task"
+    )
+
+PYDANTIC_SCHEMAS = {
+    "detection": Prediction,
+    "classification": Label,
+}
+TYPED_SCHEMAS = {
+    "detection": Prediction,
+    "classification": Label,
+}
+
 
 import sys
 sys.path.append("../") 
-from pydantic_schemas import PYDANTIC_SCHEMAS
-from typed_schemas import TYPED_SCHEMAS
 
 ####################################################################################################
 

@@ -20,6 +20,7 @@ from utils import (
 )
 from models import get_model, get_schema
 
+
 def main():
     logger = get_logger(__name__)
     args = parse_args()
