@@ -2646,5 +2646,99 @@
             "5": 0.173,
             "99": 0.009
         }
+    },
+    {
+        "id": 147,
+        "question": "In your opinion, to what extent is the security of Israel one of President Trump’s main considerations?",
+        "answers": {
+            "1": "To a very large extent",
+            "2": "To a fairly large extent",
+            "3": "To a fairly small extent",
+            "4": "To a very small extent",
+            "5": "Don't know"
+        },
+        "institute": "The Israel Democracy Institute",
+        "survey": "Israeli Voice Index - June 2025",
+        "survey_qid": "9",
+        "date": "JUNE 19 - JULY 2, 2025",
+        "file": "../0_raw_data/israeli-voice-index-june-2025-heb-data.pdf",
+        "distribution": {
+            "1": 0.136,
+            "2": 0.464,
+            "3": 0.276,
+            "4": 0.074,
+            "5": 0.050
+        }
+    },
+    {
+        "id": 148,
+        "question": "Recently, US President Trump has turned away from Ukraine and moved closer to Russia. In your opinion, what is the likelihood that he will also turn away from Israel, if he thinks that its policies are not aligned with the interests of the United States?",
+        "answers": {
+            "1": "Very high likelihood",
+            "2": "Fairly high likelihood",
+            "3": "Fairly low likelihood",
+            "4": "Very low likelihood/no likelihood at all",
+            "5": "Don't know"
+        },
+        "institute": "The Israel Democracy Institute",
+        "survey": "Israeli Voice Index - February 2025",
+        "survey_qid": "15",
+        "date": "FEB. 25 - 28, 2025",
+        "file": "../0_raw_data/israeli-voice-index-feb-2025-heb-data.pdf",
+        "distribution": {
+            "1": 0.112,
+            "2": 0.276,
+            "3": 0.345,
+            "4": 0.169,
+            "5": 0.098
+        }
+    },
+    {
+        "id": 149,
+        "question": "To what extent, in your opinion, does Iran now constitute an existential danger to Israel?",
+        "answers": {
+            "1": "Not at all",
+            "2": "To a small extent",
+            "3": "To a medium extent",
+            "4": "To a great extent",
+            "5": "To a very great extent",
+            "6": "Don't know"
+        },
+        "institute": "The Israel Democracy Institute",
+        "survey": "Israeli Voice Index - November 2021",
+        "survey_qid": "10",
+        "date": "OCT. 29 - DEC. 1, 2021",
+        "file": "../0_raw_data/israeli-voice-index-nov-2021-heb-data.pdf",
+        "distribution": {
+            "1": 0.047,
+            "2": 0.083,
+            "3": 0.240,
+            "4": 0.281,
+            "5": 0.262,
+            "6": 0.087
+        }
+    },
+    {
+        "id": 150,
+        "question": "Do you agree or disagree with the view that Israel should militarily attack Iran's nuclear facilities even without American consent?",
+        "answers": {
+            "1": "Strongly agree",
+            "2": "Moderately agree",
+            "3": "Don't agree so much",
+            "4": "Don't agree at all",
+            "5": "Don't know"
+        },
+        "institute": "The Israel Democracy Institute",
+        "survey": "Israeli Voice Index - November 2021",
+        "survey_qid": "10",
+        "date": "OCT. 29 - DEC. 1, 2021",
+        "file": "../0_raw_data/israeli-voice-index-nov-2021-heb-data.pdf",
+        "distribution": {
+            "1": 0.262,
+            "2": 0.246,
+            "3": 0.187,
+            "4": 0.126,
+            "5": 0.179
+        }
     }
 ]
