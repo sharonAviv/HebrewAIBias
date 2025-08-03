@@ -3,15 +3,14 @@
 import os
 
 from langchain.chains import LLMChain
-from langchain_core.prompts import PromptTemplate
 
 from langchain_openai import ChatOpenAI
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langchain_huggingface.llms import HuggingFacePipeline
 from langchain_core.rate_limiters import InMemoryRateLimiter
-from pydantic import BaseModel, Field, field_validator 
-from typing import Optional, List
-
+from pydantic import BaseModel, Field, field_validator, ValidationInfo, ConfigDict  
+import sys
+sys.path.append("../") 
+from enum import Enum
 
 
 
@@ -21,16 +20,21 @@ from typing import Optional, List
 
 class SurveyResponse(BaseModel):
     answer: str
-    allowed_answers: dict  # Format: {"1": "Yes", "2": "No", ...}
+    # Remove allowed_answers from fields since we'll pass it via context
+    # Add a Config class to handle arbitrary types during validation
+    class Config:
+        arbitrary_types_allowed = True
 
     @field_validator("answer")
-    def validate_answer(cls, v: str, values: dict) -> str:
-        if "allowed_answers" not in values:
-            raise ValueError("Allowed answers not provided")
+    def validate_answer(cls, v: str, info: ValidationInfo) -> str:
+        # Get allowed_answers from validation context
+        allowed_answers = info.context.get("allowed_answers")
+        if not allowed_answers:
+            raise ValueError("Allowed answers not provided in context")
         
         # Format allowed answers as "1. Yes", "2. No", etc.
         allowed_formatted = {
-            f"{num}. {text}" for num, text in values["allowed_answers"].items()
+            f"{num}. {text}" for num, text in allowed_answers.items()
         }
         
         if v not in allowed_formatted:
@@ -38,10 +42,6 @@ class SurveyResponse(BaseModel):
                 f"Invalid answer. Must be one of: {sorted(allowed_formatted)}"
             )
         return v
-
-
-import sys
-sys.path.append("../") 
 
 ####################################################################################################
 

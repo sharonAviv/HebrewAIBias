@@ -12,9 +12,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from utils import (
     get_logger,
     set_keys,
-    # parse_response,
+    parse_response,
     get_answers,
-    run_batch,
     # run_individual,
     PROMPTS
 )
@@ -84,36 +83,97 @@ def setup_experiment_dir(config):
 
 def run_inference(config, data, exp_dir, logger):
     """Run LLM inference and save responses"""
-    llm = get_model(
+    from enum import Enum
+    from pydantic import BaseModel, create_model
+
+    # ---- FIX: base class must inherit BaseModel
+    class _SurveyBase(BaseModel):
+        # For Pydantic v2, a dict here is fine; ensures we get enum values (strings)
+        model_config = {"use_enum_values": True}
+
+    # 1) Base LLM (no global structured schema)
+    base_llm = get_model(
         config["model"],
         config["temperature"],
         config.get("use_rate_limiter", False),
         requests_per_second=config.get("requests_per_second"),
         check_every_n_seconds=config.get("check_every_n_seconds")
     )
-    
-    # Apply structured output if supported
-    schema = get_schema(config["model"], "classification")
-    if schema is not None:
-        llm = llm.with_structured_output(schema, include_raw=True)
-    
+
+    # 2) Prompt (reuse for all questions)
     prompt = ChatPromptTemplate.from_messages([
         ("system", PROMPTS["system"]),
         ("human", PROMPTS["user"].format(question="{question}", answers="{answers}"))
     ])
-    
-    chain = prompt | llm
-    user_inputs = get_answers(data)
-    responses = initialize_responses(data)
-    
+
+    # 3) Inputs & storage
+    user_inputs = get_answers(data)        # builds "answers" and "allowed_answers"
+    responses = initialize_responses(data) # your existing accumulator
+
+    # Helper: per-question schema with Enum via create_model
+    def _make_schema_for_question(allowed_answers: dict[str, str]):
+        # Display strings exactly as shown to the model ("1. Dogs", "2. Cats", ...)
+        values = [f"{k}. {v}" for k, v in allowed_answers.items()]
+        AnswerEnum = Enum(
+            "AnswerEnum",
+            {f"OPT_{i}": val for i, val in enumerate(values, start=1)}
+        )
+        # Build the model dynamically; __base__ MUST be a BaseModel subclass (fixed above)
+        return create_model(
+            "SurveyResponse",
+            answer=(AnswerEnum, ...),
+            __base__=_SurveyBase,
+            __module__=__name__,
+        )
+
+    # 4) Runs
     for run_index in range(config.get("sc_runs", 1)):
         logger.info(f"Run {run_index + 1}/{config.get('sc_runs', 1)}")
-        
-        raw_responses = run_batch(chain, user_inputs, run_index, logger)
-        
-        process_responses(raw_responses, responses, logger)
-    
+
+        for i, user_input in enumerate(user_inputs):
+            try:
+                # Per-question schema & chain
+                SchemaForQ = _make_schema_for_question(user_input["allowed_answers"])
+                llm_q = base_llm.with_structured_output(
+                    SchemaForQ, include_raw=True, method="function_calling"
+                )
+                chain_q = prompt | llm_q
+
+                # Invoke (no pydantic context/config needed)
+                resp = chain_q.invoke({
+                    "question": user_input["question"],
+                    "answers": user_input["answers"],
+                })
+
+                # Store raw for traceability (best-effort)
+                raw_text = ""
+                try:
+                    raw_msg = resp.get("raw") if isinstance(resp, dict) else None
+                    raw_text = getattr(raw_msg, "content", "") or str(resp)
+                except Exception:
+                    raw_text = str(resp)
+                responses[i]["raw_response"].append(raw_text)
+
+                # Parse & store the answer (string)
+                parsed = parse_response(resp)   # your helper returns {"answer": "..."}
+                ans = parsed.get("answer")
+                # If exporter returned an Enum member, coerce to value
+                try:
+                    from enum import Enum as _PyEnum
+                    if isinstance(ans, _PyEnum):
+                        ans = ans.value
+                except Exception:
+                    pass
+                responses[i]["responses"].append(ans if isinstance(ans, str) else None)
+
+            except Exception as e:
+                logger.error(f"Error processing question: {e}")
+                responses[i]["responses"].append(None)
+                responses[i]["raw_response"].append("")
+
     save_responses(responses, exp_dir, logger)
+
+
 
 def initialize_responses(data):
     """Initialize response storage structure"""
@@ -127,26 +187,11 @@ def initialize_responses(data):
         for _, row in data.iterrows()
     ]
 
-def parse_response(resp):
-    """Normalize outputs from structured/unstructured calls."""
-    # If using structured output with include_raw=True, resp is a dict
-    if isinstance(resp, dict) and "parsed" in resp:
-        parsed = resp["parsed"]
-        try:
-            return parsed.model_dump()  # pydantic v2
-        except Exception:
-            try:
-                return parsed.dict()     # pydantic v1 fallback
-            except Exception:
-                return parsed
-    # Fallback: return an empty dict; you can extend if you keep unstructured LLMs
-    return {}
-
 def process_responses(raw_responses, responses, logger):
     """Process and store LLM responses"""
     for i, resp in enumerate(raw_responses):
         if resp is None:
-            responses[i]["responses"].append({})
+            responses[i]["responses"].append(None)
             responses[i]["raw_response"].append("")
             continue
             
@@ -154,10 +199,15 @@ def process_responses(raw_responses, responses, logger):
             resp.content if hasattr(resp, "content") else str(resp)
         )
         try:
-            responses[i]["responses"].append(parse_response(resp))
+            # Extract just the answer from the structured output
+            if isinstance(resp, dict) and "parsed" in resp:
+                parsed = resp["parsed"]
+                responses[i]["responses"].append(parsed.answer if parsed else None)
+            else:
+                responses[i]["responses"].append(None)
         except Exception as e:
             logger.error(f"Error parsing response: {e}")
-            responses[i]["responses"].append({})
+            responses[i]["responses"].append(None)
 
 def save_responses(responses, exp_dir, logger):
     """Save responses to file"""

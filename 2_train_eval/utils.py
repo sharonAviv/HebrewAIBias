@@ -62,7 +62,7 @@ def get_answers(data: pd.DataFrame) -> list[dict]:
     """
     Get the multiple choice answers for each question in the survey.
     param data: data with 'question' and 'answers' columns
-    returns: laist of strings, each string represents multiple line-seperated answers from a single question.
+    returns: list of dicts, each containing question, answers string, and allowed_answers
     """
     user_inputs = []
 
@@ -78,10 +78,27 @@ def get_answers(data: pd.DataFrame) -> list[dict]:
         
         user_inputs.append({
             "question": row["question"],
-            "answers": answer_string
+            "answers": answer_string,
+            "allowed_answers": {k: v for k, v in row['answers'].items() if k != '99'}
         })
 
     return user_inputs
+
+
+def parse_response(resp):
+    """Normalize outputs from structured/unstructured calls."""
+    # If using structured output with include_raw=True, resp is a dict
+    if isinstance(resp, dict) and "parsed" in resp:
+        parsed = resp["parsed"]
+        try:
+            return parsed.model_dump()  # pydantic v2
+        except Exception:
+            try:
+                return parsed.dict()     # pydantic v1 fallback
+            except Exception:
+                return parsed
+    # Fallback: return an empty dict; you can extend if you keep unstructured LLMs
+    return {}
 
 def json_file_to_dataframe(file_path):
     """
