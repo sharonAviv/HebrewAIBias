@@ -54,30 +54,33 @@ def run_batch(chain, user_inputs, run_index, logger):
         return [None] * len(user_inputs)
     
 PROMPTS = {
-    "system": """You will be asked a multiple-choice question. Return your chosen answer as-is as a JSON with a "prediction" key. Do not include any additional text or explanations.\n""",
+    "system": """You will be asked a multiple-choice question. Return the answer you most agree with as-is (for example, "1. Dogs"). Do not include ANY additional text or explanations.\n""",
     "user": "Question: {question}\nMultiple-choice answers:\n{answers}"
 }
 
-def get_user_inputs(data: pd.DataFrame) -> list[dict]:
+def get_answers(data: pd.DataFrame) -> list[dict]:
     """
-    Get user inputs for the given task.
-    :param data: data with 'question' and 'answers' columns
-    :return: user inputs as a list of dictionaries
+    Get the multiple choice answers for each question in the survey.
+    param data: data with 'question' and 'answers' columns
+    returns: laist of strings, each string represents multiple line-seperated answers from a single question.
     """
     user_inputs = []
-    
+
     for _, row in data.iterrows():
-        # Convert list of answer tuples into line-separated string
-        answer_string = "\n".join([
-            f"{answer[1]}"  # answer[1] is the answer text
-            for answer in row['answers'] if answer[0] != 99
-        ])
+        answer_string = "\n".join(
+            f"{key}. {value}" 
+            for key, value in (
+                (k, v.replace('\n', ' ')) 
+                for k, v in row['answers'].items() 
+                if k != '99'
+            )
+        )
         
         user_inputs.append({
             "question": row["question"],
             "answers": answer_string
         })
-    
+
     return user_inputs
 
 def json_file_to_dataframe(file_path):

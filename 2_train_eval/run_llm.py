@@ -12,10 +12,10 @@ from langchain_core.prompts import ChatPromptTemplate
 from utils import (
     get_logger,
     set_keys,
-    parse_response,
-    get_user_inputs,
+    # parse_response,
+    get_answers,
     run_batch,
-    run_individual,
+    # run_individual,
     PROMPTS
 )
 from models import get_model, get_schema
@@ -27,7 +27,7 @@ def main():
     logger.info(f"Args: {args}")
     
     config = load_config(args)
-    set_keys(yaml.safe_load(open("keys.yaml")))
+    set_keys(yaml.safe_load(open(r"./2_train_eval/keys.yaml")))
     set_seed(config["seed"])
     
     data = pd.read_json(config["data_file"])
@@ -57,9 +57,9 @@ def main():
 def parse_args():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config_file", default="config_llm.yaml")
+    parser.add_argument("--config_file", default=r"./2_train_eval/config_llm.yaml")
     parser.add_argument("--seed", type=int)
-    parser.add_argument("--mode", required=True, choices=["inference", "evaluation"])
+    parser.add_argument("--mode", choices=["inference", "evaluation"])
     parser.add_argument("--responses_dir")
     return parser.parse_args()
 
@@ -103,16 +103,13 @@ def run_inference(config, data, exp_dir, logger):
     ])
     
     chain = prompt | llm
-    user_inputs = get_user_inputs(data)
+    user_inputs = get_answers(data)
     responses = initialize_responses(data)
     
     for run_index in range(config.get("sc_runs", 1)):
         logger.info(f"Run {run_index + 1}/{config.get('sc_runs', 1)}")
         
-        raw_responses = (
-            run_batch(chain, user_inputs, run_index, logger) if config["batched"]
-            else run_individual(chain, user_inputs, run_index, exp_dir, logger)
-        )
+        raw_responses = run_batch(chain, user_inputs, run_index, logger)
         
         process_responses(raw_responses, responses, logger)
     
@@ -129,6 +126,21 @@ def initialize_responses(data):
         }
         for _, row in data.iterrows()
     ]
+
+def parse_response(resp):
+    """Normalize outputs from structured/unstructured calls."""
+    # If using structured output with include_raw=True, resp is a dict
+    if isinstance(resp, dict) and "parsed" in resp:
+        parsed = resp["parsed"]
+        try:
+            return parsed.model_dump()  # pydantic v2
+        except Exception:
+            try:
+                return parsed.dict()     # pydantic v1 fallback
+            except Exception:
+                return parsed
+    # Fallback: return an empty dict; you can extend if you keep unstructured LLMs
+    return {}
 
 def process_responses(raw_responses, responses, logger):
     """Process and store LLM responses"""

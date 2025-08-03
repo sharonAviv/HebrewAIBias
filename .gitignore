@@ -2,3 +2,4 @@ sources_and_models.docx
 *.zip
 keys.yaml
 /venv/
+*/__pycache__/

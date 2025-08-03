@@ -5,12 +5,11 @@ import os
 from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 
-from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langchain_huggingface.llms import HuggingFacePipeline
 from langchain_core.rate_limiters import InMemoryRateLimiter
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator 
 from typing import Optional, List
 
 
@@ -20,30 +19,25 @@ from typing import Optional, List
 ###############################################################################
 # Schemas
 
-class TagTextPair(BaseModel):
-    LABEL: str = Field(..., description="The predicted label for the text span")
-    SPAN: str = Field(..., description="The corresponding text span")
+class SurveyResponse(BaseModel):
+    answer: str
+    allowed_answers: dict  # Format: {"1": "Yes", "2": "No", ...}
 
-class Prediction(BaseModel):
-    """Prediction schema"""
-    prediction: List[TagTextPair] = Field(
-        ..., description="Nested list of predicted dictionaries with LABEL and SPAN"
-    )
-
-class Label(BaseModel):
-    """Label"""
-    label: str = Field(
-        description="The predicted label for the classification task"
-    )
-
-PYDANTIC_SCHEMAS = {
-    "detection": Prediction,
-    "classification": Label,
-}
-TYPED_SCHEMAS = {
-    "detection": Prediction,
-    "classification": Label,
-}
+    @field_validator("answer")
+    def validate_answer(cls, v: str, values: dict) -> str:
+        if "allowed_answers" not in values:
+            raise ValueError("Allowed answers not provided")
+        
+        # Format allowed answers as "1. Yes", "2. No", etc.
+        allowed_formatted = {
+            f"{num}. {text}" for num, text in values["allowed_answers"].items()
+        }
+        
+        if v not in allowed_formatted:
+            raise ValueError(
+                f"Invalid answer. Must be one of: {sorted(allowed_formatted)}"
+            )
+        return v
 
 
 import sys
@@ -62,18 +56,18 @@ MODEL_CONFIGS = {
         "structured_output": "pydantic", 
         "provider": "openai", 
     },
-    "EMMA-500-7B": {
-        "display_name": "EMMA-500-7B",
-        "model_id": "MaLA-LM/emma-500-llama2-7b",
-        "structured_output": None,
-        "provider": "local",
-    },
-    "LLaMAX-3-8B": {
-        "display_name": "LLaMAX-3-8B",
-        "model_id": "LLaMAX/LLaMAX3-8B",
-        "structured_output": None,
-        "provider": "local",
-    }
+    # "EMMA-500-7B": {
+    #     "display_name": "EMMA-500-7B",
+    #     "model_id": "MaLA-LM/emma-500-llama2-7b",
+    #     "structured_output": None,
+    #     "provider": "local",
+    # },
+    # "LLaMAX-3-8B": {
+    #     "display_name": "LLaMAX-3-8B",
+    #     "model_id": "LLaMAX/LLaMAX3-8B",
+    #     "structured_output": None,
+    #     "provider": "local",
+    # }
 }
 
 ####################################################################################################
@@ -81,15 +75,13 @@ MODEL_CONFIGS = {
 ####################################################################################################
 # Models
 
-def get_schema(model_name: str, task_type: str):
-    print(f"Getting schema for model {model_name} and task type {task_type}")
+def get_schema(model_name: str):
+    print(f"Getting schema for model {model_name}")
     structured_output = MODEL_CONFIGS[model_name].get("structured_output", None)
     if structured_output is None:
         return None
     if structured_output == "pydantic":
-        return PYDANTIC_SCHEMAS.get(task_type, None)
-    elif structured_output == "typed_dict":
-        return TYPED_SCHEMAS.get(task_type, None)
+        return SurveyResponse
     else:
         # Inform the user and return None
         print(f"Model {model_name} does not support structured output.")
@@ -107,7 +99,7 @@ def get_model(model_name: str, temperature: float = 0.0, use_rate_limiter: bool 
     """
     assert model_name in MODEL_CONFIGS, f"Model {model_name} not found in MODEL_CONFIGS"
     if use_rate_limiter:
-        rate_limiter = rate_limiter = InMemoryRateLimiter(
+        rate_limiter = InMemoryRateLimiter(
             requests_per_second=requests_per_second,
             check_every_n_seconds=check_every_n_seconds,  # Wake up every X ms to check whether allowed to make a request,
             max_bucket_size=1,  # Controls the maximum burst size.
@@ -132,6 +124,6 @@ def get_model(model_name: str, temperature: float = 0.0, use_rate_limiter: bool 
         )
         return llm
     elif provider == "openai":
-        return ChatOpenAI(model=model_name, temperature=temperature)
+        return ChatOpenAI(model=model_name, temperature=temperature, logprobs=True, top_logprobs=4)
     else:
         raise ValueError(f"Unknown model {model_name}")
