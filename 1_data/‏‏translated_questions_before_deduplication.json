@@ -88,6 +88,50 @@
     "file": "../0_raw_data/W41_Dec18/ATP_W41.sav"
   },
   {
+    "id": 4,
+    "question": "האם יש לך דעה חיובית או שלילית של ארצות הברית",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.319,
+      "2": 0.445,
+      "3": 0.183,
+      "4": 0.046,
+      "99": 0.008
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q4_a",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "id": 5,
+    "question": "האם יש לך דעה חיובית או שלילית על סין",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.013,
+      "2": 0.194,
+      "3": 0.374,
+      "4": 0.394,
+      "99": 0.025
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q4_b",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
+  },
+  {
     "id": 6,
     "question": "האם יש לך דעה חיובית או שלילית על גרמניה",
     "answers": {
@@ -106,6 +150,28 @@
     "institute": "PEW RESEARCH CENTER",
     "survey": "AMERICAN TRENDS PANEL WAVE 82",
     "survey_qid": "GAP21Q4_c",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "id": 7,
+    "question": "האם יש לך דעה חיובית או שלילית על האו\"ם",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.084,
+      "2": 0.536,
+      "3": 0.257,
+      "4": 0.086,
+      "99": 0.037
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q4_d",
     "date": "FEBRUARY 1 - 7, 2021",
     "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
   },
@@ -154,6 +220,50 @@
     "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
   },
   {
+    "id": 10,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון\nלגבי ענייני עולם?\nנשיא סין שי ג'ינפינג",
+    "answers": {
+      "1": "הרבה ביטחון",
+      "2": "קצת ביטחון",
+      "3": "לא יותר מדי ביטחון",
+      "4": "אין אמון בכלל"
+    },
+    "distribution": {
+      "1": 0.017,
+      "2": 0.13,
+      "3": 0.394,
+      "4": 0.434,
+      "99": 0.025
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_b",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "id": 11,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון\nלגבי ענייני עולם?\nנשיא רוסיה ולדימיר פוטין",
+    "answers": {
+      "1": "הרבה ביטחון",
+      "2": "קצת ביטחון",
+      "3": "לא יותר מדי ביטחון",
+      "4": "אין אמון בכלל"
+    },
+    "distribution": {
+      "1": 0.022,
+      "2": 0.141,
+      "3": 0.362,
+      "4": 0.452,
+      "99": 0.022
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_c",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
+  },
+  {
     "id": 12,
     "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון\nלגבי ענייני עולם?\nקנצלרית גרמניה אנג'לה מרקל",
     "answers": {
@@ -172,6 +282,28 @@
     "institute": "PEW RESEARCH CENTER",
     "survey": "AMERICAN TRENDS PANEL WAVE 82",
     "survey_qid": "GAP21Q19_d",
+    "date": "FEBRUARY 1 - 7, 2021",
+    "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
+  },
+  {
+    "id": 13,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון\nלגבי ענייני עולם?\nנשיא צרפת עמנואל מקרון",
+    "answers": {
+      "1": "הרבה ביטחון",
+      "2": "קצת ביטחון",
+      "3": "לא יותר מדי ביטחון",
+      "4": "אין אמון בכלל"
+    },
+    "distribution": {
+      "1": 0.092,
+      "2": 0.486,
+      "3": 0.284,
+      "4": 0.102,
+      "99": 0.036
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 82",
+    "survey_qid": "GAP21Q19_e",
     "date": "FEBRUARY 1 - 7, 2021",
     "file": "../0_raw_data/W82_Feb21/ATP_W82.sav"
   },
@@ -419,6 +551,24 @@
     "file": "../0_raw_data/W94_Aug21/ATP_W94.sav"
   },
   {
+    "id": 26,
+    "question": "האם אתה חושב שההחלטה של ארצות הברית לסגת את כל הכוחות מאפגניסטן הייתה",
+    "answers": {
+      "1": "החלטה נכונה",
+      "2": "החלטה שגויה"
+    },
+    "distribution": {
+      "1": 0.544,
+      "2": 0.423,
+      "99": 0.032
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 94",
+    "survey_qid": "AFG_WTHDL",
+    "date": "AUGUST 23 - 29, 2021",
+    "file": "../0_raw_data/W94_Aug21/ATP_W94.sav"
+  },
+  {
     "id": 27,
     "question": "עד כמה, אם בכלל, מהווה שליטת הטליבאן באפגניסטן איום על ביטחונה של ארצות הברית?",
     "answers": {
@@ -437,6 +587,94 @@
     "survey_qid": "TLBN_THREAT",
     "date": "AUGUST 23 - 29, 2021",
     "file": "../0_raw_data/W94_Aug21/ATP_W94.sav"
+  },
+  {
+    "id": 28,
+    "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבאות?\nממשלת ישראל",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.107,
+      "2": 0.364,
+      "3": 0.314,
+      "4": 0.119,
+      "99": 0.096
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_a",
+    "date": "MARCH 7-13, 2022",
+    "file": "../0_raw_data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "id": 29,
+    "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבאות?\nהממשלה הפלסטינית",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.028,
+      "2": 0.245,
+      "3": 0.452,
+      "4": 0.176,
+      "99": 0.099
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_b",
+    "date": "MARCH 7-13, 2022",
+    "file": "../0_raw_data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "id": 30,
+    "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבאות?\nהעם הישראלי",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.201,
+      "2": 0.469,
+      "3": 0.201,
+      "4": 0.048,
+      "99": 0.08
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_c",
+    "date": "MARCH 7-13, 2022",
+    "file": "../0_raw_data/W104_Mar22/ATP_W104.sav"
+  },
+  {
+    "id": 31,
+    "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבאות?\nהעם הפלסטיני",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.098,
+      "2": 0.433,
+      "3": 0.31,
+      "4": 0.076,
+      "99": 0.083
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 104",
+    "survey_qid": "ME_SPPRT_d",
+    "date": "MARCH 7-13, 2022",
+    "file": "../0_raw_data/W104_Mar22/ATP_W104.sav"
   },
   {
     "id": 32,
@@ -533,6 +771,138 @@
     "file": "../0_raw_data/W104_Mar22/ATP_W104.sav"
   },
   {
+    "id": 36,
+    "question": "האם יש לך דעה חיובית או שלילית של ארה\"ב",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.312,
+      "2": 0.464,
+      "3": 0.172,
+      "4": 0.043,
+      "99": 0.008
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_US.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 37,
+    "question": "האם יש לך דעה חיובית או שלילית על סין",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.02,
+      "2": 0.148,
+      "3": 0.419,
+      "4": 0.395,
+      "99": 0.018
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_CHINA.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 38,
+    "question": "האם יש לך דעה חיובית או שלילית של האיחוד האירופי",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.086,
+      "2": 0.548,
+      "3": 0.249,
+      "4": 0.084,
+      "99": 0.033
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_EU.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 39,
+    "question": "האם יש לך דעה חיובית או שלילית על האו\"ם",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.098,
+      "2": 0.509,
+      "3": 0.241,
+      "4": 0.13,
+      "99": 0.021
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_UN.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 40,
+    "question": "האם יש לך דעה חיובית או שלילית של נאט\"ו, כלומר ארגון אמנת צפון אטלנטיק",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.132,
+      "2": 0.527,
+      "3": 0.217,
+      "4": 0.096,
+      "99": 0.028
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_NATO.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 41,
+    "question": "האם יש לך דעה חיובית או שלילית על רוסיה",
+    "answers": {
+      "1": "חיובי מאוד",
+      "2": "קצת חיובי",
+      "3": "קצת שלילי",
+      "4": "מאוד שלילי"
+    },
+    "distribution": {
+      "1": 0.011,
+      "2": 0.058,
+      "3": 0.234,
+      "4": 0.685,
+      "99": 0.013
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "FAV_RUSSIA.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
     "id": 42,
     "question": "האם יש לך דעה חיובית או שלילית של ישראל",
     "answers": {
@@ -573,6 +943,94 @@
     "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
   },
   {
+    "id": 44,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא סין שי ג'ינפינג",
+    "answers": {
+      "1": "הרבה ביטחון",
+      "2": "קצת ביטחון",
+      "3": "לא יותר מדי ביטחון",
+      "4": "אין אמון בכלל"
+    },
+    "distribution": {
+      "1": 0.022,
+      "2": 0.136,
+      "3": 0.421,
+      "4": 0.403,
+      "99": 0.019
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_XI.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 45,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא רוסיה ולדימיר פוטין",
+    "answers": {
+      "1": "הרבה ביטחון",
+      "2": "קצת ביטחון",
+      "3": "לא יותר מדי ביטחון",
+      "4": "אין אמון בכלל"
+    },
+    "distribution": {
+      "1": 0.023,
+      "2": 0.043,
+      "3": 0.156,
+      "4": 0.767,
+      "99": 0.011
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_PUTIN.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 46,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא צרפת עמנואל מקרון",
+    "answers": {
+      "1": "הרבה ביטחון",
+      "2": "קצת ביטחון",
+      "3": "לא יותר מדי ביטחון",
+      "4": "אין אמון בכלל"
+    },
+    "distribution": {
+      "1": 0.084,
+      "2": 0.458,
+      "3": 0.294,
+      "4": 0.129,
+      "99": 0.035
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_MACRON.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 47,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא אוקראינה וולודימיר זלנסקי",
+    "answers": {
+      "1": "הרבה ביטחון",
+      "2": "קצת ביטחון",
+      "3": "לא יותר מדי ביטחון",
+      "4": "אין אמון בכלל"
+    },
+    "distribution": {
+      "1": 0.321,
+      "2": 0.397,
+      "3": 0.167,
+      "4": 0.1,
+      "99": 0.014
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "CONFID_ZELENSKYY.",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
     "id": 48,
     "question": "האם אתה חושב שההחלטה של ארצות הברית לסגת את כל הכוחות מאפגניסטן הייתה",
     "answers": {
@@ -587,6 +1045,50 @@
     "institute": "PEW RESEARCH CENTER",
     "survey": "AMERICAN TRENDS PANEL WAVE 105",
     "survey_qid": "AFG_WITHDRAW",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 49,
+    "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא אוקראינה וולודימיר זלנסקי",
+    "answers": {
+      "1": "טוב מאוד",
+      "2": "קצת טוב",
+      "3": "לא טוב מדי",
+      "4": "בכלל לא טוב"
+    },
+    "distribution": {
+      "1": 0.051,
+      "2": 0.277,
+      "3": 0.296,
+      "4": 0.364,
+      "99": 0.012
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "AFG_HANDLE",
+    "date": "MARCH 21-27, 2022",
+    "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
+  },
+  {
+    "id": 50,
+    "question": "כיום, איזה מהבאים לדעתך הכוח הכלכלי המוביל בעולם?",
+    "answers": {
+      "1": "ארה\"ב",
+      "2": "סִין",
+      "3": "יַפָּן",
+      "4": "מדינות האיחוד האירופי"
+    },
+    "distribution": {
+      "1": 0.435,
+      "2": 0.428,
+      "3": 0.032,
+      "4": 0.07,
+      "99": 0.034
+    },
+    "institute": "PEW RESEARCH CENTER",
+    "survey": "AMERICAN TRENDS PANEL WAVE 105",
+    "survey_qid": "ECON_POWER",
     "date": "MARCH 21-27, 2022",
     "file": "../0_raw_data/W105_Mar22/ATP_W105.sav"
   },
