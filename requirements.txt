@@ -62,3 +62,6 @@ tzdata==2025.2
 urllib3==2.5.0
 yarl==1.20.1
 zstandard==0.23.0
+torch==2.7.1
+langchain_huggingface
+accelerate

@@ -18,6 +18,15 @@ models:  # List of models to evaluate
     batched: true
     num_samples: 3
   
+  # Local model example
+  - model: "mistral-7b"
+    local: "mistralai/Mistral-7B-Instruct-v0.2"
+    temperature: 0.7
+    sc_runs: 1
+    use_rate_limiter: false
+    batched: true
+    num_samples: 3
+  
   # - model: "gemini-2.0-flash"
   #   temperature: 0.7
   #   sc_runs: 2
