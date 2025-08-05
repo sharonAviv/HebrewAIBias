@@ -27,6 +27,7 @@ from utils import (
 from models import get_model, is_openai_model, extract_logprobs
 from refusal_utils import (
     extract_choice_logprobs_fixed,
+    extract_choice_logprobs_openai,
     calculate_refusal_metrics,
     compare_refusal_variants
 )
@@ -38,7 +39,12 @@ def main():
     logger.info(f"Args: {args}")
     
     config = load_config(args)
-    set_keys(yaml.safe_load(open(r"./2_train_eval/keys.yaml.example")))
+    # Get keys file path from: 1) command line, 2) config file, 3) environment variable, 4) default
+    keys_path = (config.get("keys_file") or 
+                os.environ.get("KEYS_FILE") or 
+                r"./2_train_eval/keys.yaml.example")
+    logger.info(f"Using keys file: {keys_path}")
+    set_keys(yaml.safe_load(open(keys_path)))
     set_seed(config["seed"])
     
     data = pd.read_json(config["data_file"])
@@ -69,6 +75,7 @@ def parse_args():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_file", default=r"./2_train_eval/config_refusal.yaml")
+    parser.add_argument("--keys_file", help="Path to keys YAML file")
     parser.add_argument("--seed", type=int)
     parser.add_argument("--variant", choices=["no_refusal", "with_refusal", "both"], default="both")
     return parser.parse_args()
@@ -191,11 +198,60 @@ def run_refusal_experiment(config, data, exp_dir, logger):
                     responses[i]["selected_answer"] = None
                 
             else:
-                # OpenAI model handling (similar structure but with structured output)
-                logger.warning("OpenAI refusal experiment not fully implemented yet")
-                responses[i]["choice_logprobs"] = {}
-                responses[i]["refusal_analysis"] = {}
-                responses[i]["selected_answer"] = None
+                # OpenAI model handling with logprobs
+                logger.debug("Processing with OpenAI model")
+                
+                try:
+                    # Extract choice probabilities for ALL options (like local model does)
+                    mc_options = [f"{k}. {v}" for k, v in user_input["allowed_answers"].items()]
+                    
+                    # This will make separate calls to evaluate each option and return normalized probabilities
+                    choice_logprobs = extract_choice_logprobs_openai(
+                        base_llm, prompt, user_input, mc_options
+                    )
+                    
+                    if choice_logprobs:
+                        # Calculate refusal metrics
+                        refusal_analysis = calculate_refusal_metrics(
+                            choice_logprobs, 
+                            variant, 
+                            user_input.get("refusal_key")
+                        )
+                        
+                        # Store results (both raw logprobs and normalized probabilities)
+                        responses[i]["choice_logprobs"] = choice_logprobs  # Raw logprobs from OpenAI
+                        responses[i]["refusal_analysis"] = refusal_analysis  # Contains choice_probabilities
+                        
+                        logger.debug(f"Stored choice_logprobs: {choice_logprobs}")
+                        logger.debug(f"Stored choice_probabilities: {refusal_analysis.get('choice_probabilities', {})}")
+                        
+                        # Select best option based on probability
+                        choice_probs = refusal_analysis.get("choice_probabilities", {})
+                        if choice_probs:
+                            best_option = max(choice_probs.items(), key=lambda x: x[1])[0]
+                            best_prob = choice_probs[best_option]
+                            responses[i]["selected_answer"] = best_option
+                            
+                            logger.info(f"Selected: {best_option} (prob: {best_prob:.4f})")
+                            
+                            if variant == "with_refusal" and refusal_analysis.get("has_refusal"):
+                                refusal_prob = refusal_analysis.get("refusal_probability", 0)
+                                logger.info(f"Refusal probability: {refusal_prob:.4f}")
+                        else:
+                            responses[i]["selected_answer"] = None
+                    else:
+                        logger.warning("No choice logprobs extracted from OpenAI")
+                        responses[i]["choice_logprobs"] = {}
+                        responses[i]["refusal_analysis"] = {}
+                        responses[i]["selected_answer"] = None
+                        
+                except Exception as openai_error:
+                    logger.error(f"Error with OpenAI model processing: {openai_error}")
+                    import traceback
+                    logger.error(traceback.format_exc())
+                    responses[i]["choice_logprobs"] = {}
+                    responses[i]["refusal_analysis"] = {}
+                    responses[i]["selected_answer"] = None
                 
         except Exception as e:
             logger.error(f"Error processing question {i+1}: {e}")

@@ -182,6 +182,360 @@ def convert_logprobs_to_probs(logprobs_dict):
     return probs_dict
 
 
+def extract_choice_logprobs_openai(llm, prompt_template, user_input, mc_options):
+    """
+    Extract choice probabilities from OpenAI model with single call approach.
+    
+    The key insight: Make one call and extract the logprob of each choice number
+    from the top_logprobs at the first token position. This gives us the model's
+    natural preference for each option.
+    
+    Args:
+        llm: The OpenAI LLM instance
+        prompt_template: The prompt template  
+        user_input: Dictionary with question and answers
+        mc_options: List of multiple choice options (e.g., ["1. Yes", "2. No"])
+        
+    Returns:
+        Dictionary mapping options to raw logprobs (like local model)
+    """
+    try:
+        logger.debug(f"Extracting choice logprobs for {len(mc_options)} options")
+        
+        # Make a single call to get the model's natural response with logprobs
+        chain = prompt_template | llm.bind(logprobs=True, top_logprobs=20)
+        
+        response = chain.invoke({
+            "question": user_input['question'],
+            "answers": user_input['answers']
+        })
+        
+        # Extract logprobs from response
+        content_logprobs = response.response_metadata.get("logprobs", {}).get("content", [])
+        
+        if not content_logprobs:
+            logger.warning("No logprobs found in OpenAI response")
+            return {option: -5.0 for option in mc_options}
+        
+        # Get the first token entry which should contain the choice
+        first_token_data = content_logprobs[0]
+        top_logprobs = first_token_data.get('top_logprobs', [])
+        
+        logger.debug(f"First token: '{first_token_data.get('token', '')}' with {len(top_logprobs)} alternatives")
+        
+        # Create mapping from choice numbers to options
+        import re
+        choice_to_option = {}
+        for option in mc_options:
+            match = re.match(r'(\d+)\.\s*(.*)', option)
+            if match:
+                choice_num = match.group(1)
+                choice_to_option[choice_num] = option
+        
+        # Extract logprobs for each choice from the top_logprobs
+        option_logprobs = {}
+        
+        # Check all top logprobs (including the actual token generated)
+        all_token_data = [first_token_data] + top_logprobs
+        
+        for token_data in all_token_data:
+            token = token_data.get('token', '').strip()
+            logprob = token_data.get('logprob', -15.0)
+            
+            # Check if this token matches any of our choice numbers
+            if token in choice_to_option:
+                option = choice_to_option[token]
+                if option not in option_logprobs:  # Take first occurrence (highest probability)
+                    option_logprobs[option] = logprob
+                    logger.debug(f"Found token '{token}' -> option '{option}': {logprob:.6f}")
+        
+        # For any missing options, assign very low probability
+        for option in mc_options:
+            if option not in option_logprobs:
+                option_logprobs[option] = -15.0
+                logger.debug(f"Option '{option}' not found, assigned: -15.0")
+        
+        logger.debug(f"Final option logprobs: {option_logprobs}")
+        return option_logprobs
+        
+    except Exception as e:
+        logger.error(f"Error extracting OpenAI choice probabilities: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return {option: -5.0 for option in mc_options}
+
+
+def find_best_option_match(response_content, content_logprobs, mc_options):
+    """
+    Find which multiple choice option best matches the response and return its logprob.
+    
+    Args:
+        response_content: The response text from OpenAI
+        content_logprobs: The logprobs from OpenAI response
+        mc_options: List of multiple choice options
+        
+    Returns:
+        Tuple of (best_matching_option, logprob) or (None, None) if no match
+    """
+    response_lower = response_content.lower().strip()
+    best_match = None
+    best_logprob = None
+    
+    # Method 1: Direct text matching
+    import re
+    for option in mc_options:
+        # Extract choice number and text
+        match = re.match(r'(\d+)\.\s*(.*)', option)
+        if match:
+            choice_num, choice_text = match.groups()
+            
+            # Check if response starts with choice number
+            if response_lower.startswith(choice_num):
+                # Find logprob of the choice number token
+                for entry in content_logprobs:
+                    token = entry.get('token', '').strip()
+                    if token == choice_num:
+                        return option, entry.get('logprob', -5.0)
+                # If exact token not found, use first token logprob
+                if content_logprobs:
+                    return option, content_logprobs[0].get('logprob', -5.0)
+            
+            # Check if response contains choice text
+            if choice_text.lower().strip() in response_lower:
+                # Calculate average logprob for relevant tokens
+                relevant_logprobs = []
+                choice_words = choice_text.lower().split()
+                
+                for entry in content_logprobs:
+                    token = entry.get('token', '').lower().strip()
+                    for word in choice_words:
+                        if word in token or token in word:
+                            relevant_logprobs.append(entry.get('logprob', -5.0))
+                            break
+                
+                if relevant_logprobs:
+                    avg_logprob = sum(relevant_logprobs) / len(relevant_logprobs)
+                    return option, avg_logprob
+    
+    # Method 2: Token-level analysis if no direct match
+    if content_logprobs:
+        for option in mc_options:
+            match = re.match(r'(\d+)\.\s*(.*)', option)
+            if match:
+                choice_num, choice_text = match.groups()
+                
+                # Look for choice number in any token
+                for entry in content_logprobs:
+                    token = entry.get('token', '').strip()
+                    if choice_num in token:
+                        return option, entry.get('logprob', -5.0)
+    
+    # No match found
+    return None, None
+
+
+def calculate_token_option_match(token, option, logprob):
+    """
+    Calculate how well a token matches a multiple choice option.
+    
+    Args:
+        token: The token from OpenAI response
+        option: The choice option (e.g., "1. Yes")  
+        logprob: The logprob of this token
+        
+    Returns:
+        Float score (logprob if match, -inf if no match)
+    """
+    if not token or logprob == float('-inf'):
+        return float('-inf')
+    
+    token_lower = token.lower().strip()
+    
+    # Extract choice number and text from option
+    match = re.match(r'(\d+)\.\s*(.*)', option)
+    if match:
+        choice_num, choice_text = match.groups()
+        choice_text_lower = choice_text.lower().strip()
+        
+        # Direct number match (highest priority)
+        if token_lower == choice_num or token_lower == choice_num + '.':
+            return logprob
+        
+        # Choice text match
+        if token_lower == choice_text_lower:
+            return logprob
+        
+        # Partial word match
+        choice_words = choice_text_lower.split()
+        for word in choice_words:
+            if word in token_lower or token_lower in word:
+                return logprob * 0.8  # Slight penalty for partial match
+    
+    return float('-inf')
+
+
+def analyze_response_content(response_content, mc_options):
+    """
+    Fallback method to analyze response content when token matching fails.
+    
+    Args:
+        response_content: The full response text
+        mc_options: List of multiple choice options
+        
+    Returns:
+        Dictionary with estimated logprobs for each option
+    """
+    choice_logprobs = {}
+    response_lower = response_content.lower().strip()
+    
+    import re
+    for option in mc_options:
+        # Extract choice number and text
+        match = re.match(r'(\d+)\.\s*(.*)', option)
+        if match:
+            choice_num, choice_text = match.groups()
+            
+            # Check for exact matches in response
+            if response_lower.startswith(choice_num):
+                choice_logprobs[option] = -1.0  # High probability
+            elif choice_text.lower() in response_lower:
+                choice_logprobs[option] = -2.0  # Medium probability  
+            else:
+                choice_logprobs[option] = -4.0  # Low probability
+        else:
+            choice_logprobs[option] = -4.0  # Low probability
+    
+    return choice_logprobs
+
+
+def calculate_option_logprob_openai(content_logprobs, target_option, response_content):
+    """
+    Calculate logprob for a specific option from OpenAI response.
+    
+    Args:
+        content_logprobs: List of logprob entries from OpenAI
+        target_option: The target option (e.g., "1. Yes")
+        response_content: The actual response content
+        
+    Returns:
+        Float logprob value for this option
+    """
+    try:
+        # Extract the choice number from target option
+        match = re.match(r'(\d+)\.\s*(.*)', target_option)
+        if not match:
+            return -5.0
+            
+        choice_num, choice_text = match.groups()
+        response_lower = response_content.lower().strip()
+        
+        # Method 1: Look for the choice number at the start of response
+        if response_lower.startswith(choice_num):
+            # Find logprob of the choice number token
+            for entry in content_logprobs:
+                token = entry.get('token', '').strip()
+                if token == choice_num or token.endswith(choice_num):
+                    return entry.get('logprob', -5.0)
+        
+        # Method 2: Look for choice text in response
+        choice_words = choice_text.lower().split()
+        relevant_logprobs = []
+        
+        for entry in content_logprobs:
+            token = entry.get('token', '').lower().strip()
+            logprob = entry.get('logprob')
+            
+            if logprob is not None:
+                # Check if token matches any part of the choice
+                for word in choice_words:
+                    if word in token or token in word:
+                        relevant_logprobs.append(logprob)
+                        break
+        
+        if relevant_logprobs:
+            # Return average logprob of relevant tokens
+            return sum(relevant_logprobs) / len(relevant_logprobs)
+        
+        # Method 3: Default based on response similarity
+        if any(word.lower() in response_lower for word in choice_text.split()):
+            return -2.0  # Moderate probability
+        else:
+            return -5.0  # Low probability
+            
+    except Exception as e:
+        logger.error(f"Error calculating option logprob: {e}")
+        return -5.0
+
+
+def find_token_logprob(content_logprobs, target_token):
+    """Find logprob for a specific token in content logprobs"""
+    target_lower = target_token.lower().strip()
+    
+    for entry in content_logprobs:
+        token = entry.get('token', '').lower().strip()
+        if token == target_lower or token == target_lower + '.' or token.endswith(target_lower):
+            return entry.get('logprob', None)
+    
+    return None
+
+
+def estimate_text_logprob(content_logprobs, target_text):
+    """Estimate logprob for a text span by averaging relevant tokens"""
+    target_words = target_text.lower().split()
+    relevant_logprobs = []
+    
+    for entry in content_logprobs:
+        token = entry.get('token', '').lower().strip()
+        
+        # Check if token is part of target text
+        for word in target_words:
+            if word in token or token in word:
+                logprob = entry.get('logprob')
+                if logprob is not None:
+                    relevant_logprobs.append(logprob)
+                break
+    
+    if relevant_logprobs:
+        return sum(relevant_logprobs) / len(relevant_logprobs)
+    return None
+
+
+def analyze_choice_tokens(content_logprobs, mc_options):
+    """Analyze all tokens to find best matches for multiple choice options"""
+    choice_logprobs = {}
+    
+    # Extract all tokens and their logprobs
+    all_tokens = []
+    for entry in content_logprobs:
+        token = entry.get('token', '')
+        logprob = entry.get('logprob')
+        if token and logprob is not None:
+            all_tokens.append((token.lower().strip(), logprob))
+    
+    # For each option, find the best matching token(s)
+    for option in mc_options:
+        option_lower = option.lower()
+        best_logprob = float('-inf')
+        
+        # Look for choice number
+        match = re.match(r'(\d+)\.\s*(.*)', option)
+        if match:
+            choice_num = match.group(1)
+            
+            # Find tokens that match the choice number
+            for token, logprob in all_tokens:
+                if token == choice_num or token.startswith(choice_num):
+                    best_logprob = max(best_logprob, logprob)
+        
+        # If no good match found, use a reasonable default
+        if best_logprob == float('-inf'):
+            best_logprob = -3.0  # Low but reasonable probability
+        
+        choice_logprobs[option] = best_logprob
+    
+    return choice_logprobs
+
+
 def compare_refusal_variants(no_refusal_results, with_refusal_results):
     """
     Compare results between no_refusal and with_refusal variants.
