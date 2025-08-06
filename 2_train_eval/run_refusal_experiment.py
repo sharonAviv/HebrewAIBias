@@ -42,7 +42,7 @@ def main():
     # Get keys file path from: 1) command line, 2) config file, 3) environment variable, 4) default
     keys_path = (config.get("keys_file") or 
                 os.environ.get("KEYS_FILE") or 
-                r"./2_train_eval/keys.yaml.example")
+                r"./2_train_eval/keys.yaml")
     logger.info(f"Using keys file: {keys_path}")
     set_keys(yaml.safe_load(open(keys_path)))
     set_seed(config["seed"])

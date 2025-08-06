@@ -1,3 +1,5 @@
+# copy this into a new file and rename it keys.yaml
+
 OPENAI_API_KEY: XXXXXXX 
 GOOGLE_API_KEY: XXXXXXX
 HUGGINGFACEHUB_API_TOKEN: XXXXXXX
