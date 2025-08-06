@@ -42,7 +42,7 @@ def main():
     # Get keys file path from: 1) command line, 2) config file, 3) environment variable, 4) default
     keys_path = (config.get("keys_file") or 
                 os.environ.get("KEYS_FILE") or 
-                r"./2_train_eval/keys.yaml")
+                r"./2_train_eval/keys.yaml.example")
     logger.info(f"Using keys file: {keys_path}")
     set_keys(yaml.safe_load(open(keys_path)))
     set_seed(config["seed"])
@@ -379,6 +379,21 @@ def generate_refusal_summary(responses, variant, logger):
                         logger.info(f"     {marker} {choice}: {prob:.4f}")
         else:
             logger.info("No refusal probabilities calculated")
+    
+    # Show some example probability distributions
+    logger.info("\n=== SAMPLE PROBABILITY DISTRIBUTIONS ===")
+    for i, resp in enumerate(responses[:3]):
+        logger.info(f"\nQuestion {i+1}: {resp['question'][:80]}...")
+        analysis = resp.get("refusal_analysis", {})
+        choice_probs = analysis.get("choice_probabilities", {})
+        
+        if choice_probs:
+            sorted_choices = sorted(choice_probs.items(), key=lambda x: x[1], reverse=True)
+            for choice, prob in sorted_choices:
+                marker = "👑" if prob == max(choice_probs.values()) else "  "
+                logger.info(f"  {marker} {choice}: {prob:.4f}")
+        else:
+            logger.info("  No probability data available")
 
 
 if __name__ == "__main__":
