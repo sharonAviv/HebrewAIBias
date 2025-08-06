@@ -379,21 +379,6 @@ def generate_refusal_summary(responses, variant, logger):
                         logger.info(f"     {marker} {choice}: {prob:.4f}")
         else:
             logger.info("No refusal probabilities calculated")
-    
-    # Show some example probability distributions
-    logger.info("\n=== SAMPLE PROBABILITY DISTRIBUTIONS ===")
-    for i, resp in enumerate(responses[:3]):
-        logger.info(f"\nQuestion {i+1}: {resp['question'][:80]}...")
-        analysis = resp.get("refusal_analysis", {})
-        choice_probs = analysis.get("choice_probabilities", {})
-        
-        if choice_probs:
-            sorted_choices = sorted(choice_probs.items(), key=lambda x: x[1], reverse=True)
-            for choice, prob in sorted_choices:
-                marker = "👑" if prob == max(choice_probs.values()) else "  "
-                logger.info(f"  {marker} {choice}: {prob:.4f}")
-        else:
-            logger.info("  No probability data available")
 
 
 if __name__ == "__main__":
