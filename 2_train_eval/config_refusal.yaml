@@ -1,0 +1,22 @@
+# Configuration for Refusal Probability Experiment
+debug: true
+prompt_type: "zero_shot"
+seed: 42
+data_file: "1_data/converted_questions.json"
+logs_dir: "results"
+
+# Configuration per model for refusal experiments
+models:
+  - model: "gpt-4o-mini"
+    temperature: 0.8
+    use_rate_limiter: true
+    requests_per_second: 0.8
+    check_every_n_seconds: 1.5
+    num_samples: 5
+  
+  # Local model example
+  - model: "mistral-7b"
+    local: "mistralai/Mistral-7B-Instruct-v0.2"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5

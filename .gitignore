@@ -3,3 +3,4 @@ sources_and_models.docx
 keys.yaml
 /venv/
 */__pycache__/
+results
