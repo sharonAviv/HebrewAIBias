@@ -8,15 +8,40 @@ logs_dir: "results"
 # Configuration per model for refusal experiments
 models:
   - model: "gpt-4o-mini"
-    temperature: 0.8
+    temperature: 0.7
     use_rate_limiter: true
     requests_per_second: 0.8
     check_every_n_seconds: 1.5
     num_samples: 5
   
   # Local model example
-  - model: "mistral-7b"
-    local: "mistralai/Mistral-7B-Instruct-v0.2"
+  - model: "mistral-7b-v0.3"
+    local: "mistralai/Mistral-7B-Instruct-v0.3"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5
+
+  - model: "Llama-2-7b"
+    local: "meta-llama/Llama-2-7b"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5
+    
+  - model: "zephyr-7b-beta"
+    local: "HuggingFaceH4/zephyr-7b-beta"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5
+
+  - model: "Llama-3-8b-instruct"
+    local: "meta-llama/Meta-Llama-3-8B-Instruct"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5
+    
+
+  - model: "falcon-7b-instruct"
+    local: "tiiuae/falcon-7b-instruct"
     temperature: 0.7
     use_rate_limiter: false
     num_samples: 5
