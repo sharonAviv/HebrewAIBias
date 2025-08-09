@@ -84,7 +84,76 @@ def get_answers(data: pd.DataFrame) -> list[dict]:
 
     return user_inputs
 
+def get_answers(data: pd.DataFrame, variant: str) -> list[dict]:
+    """Get the multiple choice answers for each question in the survey.
+    If experiment variant is 'refusal', an additional answer 'I prefer not to answer' is provided."""
+    user_inputs = []
+    
+    for _, row in data.iterrows():
+        answers = row["answers"]
 
+        refusal_key = len(answers) + 1
+        answers_with_refusal = {**answers, refusal_key: "I prefer not to answer"}
+        
+        formatted_answers = "\n".join([f"{k}. {v}" for k, v in answers_with_refusal.items()])
+        
+        user_inputs.append({
+            "question": row["question"],
+            "answers": formatted_answers,
+            "allowed_answers": answers_with_refusal if variant == "with_refusal" else answers,
+            "refusal_key": refusal_key
+        })
+    
+    return user_inputs
+
+def calculate_refusal_metrics(choice_logprobs, variant, refusal_key=None):
+    """
+    Calculate refusal probability metrics from choice logprobs.
+    
+    :param choice_logprobs: Dict mapping choices to their log probabilities
+    :param variant: 'no_refusal' or 'with_refusal'
+    :param refusal_key: Key identifying the refusal option
+    :return: Dictionary with refusal analysis
+    """
+    if variant != "with_refusal" or not refusal_key:
+        return convert_logprobs_to_probs(choice_logprobs)
+    
+    # Find refusal option
+    refusal_logprob = None
+    refusal_option = None
+    
+    for choice, logprob in choice_logprobs.items():
+        if refusal_key in choice or "prefer not to answer" in choice.lower():
+            refusal_logprob = logprob
+            refusal_option = choice
+            break
+    
+    if refusal_logprob is None:
+        logger.warning("Refusal option not found in choice_logprobs")
+        return convert_logprobs_to_probs(choice_logprobs)
+    
+    # Convert logprobs to probabilities using softmax
+    choice_probs = convert_logprobs_to_probs(choice_logprobs)
+    
+    refusal_prob = choice_probs[refusal_option]
+    
+    # Calculate non-refusal probability
+    non_refusal_prob = sum(prob for choice, prob in choice_probs.items() 
+                          if choice != refusal_option)
+    
+    # Refusal ratio as requested: exp(logprob_refusal) / sum(exp(logprob_i) for all choices)
+    refusal_ratio = refusal_prob  # This is already the normalized probability
+    
+    # Alternative ratio: refusal vs non-refusal
+    refusal_vs_others = refusal_prob / non_refusal_prob if non_refusal_prob > 0 else float('inf')
+    
+    return {
+        "variant": variant,
+        "refusal_probability": refusal_prob,
+        "choice_probabilities": choice_probs,
+        "raw_logprobs": choice_logprobs
+    }
+    
 def parse_response(resp):
     """Normalize outputs from structured/unstructured calls."""
     # If using structured output with include_raw=True, resp is a dict

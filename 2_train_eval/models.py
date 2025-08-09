@@ -90,7 +90,7 @@ def get_schema(model_name: str):
         return None
 
 
-def is_openai_model(model_name: str, local_model_id: str = None) -> bool:
+def is_openai_remote_model(model_name: str, local_model_id: str = None) -> bool:
     """
     Check if a model is OpenAI-based for logprob handling.
     :param model_name: The model name from config.
@@ -106,7 +106,7 @@ def is_openai_model(model_name: str, local_model_id: str = None) -> bool:
     return False
 
 
-def extract_logprobs_from_local_model(model, tokenizer, prompt, multiple_choice_options):
+def extract_logprobs_from_local_model(model, tokenizer, prompt, multiple_choice_options, schema):
     """
     Extract log probabilities for multiple choice options from local model.
     Uses conditional probability: P(option | prompt) for each option.
@@ -116,77 +116,29 @@ def extract_logprobs_from_local_model(model, tokenizer, prompt, multiple_choice_
     :param multiple_choice_options: List of multiple choice answer strings.
     :return: Dictionary mapping options to log probabilities.
     """
-    import logging
-    logger = logging.getLogger(__name__)
-    
     try:
         option_logprobs = {}
         
         for option in multiple_choice_options:
-            # Create full sequence: prompt + option
-            full_sequence = prompt + " " + option
-            logger.debug(f"Evaluating option: '{option}' with full sequence length: {len(full_sequence)}")
+            logger.debug(f"Evaluating option: '{option}'")
             
-            # Tokenize the full sequence
-            full_inputs = tokenizer(full_sequence, return_tensors="pt").to(model.device)
-            prompt_inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+            # Method 1: Direct continuation probability
+            # Calculate P(option | prompt) using model's next-token predictions
+            logprob = calculate_continuation_logprob(model, tokenizer, prompt, option)
+            option_logprobs[option] = logprob
             
-            prompt_length = prompt_inputs['input_ids'].shape[1]
-            full_length = full_inputs['input_ids'].shape[1]
-            
-            logger.debug(f"Prompt length: {prompt_length}, Full length: {full_length}")
-            
-            # Get logits for the full sequence
-            with torch.no_grad():
-                outputs = model(**full_inputs, use_cache=False)
-                logits = outputs.logits
-            
-            # Calculate log probability for the option tokens
-            # We want P(option_tokens | prompt)
-            option_logprob = 0.0
-            
-            for pos in range(prompt_length, full_length):
-                if pos < logits.shape[1]:
-                    # Get log probabilities at this position
-                    log_probs = F.log_softmax(logits[0, pos - 1, :], dim=-1)
-                    
-                    # Get the actual token at this position
-                    actual_token_id = full_inputs['input_ids'][0, pos].item()
-                    
-                    # Add log probability of this token
-                    token_logprob = log_probs[actual_token_id].item()
-                    option_logprob += token_logprob
-                    
-                    logger.debug(f"Position {pos}, token {actual_token_id}, logprob: {token_logprob:.4f}")
-            
-            option_logprobs[option] = option_logprob
-            logger.debug(f"Option '{option}' total logprob: {option_logprob:.4f}")
+            logger.debug(f"Option '{option}' logprob: {logprob:.6f}")
         
-        # Convert log probabilities to normalized probabilities
-        # Use log-sum-exp trick to avoid numerical underflow
-        logprobs_tensor = torch.tensor(list(option_logprobs.values()))
-        max_logprob = torch.max(logprobs_tensor)
+        logger.debug(f"Raw option logprobs: {option_logprobs}")
         
-        # Subtract max for numerical stability, then exponentiate
-        stable_logprobs = logprobs_tensor - max_logprob
-        exp_probs = torch.exp(stable_logprobs)
-        normalized_probs = exp_probs / torch.sum(exp_probs)
-        
-        # Create dictionary with normalized probabilities
-        option_probs = {option: float(prob) for option, prob in 
-                       zip(option_logprobs.keys(), normalized_probs)}
-        
-        logger.debug(f"Final option logprobs: {option_logprobs}")
-        logger.debug(f"Raw logprobs tensor: {logprobs_tensor}")
-        logger.debug(f"Max logprob: {max_logprob}")
-        logger.debug(f"Normalized probabilities: {option_probs}")
-        return option_probs
+        # Return raw logprobs - let caller decide how to normalize
+        return option_logprobs
         
     except Exception as e:
-        logger.error(f"Error extracting logprobs from local model: {e}")
+        logger.error(f"Error extracting choice logprobs: {e}")
         import traceback
         logger.error(traceback.format_exc())
-        return None
+        return {}
 
 
 def extract_logprobs(response, is_openai: bool = True):

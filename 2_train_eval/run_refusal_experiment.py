@@ -24,7 +24,7 @@ from utils import (
     get_answers,
     PROMPTS
 )
-from models import get_model, is_openai_model, extract_logprobs
+from models import get_model, is_openai_remote_model, extract_logprobs
 from refusal_utils import (
     extract_choice_logprobs_fixed,
     extract_choice_logprobs_openai,
@@ -144,7 +144,7 @@ def run_refusal_experiment(config, data, exp_dir, logger):
     logger.info(f"Processing {len(user_inputs)} questions with variant: {variant}")
     
     # Determine if this is an OpenAI model
-    is_openai = is_openai_model(config["model"], config.get("local"))
+    is_openai = is_openai_remote_model(config["model"], config.get("local"))
     
     # Process each question
     for i, user_input in enumerate(user_inputs):

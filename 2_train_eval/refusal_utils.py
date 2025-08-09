@@ -107,11 +107,7 @@ def calculate_refusal_metrics(choice_logprobs, variant, refusal_key=None):
     :return: Dictionary with refusal analysis
     """
     if variant != "with_refusal" or not refusal_key:
-        return {
-            "variant": variant,
-            "has_refusal": False,
-            "choice_probabilities": convert_logprobs_to_probs(choice_logprobs)
-        }
+        return convert_logprobs_to_probs(choice_logprobs)
     
     # Find refusal option
     refusal_logprob = None
@@ -125,12 +121,7 @@ def calculate_refusal_metrics(choice_logprobs, variant, refusal_key=None):
     
     if refusal_logprob is None:
         logger.warning("Refusal option not found in choice_logprobs")
-        return {
-            "variant": variant,
-            "has_refusal": False,
-            "error": "Refusal option not found",
-            "choice_probabilities": convert_logprobs_to_probs(choice_logprobs)
-        }
+        return convert_logprobs_to_probs(choice_logprobs)
     
     # Convert logprobs to probabilities using softmax
     choice_probs = convert_logprobs_to_probs(choice_logprobs)

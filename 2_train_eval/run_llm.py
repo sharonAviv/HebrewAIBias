@@ -18,7 +18,7 @@ from utils import (
     # run_individual,
     PROMPTS
 )
-from models import get_model, get_schema, is_openai_model, extract_logprobs, extract_logprobs_from_local_model
+from models import get_model, get_schema, is_openai_remote_model, extract_logprobs, extract_logprobs_from_local_model
 
 
 def main():
@@ -47,17 +47,20 @@ def main():
         else:
             current_data = data
         
-        exp_dir = setup_experiment_dir(current_config)
-        
-        if current_config["mode"] == "inference":
-            run_inference(current_config, current_data, exp_dir, logger)
-        else:
-            run_evaluation(current_config, current_data, exp_dir, logger)
+        model_dir = setup_model_dir(current_config)
+        for variant in ["no_refusal", "with_refusal"]:
+            exp_dir = os.path.join(model_dir, variant)
+            os.makedirs(exp_dir, exist_ok=True)
+            if current_config["mode"] == "inference":
+                run_inference(current_config, current_data, exp_dir, variant, logger)
+            else:
+                run_evaluation(current_config, current_data, exp_dir, logger)
 
 def parse_args():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_file", default=r"./2_train_eval/config_llm.yaml")
+    parser.add_argument("--keys_file", help="Path to keys YAML file", default=r"./2_train_eval/keys.yaml")
     parser.add_argument("--seed", type=int)
     parser.add_argument("--mode", choices=["inference", "evaluation"])
     parser.add_argument("--responses_dir")
@@ -72,17 +75,17 @@ def load_config(args):
             config[k] = v
     return config
 
-def setup_experiment_dir(config):
+def setup_model_dir(config):
     """Create experiment directory and save config"""
     model_name = config["model"].split("/")[-1]
-    exp_name = f"survey_{model_name}_{config['prompt_type']}_tmp{config['temperature']}_seed{config['seed']}"
+    exp_name = f"{model_name}_{config['prompt_type']}_tmp{config['temperature']}_seed{config['seed']}"
     exp_dir = os.path.join(config["logs_dir"], exp_name)
     os.makedirs(exp_dir, exist_ok=True)
     with open(os.path.join(exp_dir, "config.yaml"), "w") as f:
         yaml.dump(config, f)
     return exp_dir
 
-def run_inference(config, data, exp_dir, logger):
+def run_inference(config, data, exp_dir, variant, logger):
     """Run LLM inference and save responses"""
     from enum import Enum
     from pydantic import BaseModel, create_model
@@ -112,7 +115,6 @@ def run_inference(config, data, exp_dir, logger):
         base_llm, raw_model, tokenizer = model_result
         is_local_model = True
         logger.info("Local model loaded successfully")
-        logger.info(f"Model device: {raw_model.device if hasattr(raw_model, 'device') else 'multiple devices'}")
     else:
         # OpenAI model returns just the llm
         base_llm = model_result
@@ -128,16 +130,13 @@ def run_inference(config, data, exp_dir, logger):
     ])
 
     # 3) Inputs & storage
-    user_inputs = get_answers(data)        # builds "answers" and "allowed_answers"
-    responses = initialize_responses(data) # your existing accumulator
+    user_inputs = get_answers(data, variant)        # builds "answers" and "allowed_answers"
+    responses = initialize_responses(data, variant) # your existing accumulator
     
-    logger.info(f"Loaded {len(user_inputs)} questions from data")
-    logger.info(f"Sample question: {user_inputs[0]['question'][:100]}..." if user_inputs else "No questions found")
+    logger.info(f"Processing {len(user_inputs)} questions with variant: {variant}")
     
     # 4) Determine if this is an OpenAI model for logprob handling
-    is_openai = is_openai_model(config["model"], config.get("local"))
-    logger.info(f"Is OpenAI model: {is_openai}")
-    logger.info(f"Is local model: {is_local_model}")
+    is_openai = is_openai_remote_model(config["model"], config.get("local"))
 
     # Helper: per-question schema with Enum via create_model
     def _make_schema_for_question(allowed_answers: dict[str, str]):
@@ -155,103 +154,115 @@ def run_inference(config, data, exp_dir, logger):
             __module__=__name__,
         )
 
-    # 5) Runs
-    total_runs = config.get("sc_runs", 1)
-    logger.info(f"Starting {total_runs} run(s)")
-    
-    for run_index in range(total_runs):
-        logger.info(f"=== Run {run_index + 1}/{total_runs} ===")
+    # 5) Run
+    logger.info(f"=== Run {run_index + 1}/{total_runs} ===")
 
-        for i, user_input in enumerate(user_inputs):
-            logger.info(f"Processing question {i+1}/{len(user_inputs)}")
-            logger.debug(f"Question: {user_input['question']}")
-            logger.debug(f"Multiple choice options: {list(user_input['allowed_answers'].values())}")
+    for i, user_input in enumerate(user_inputs):
+        logger.info(f"Processing question {i+1}/{len(user_inputs)}")
+        logger.debug(f"Question: {user_input['question']}")
+        
+        try:
+            SchemaForQ = _make_schema_for_question(user_input["allowed_answers"])
             
-            try:
-                if is_local_model:
-                    logger.debug("Using local model for inference")
-                    # For local models, use direct probability extraction
-                    # Format the prompt for the model
-                    full_prompt = f"{PROMPTS['system']}\n\n{PROMPTS['user'].format(question=user_input['question'], answers=user_input['answers'])}"
-                    logger.debug(f"Full prompt: {full_prompt[:200]}...")
-                    
-                    # Get multiple choice options (formatted as they appear to the model)
-                    mc_options = [f"{k}. {v}" for k, v in user_input["allowed_answers"].items()]
-                    logger.debug(f"Multiple choice options: {mc_options}")
-                    
-                    # Extract probabilities for multiple choice options
-                    logger.debug("Extracting probabilities from local model...")
-                    option_probs = extract_logprobs_from_local_model(
-                        raw_model, tokenizer, full_prompt, mc_options
+            if is_local_model:
+                logger.debug("Using local model for inference")
+                # For local models, use direct probability extraction
+                # Format the prompt for the model
+                full_prompt = f"{PROMPTS['system']}\n\n{PROMPTS['user'].format(question=user_input['question'], answers=user_input['answers'])}"
+                logger.debug(f"Full prompt: {full_prompt[:250]}...")
+                
+                
+                # Get multiple choice options (formatted as they appear to the model)
+                mc_options = [f"{k}. {v}" for k, v in user_input["allowed_answers"].items()]
+                logger.debug(f"MC options: {mc_options}")
+                
+                # Extract probabilities for multiple choice options
+                logger.debug("Extracting probabilities from local model...")
+                choice_logprobs = extract_logprobs_from_local_model(
+                    raw_model, tokenizer, full_prompt, mc_options
+                )
+                
+                # Select the option with highest probability
+                if choice_logprobs:
+                    # Calculate refusal metrics using FIXED method
+                    refusal_analysis = calculate_refusal_metrics(
+                        choice_logprobs, 
+                        variant, 
+                        user_input.get("refusal_key")
                     )
-                    logger.debug(f"Option probabilities: {option_probs}")
                     
-                    # Select the option with highest probability
-                    if option_probs:
-                        best_option = max(option_probs.items(), key=lambda x: x[1])[0]
-                        best_prob = option_probs[best_option]
-                        logger.info(f"Selected answer: {best_option} (probability: {best_prob:.4f})")
+                    # Store results
+                    responses[i]["choice_logprobs"] = choice_logprobs
+                    responses[i]["refusal_analysis"] = refusal_analysis
+                    
+                    # Select best option based on probability (not logprob)
+                    choice_probs = refusal_analysis.get("choice_probabilities", {})
+                    if choice_probs:
+                        best_option = max(choice_probs.items(), key=lambda x: x[1])[0]
+                        best_prob = choice_probs[best_option]
+                        responses[i]["selected_answer"] = best_option
                         
-                        # Store the selected multiple choice answer
-                        responses[i]["responses"].append(best_option)
-                        responses[i]["logprobs"].append(option_probs)  # Now contains actual probabilities
-                        # For multiple choice, the raw response is just the selected option
-                        responses[i]["raw_response"].append(best_option)
+                        logger.info(f"Selected: {best_option} (prob: {best_prob:.4f})")
+                        
+                        if variant == "with_refusal" and refusal_analysis.get("has_refusal"):
+                            refusal_prob = refusal_analysis.get("refusal_probability", 0)
+                            logger.info(f"Refusal probability: {refusal_prob:.4f}")
                     else:
-                        logger.warning("No probabilities extracted")
-                        responses[i]["responses"].append(None)
-                        responses[i]["logprobs"].append(None)
-                        responses[i]["raw_response"].append("")
-                    
+                        responses[i]["selected_answer"] = None
                 else:
-                    # For OpenAI models, use structured output as before
-                    SchemaForQ = _make_schema_for_question(user_input["allowed_answers"])
-                    llm_q = base_llm.with_structured_output(
-                        SchemaForQ, include_raw=True, method="function_calling"
-                    )
-                    chain_q = prompt | llm_q
+                    logger.warning("No choice logprobs extracted")
+                    responses[i]["choice_logprobs"] = {}
+                    responses[i]["refusal_analysis"] = {}
+                    responses[i]["selected_answer"] = None
+                
+            else:
+                # For OpenAI models, use structured output as before
+                llm_q = base_llm.with_structured_output(
+                    SchemaForQ, include_raw=True, method="function_calling"
+                )
+                chain_q = prompt | llm_q
 
-                    # Invoke (no pydantic context/config needed)
-                    resp = chain_q.invoke({
-                        "question": user_input["question"],
-                        "answers": user_input["answers"],
-                    })
+                # Invoke (no pydantic context/config needed)
+                resp = chain_q.invoke({
+                    "question": user_input["question"],
+                    "answers": user_input["answers"],
+                })
 
-                    # Store raw for traceability (best-effort)
-                    raw_text = ""
-                    try:
-                        raw_msg = resp.get("raw") if isinstance(resp, dict) else None
-                        raw_text = getattr(raw_msg, "content", "") or str(resp)
-                    except Exception:
-                        raw_text = str(resp)
-                    responses[i]["raw_response"].append(raw_text)
+                # Store raw for traceability (best-effort)
+                raw_text = ""
+                try:
+                    raw_msg = resp.get("raw") if isinstance(resp, dict) else None
+                    raw_text = getattr(raw_msg, "content", "") or str(resp)
+                except Exception:
+                    raw_text = str(resp)
+                responses[i]["raw_response"].append(raw_text)
 
-                    # Extract and store logprobs
-                    logprobs = extract_logprobs(
-                        resp.get("raw") if isinstance(resp, dict) else resp, 
-                        is_openai=is_openai
-                    )
-                    responses[i]["logprobs"].append(logprobs)
+                # Extract and store logprobs
+                logprobs = extract_logprobs(
+                    resp.get("raw") if isinstance(resp, dict) else resp, 
+                    is_openai=is_openai
+                )
+                responses[i]["logprobs"].append(logprobs)
 
-                    # Parse & store the answer (string)
-                    parsed = parse_response(resp)   # your helper returns {"answer": "..."}
-                    ans = parsed.get("answer")
-                    # If exporter returned an Enum member, coerce to value
-                    try:
-                        from enum import Enum as _PyEnum
-                        if isinstance(ans, _PyEnum):
-                            ans = ans.value
-                    except Exception:
-                        pass
-                    responses[i]["responses"].append(ans if isinstance(ans, str) else None)
+                # Parse & store the answer (string)
+                parsed = parse_response(resp)   # your helper returns {"answer": "..."}
+                ans = parsed.get("answer")
+                # If exporter returned an Enum member, coerce to value
+                try:
+                    from enum import Enum as _PyEnum
+                    if isinstance(ans, _PyEnum):
+                        ans = ans.value
+                except Exception:
+                    pass
+                responses[i]["responses"].append(ans if isinstance(ans, str) else None)
 
-            except Exception as e:
-                logger.error(f"Error processing question {i+1}: {e}")
-                import traceback
-                logger.error(traceback.format_exc())
-                responses[i]["responses"].append(None)
-                responses[i]["raw_response"].append("")
-                responses[i]["logprobs"].append(None)
+        except Exception as e:
+            logger.error(f"Error processing question {i+1}: {e}")
+            import traceback
+            logger.error(traceback.format_exc())
+            responses[i]["responses"].append(None)
+            responses[i]["raw_response"].append("")
+            responses[i]["logprobs"].append(None)
 
     logger.info("=== INFERENCE COMPLETE ===")
     logger.info(f"Processed {len(responses)} questions")
@@ -267,15 +278,17 @@ def run_inference(config, data, exp_dir, logger):
 
 
 
-def initialize_responses(data):
+def initialize_responses(data, variant):
     """Initialize response storage structure"""
     return [
         {
             "id": row["id"],
             "question": row["question"],
-            "responses": [],
-            "raw_response": [],
-            "logprobs": []
+            "variant": variant,
+            "original_answers": row["answers"],
+            "selected_answer": None,
+            "logprobs": {},
+            "distribution": {}
         }
         for _, row in data.iterrows()
     ]
