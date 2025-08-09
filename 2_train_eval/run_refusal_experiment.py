@@ -15,6 +15,7 @@ import argparse
 import pandas as pd
 import torch
 import numpy as np
+import gc
 from transformers import set_seed
 from langchain_core.prompts import ChatPromptTemplate
 from utils import (
@@ -32,6 +33,12 @@ from refusal_utils import (
     compare_refusal_variants
 )
 
+# Language-specific refusal texts
+REFUSAL_TEXTS = {
+    "english": "I prefer not to answer",
+    "hebrew": "אני מעדיף לא לענות"
+}
+
 
 def main():
     logger = get_logger(__name__)
@@ -47,28 +54,107 @@ def main():
     set_keys(yaml.safe_load(open(keys_path)))
     set_seed(config["seed"])
     
-    data = pd.read_json(config["data_file"])
+    # Handle multiple datasets (languages)
+    datasets = config.get("datasets", [{"data_file": config["data_file"], "language": "english"}])
     
-    # Run both refusal experiments for all models
-    for model_config in config["models"]:
-        current_config = {
-            **config,
-            **model_config
-        }
+    # Run experiments for each dataset and model combination
+    for dataset_config in datasets:
+        data_file = dataset_config["data_file"]
+        language = dataset_config.get("language", "english")
         
-        if current_config["debug"]:
-            current_data = data.sample(
-                n=current_config["num_samples"], 
-                random_state=current_config["seed"]
+        logger.info(f"Processing dataset: {data_file} (Language: {language})")
+        
+        # Handle different encodings for different languages
+        try:
+            data = pd.read_json(data_file)
+        except UnicodeDecodeError:
+            logger.info("UTF-8 failed, trying with different encodings...")
+            # Try common encodings for Hebrew text, including Windows encodings
+            encodings_to_try = [
+                'utf-8-sig', 'cp1255', 'iso-8859-8', 'windows-1255', 
+                'latin1', 'cp862', 'utf-16', 'utf-16le', 'utf-16be'
+            ]
+            
+            data = None
+            for encoding in encodings_to_try:
+                try:
+                    logger.info(f"Trying encoding: {encoding}")
+                    with open(data_file, 'r', encoding=encoding) as f:
+                        import json
+                        json_data = json.load(f)
+                        data = pd.DataFrame(json_data)
+                    logger.info(f"Successfully loaded with encoding: {encoding}")
+                    break
+                except Exception as e:
+                    logger.debug(f"Failed with {encoding}: {e}")
+                    continue
+            
+            if data is None:
+                logger.error(f"Could not read file {data_file} with any encoding")
+                continue
+        
+        # Log data structure info for debugging
+        logger.info(f"Loaded {len(data)} rows from {data_file}")
+        if not data.empty:
+            logger.info(f"Data columns: {list(data.columns)}")
+            # Check for problematic rows
+            valid_answers = data['answers'].apply(lambda x: isinstance(x, dict))
+            invalid_count = (~valid_answers).sum()
+            if invalid_count > 0:
+                logger.warning(f"Found {invalid_count} rows with invalid 'answers' data")
+        
+        # Run both refusal experiments for all models
+        for model_config in config["models"]:
+            current_config = {
+                **config,
+                **model_config,
+                "language": language,
+                "current_data_file": data_file
+            }
+            
+            if current_config["debug"]:
+                current_data = data.sample(
+                    n=current_config["num_samples"], 
+                    random_state=current_config["seed"]
+                )
+            else:
+                current_data = data
+            
+            # Load model once for both experiments
+            logger.info(f"Loading model: {current_config['model']} for {language} dataset")
+            model_result = get_model(
+                current_config["model"],
+                current_config["temperature"],
+                current_config.get("use_rate_limiter", False),
+                requests_per_second=current_config.get("requests_per_second"),
+                check_every_n_seconds=current_config.get("check_every_n_seconds"),
+                local_model_id=current_config.get("local")
             )
-        else:
-            current_data = data
-        
-        # Run both variants
-        for variant in ["no_refusal", "with_refusal"]:
-            variant_config = {**current_config, "variant": variant}
-            exp_dir = setup_experiment_dir(variant_config)
-            run_refusal_experiment(variant_config, current_data, exp_dir, logger)
+            
+            # Handle different return formats
+            if isinstance(model_result, tuple):
+                base_llm, raw_model, tokenizer = model_result
+                is_local_model = True
+                logger.info("Local model loaded successfully")
+            else:
+                base_llm = model_result
+                raw_model = None
+                tokenizer = None
+                is_local_model = False
+                logger.info("OpenAI model loaded successfully")
+            
+            try:
+                # Run both variants with the same loaded model
+                for variant in ["no_refusal", "with_refusal"]:
+                    variant_config = {**current_config, "variant": variant}
+                    exp_dir = setup_experiment_dir(variant_config)
+                    run_refusal_experiment(
+                        variant_config, current_data, exp_dir, logger,
+                        base_llm, raw_model, tokenizer, is_local_model
+                    )
+            finally:
+                # Always unload model after both experiments
+                unload_model(base_llm, raw_model, tokenizer, is_local_model, logger)
 
 
 def parse_args():
@@ -91,11 +177,47 @@ def load_config(args):
     return config
 
 
+def unload_model(base_llm, raw_model, tokenizer, is_local_model, logger):
+    """Unload model from GPU and clear memory"""
+    logger.info("Unloading model from memory and GPU...")
+    
+    try:
+        if is_local_model and raw_model is not None:
+            # For local models, move to CPU and delete
+            if hasattr(raw_model, 'cpu'):
+                raw_model.cpu()
+            if hasattr(raw_model, 'to'):
+                raw_model.to('cpu')
+            
+            # Delete model references
+            del raw_model
+            if tokenizer is not None:
+                del tokenizer
+        
+        # Clear base_llm reference
+        if base_llm is not None:
+            del base_llm
+        
+        # Force garbage collection
+        gc.collect()
+        
+        # Clear CUDA cache if available
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            logger.info("CUDA cache cleared")
+        
+        logger.info("Model unloaded successfully")
+        
+    except Exception as e:
+        logger.error(f"Error during model unloading: {e}")
+
+
 def setup_experiment_dir(config):
     """Create experiment directory and save config"""
     model_name = config["model"].split("/")[-1]
     variant = config.get("variant", "unknown")
-    exp_name = f"refusal_{variant}_{model_name}_tmp{config['temperature']}_seed{config['seed']}"
+    language = config.get("language", "english")
+    exp_name = f"refusal_{variant}_{language}_{model_name}_tmp{config['temperature']}_seed{config['seed']}"
     exp_dir = os.path.join(config["logs_dir"], exp_name)
     os.makedirs(exp_dir, exist_ok=True)
     with open(os.path.join(exp_dir, "config.yaml"), "w") as f:
@@ -103,33 +225,11 @@ def setup_experiment_dir(config):
     return exp_dir
 
 
-def run_refusal_experiment(config, data, exp_dir, logger):
-    """Run refusal probability experiment"""
+def run_refusal_experiment(config, data, exp_dir, logger, base_llm, raw_model, tokenizer, is_local_model):
+    """Run refusal probability experiment with pre-loaded model"""
     variant = config.get("variant", "no_refusal")
     logger.info(f"=== Running Refusal Experiment: {variant.upper()} ===")
-    
-    # Load model
-    logger.info(f"Loading model: {config['model']}")
-    model_result = get_model(
-        config["model"],
-        config["temperature"],
-        config.get("use_rate_limiter", False),
-        requests_per_second=config.get("requests_per_second"),
-        check_every_n_seconds=config.get("check_every_n_seconds"),
-        local_model_id=config.get("local")
-    )
-    
-    # Handle different return formats
-    if isinstance(model_result, tuple):
-        base_llm, raw_model, tokenizer = model_result
-        is_local_model = True
-        logger.info("Local model loaded successfully")
-    else:
-        base_llm = model_result
-        raw_model = None
-        tokenizer = None
-        is_local_model = False
-        logger.info("OpenAI model loaded successfully")
+    logger.info(f"Using pre-loaded model: {config['model']}")
 
     # Create prompt
     prompt = ChatPromptTemplate.from_messages([
@@ -138,7 +238,8 @@ def run_refusal_experiment(config, data, exp_dir, logger):
     ])
 
     # Process data and create inputs with/without refusal
-    user_inputs = get_refusal_inputs(data, variant)
+    language = config.get("language", "english")
+    user_inputs = get_refusal_inputs(data, variant, language)
     responses = initialize_refusal_responses(data, variant)
     
     logger.info(f"Processing {len(user_inputs)} questions with variant: {variant}")
@@ -265,54 +366,85 @@ def run_refusal_experiment(config, data, exp_dir, logger):
     save_refusal_results(responses, exp_dir, variant, logger)
 
 
-def get_refusal_inputs(data, variant):
+def get_refusal_inputs(data, variant, language="english"):
     """Create inputs with or without refusal option"""
     user_inputs = []
+    refusal_text = REFUSAL_TEXTS.get(language, REFUSAL_TEXTS["english"])
+    skipped_rows = 0
     
-    for _, row in data.iterrows():
-        answers = row["answers"]
+    for idx, row in data.iterrows():
+        # Validate that answers is a dictionary and not NaN/None
+        answers = row.get("answers")
+        if not isinstance(answers, dict) or pd.isna(answers):
+            skipped_rows += 1
+            continue
+            
+        # Validate that question exists and is not NaN
+        question = row.get("question")
+        if pd.isna(question) or not question:
+            skipped_rows += 1
+            continue
         
-        if variant == "with_refusal":
-            # Add refusal option
-            refusal_key = str(max(int(k) for k in answers.keys()) + 1)
-            answers_with_refusal = {**answers, refusal_key: "I prefer not to answer"}
-            
-            formatted_answers = "\n".join([f"{k}. {v}" for k, v in answers_with_refusal.items()])
-            
-            user_inputs.append({
-                "question": row["question"],
-                "answers": formatted_answers,
-                "allowed_answers": answers_with_refusal,
-                "refusal_key": refusal_key
-            })
-        else:
-            # No refusal option (baseline)
-            formatted_answers = "\n".join([f"{k}. {v}" for k, v in answers.items()])
-            
-            user_inputs.append({
-                "question": row["question"],
-                "answers": formatted_answers,
-                "allowed_answers": answers,
-                "refusal_key": None
-            })
+        try:
+            if variant == "with_refusal":
+                # Add refusal option with language-specific text
+                refusal_key = str(max(int(k) for k in answers.keys()) + 1)
+                answers_with_refusal = {**answers, refusal_key: refusal_text}
+                
+                formatted_answers = "\n".join([f"{k}. {v}" for k, v in answers_with_refusal.items()])
+                
+                user_inputs.append({
+                    "question": question,
+                    "answers": formatted_answers,
+                    "allowed_answers": answers_with_refusal,
+                    "refusal_key": refusal_key
+                })
+            else:
+                # No refusal option (baseline)
+                formatted_answers = "\n".join([f"{k}. {v}" for k, v in answers.items()])
+                
+                user_inputs.append({
+                    "question": question,
+                    "answers": formatted_answers,
+                    "allowed_answers": answers,
+                    "refusal_key": None
+                })
+        except (ValueError, TypeError, KeyError) as e:
+            # Skip rows with malformed data
+            skipped_rows += 1
+            continue
+    
+    if skipped_rows > 0:
+        print(f"Warning: Skipped {skipped_rows} rows due to missing/invalid data")
     
     return user_inputs
 
 
 def initialize_refusal_responses(data, variant):
     """Initialize response storage for refusal experiment"""
-    return [
-        {
-            "id": row["id"],
-            "question": row["question"],
+    responses = []
+    
+    for _, row in data.iterrows():
+        # Skip rows with invalid data (same validation as get_refusal_inputs)
+        answers = row.get("answers")
+        if not isinstance(answers, dict) or pd.isna(answers):
+            continue
+            
+        question = row.get("question")
+        if pd.isna(question) or not question:
+            continue
+            
+        responses.append({
+            "id": row.get("id", "unknown"),
+            "question": question,
             "variant": variant,
-            "original_answers": row["answers"],
+            "original_answers": answers,
             "selected_answer": None,
             "choice_logprobs": {},
             "refusal_analysis": {}
-        }
-        for _, row in data.iterrows()
-    ]
+        })
+    
+    return responses
 
 
 
@@ -340,9 +472,12 @@ def generate_refusal_summary(responses, variant, logger):
     logger.info(f"Success rate: {successful_responses/total_questions*100:.1f}%")
     
     if variant == "with_refusal":
-        # Refusal-specific statistics
+        # Refusal-specific statistics - check for both English and Hebrew refusal text
         refusal_selections = sum(1 for r in responses 
-                               if r["selected_answer"] and "prefer not to answer" in r["selected_answer"].lower())
+                               if r["selected_answer"] and (
+                                   "prefer not to answer" in r["selected_answer"].lower() or
+                                   "אני מעדיף לא לענות" in r["selected_answer"]
+                               ))
         
         refusal_probs = [r["refusal_analysis"].get("refusal_probability", 0) 
                         for r in responses if r["refusal_analysis"] and r["refusal_analysis"].get("has_refusal")]
@@ -375,7 +510,9 @@ def generate_refusal_summary(responses, variant, logger):
                     sorted_choices = sorted(choice_probs.items(), key=lambda x: x[1], reverse=True)
                     logger.info(f"     Choice probabilities:")
                     for choice, prob in sorted_choices:
-                        marker = "🚫" if "prefer not to answer" in choice.lower() else "  "
+                        is_refusal = ("prefer not to answer" in choice.lower() or 
+                                    "אני מעדיף לא לענות" in choice)
+                        marker = "🚫" if is_refusal else "  "
                         logger.info(f"     {marker} {choice}: {prob:.4f}")
         else:
             logger.info("No refusal probabilities calculated")

@@ -65,3 +65,5 @@ zstandard==0.23.0
 torch==2.7.1
 langchain_huggingface
 accelerate
+protobuf
+sentencepiece

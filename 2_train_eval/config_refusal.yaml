@@ -2,8 +2,15 @@
 debug: true
 prompt_type: "zero_shot"
 seed: 42
-data_file: "1_data/converted_questions.json"
+data_file: "1_data/converted_questions.json"  # Kept for backward compatibility
 logs_dir: "results"
+
+# Multiple datasets configuration
+datasets:
+  - data_file: "1_data/converted_questions.json"
+    language: "english"
+  - data_file: "1_data/translated_questions.json"
+    language: "hebrew"
 
 # Configuration per model for refusal experiments
 models:
@@ -17,6 +24,24 @@ models:
   # Local model example
   - model: "mistral-7b"
     local: "mistralai/Mistral-7B-Instruct-v0.2"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5
+  
+  - model: "mistral-7b-v0.3"
+    local: "mistralai/Mistral-7B-Instruct-v0.3"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5
+  
+  - model: "llama-2-7b"
+    local: "meta-llama/Llama-2-7b-chat-hf"
+    temperature: 0.7
+    use_rate_limiter: false
+    num_samples: 5
+  
+  - model: "zephyr-7b-beta"
+    local: "HuggingFace/zephyr-7b-beta"
     temperature: 0.7
     use_rate_limiter: false
     num_samples: 5
