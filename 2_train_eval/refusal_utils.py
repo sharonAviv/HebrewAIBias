@@ -156,8 +156,7 @@ def calculate_refusal_metrics(choice_logprobs, variant, refusal_key=None):
         "refusal_ratio": refusal_ratio,
         "non_refusal_probability": non_refusal_prob,
         "refusal_vs_others_ratio": refusal_vs_others,
-        "choice_probabilities": choice_probs,
-        "raw_logprobs": choice_logprobs
+        "choice_probabilities": choice_probs
     }
 
 

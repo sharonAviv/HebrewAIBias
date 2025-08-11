@@ -1,0 +1,3495 @@
+[
+  {
+    "id": 0,
+    "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be a terrorist attack on the U.S. as bad as or worse than 9/11",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Will definitely happen",
+      "2": "Will probably happen",
+      "3": "Will probably not happen",
+      "4": "Will definitely not happen"
+    },
+    "selected_answer": "3. Will probably not happen",
+    "choice_logprobs": {
+      "1. Will definitely happen": -2.0235493977864585,
+      "2. Will probably happen": -2.0542475382486978,
+      "3. Will probably not happen": -1.8689791645322527,
+      "4. Will definitely not happen": -2.4374046325683594
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Will definitely happen": 0.2632950246334076,
+        "2. Will probably happen": 0.25533512234687805,
+        "3. Will probably not happen": 0.3073064088821411,
+        "4. Will definitely not happen": 0.17406345903873444
+      }
+    }
+  },
+  {
+    "id": 1,
+    "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nChina will overtake the U.S. as the world's main superpower",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Will definitely happen",
+      "2": "Will probably happen",
+      "3": "Will probably not happen",
+      "4": "Will definitely not happen"
+    },
+    "selected_answer": "1. Will definitely happen",
+    "choice_logprobs": {
+      "1. Will definitely happen": -1.7622833251953125,
+      "2. Will probably happen": -1.879995346069336,
+      "3. Will probably not happen": -1.815977590424674,
+      "4. Will definitely not happen": -2.4519735063825334
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Will definitely happen": 0.29954424500465393,
+        "2. Will probably happen": 0.26628047227859497,
+        "3. Will probably not happen": 0.28388461470603943,
+        "4. Will definitely not happen": 0.15029078722000122
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere will be increasing violence against Jews in the U.S.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Will definitely happen",
+      "2": "Will probably happen",
+      "3": "Will probably not happen",
+      "4": "Will definitely not happen"
+    },
+    "selected_answer": "3. Will probably not happen",
+    "choice_logprobs": {
+      "1. Will definitely happen": -1.9847920735677083,
+      "2. Will probably happen": -1.876705805460612,
+      "3. Will probably not happen": -1.8538623196738107,
+      "4. Will definitely not happen": -2.502207483564104
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Will definitely happen": 0.2597341239452362,
+        "2. Will probably happen": 0.2893811762332916,
+        "3. Will probably not happen": 0.2960677444934845,
+        "4. Will definitely not happen": 0.1548168957233429
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Still thinking about the future of our country, how worried are you, if at all, about each of the following?\nThe ability of political leaders to solve the country's biggest problems",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very worried",
+      "2": "Fairly worried",
+      "3": "Not too worried",
+      "4": " Not at all worried"
+    },
+    "selected_answer": "3. Not too worried",
+    "choice_logprobs": {
+      "1. Very worried": -2.9306365966796877,
+      "2. Fairly worried": -2.9816734989484153,
+      "3. Not too worried": -2.6790332794189453,
+      "4.  Not at all worried": -2.793036937713623
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very worried": 0.22811022400856018,
+        "2. Fairly worried": 0.2167602926492691,
+        "3. Not too worried": 0.293369323015213,
+        "4.  Not at all worried": 0.2617601454257965
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "Do you have a favorable or unfavorable opinion of Germany",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.7375762939453123,
+      "2. Somewhat favorable": -2.7418998082478843,
+      "3. Somewhat unfavorable": -2.5114519794782004,
+      "4. Very unfavorable": -4.73759765625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.2954428195953369,
+        "2. Somewhat favorable": 0.2941682040691376,
+        "3. Somewhat unfavorable": 0.3704059422016144,
+        "4. Very unfavorable": 0.03998298570513725
+      }
+    }
+  },
+  {
+    "id": 8,
+    "question": "In making international policy decisions, to what extent, if at all, do you think the U.S.\ntakes into account the interests of other countries around the world?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A great deal",
+      "2": "A fair amount",
+      "3": "Not too much",
+      "4": "Not at all"
+    },
+    "selected_answer": "1. A great deal",
+    "choice_logprobs": {
+      "1. A great deal": -2.300281365712484,
+      "2. A fair amount": -3.6570167541503906,
+      "3. Not too much": -2.5437063376108804,
+      "4. Not at all": -2.9943968454996743
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A great deal": 0.3935529589653015,
+        "2. A fair amount": 0.1013398990035057,
+        "3. Not too much": 0.30852118134498596,
+        "4. Not at all": 0.1965859979391098
+      }
+    }
+  },
+  {
+    "id": 9,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nU.S. President Joe Biden",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "1. A lot of confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -1.8039474487304688,
+      "2. Some confidence": -3.53270263671875,
+      "3. Not too much confidence": -1.985732112612043,
+      "4. No confidence at all": -2.3984201976231168
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.3901464641094208,
+        "2. Some confidence": 0.06925303488969803,
+        "3. Not too much confidence": 0.32529667019844055,
+        "4. No confidence at all": 0.2153037041425705
+      }
+    }
+  },
+  {
+    "id": 12,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding world affairs?\nGerman Chancellor Angela Merkel",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "1. A lot of confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -1.852267060961042,
+      "2. Some confidence": -2.618634033203125,
+      "3. Not too much confidence": -1.8995283671787806,
+      "4. No confidence at all": -2.291238989148821
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.32645222544670105,
+        "2. Some confidence": 0.15170179307460785,
+        "3. Not too much confidence": 0.31138256192207336,
+        "4. No confidence at all": 0.21046337485313416
+      }
+    }
+  },
+  {
+    "id": 14,
+    "question": "What kind of leadership role should the U.S. play in the world?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Be the single world leader",
+      "2": "Play a shared leadership role",
+      "3": "Not play any leadership role"
+    },
+    "selected_answer": "1. Be the single world leader",
+    "choice_logprobs": {
+      "1. Be the single world leader": -1.8241558074951172,
+      "2. Play a shared leadership role": -2.1057558059692383,
+      "3. Not play any leadership role": -2.375762939453125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Be the single world leader": 0.4290742874145508,
+        "2. Play a shared leadership role": 0.3237689435482025,
+        "3. Not play any leadership role": 0.2471567988395691
+      }
+    }
+  },
+  {
+    "id": 15,
+    "question": " Should the U.S. be the most active of the leading nations, or should it be about as active\nas other leading nations?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Most active",
+      "2": "About as activee"
+    },
+    "selected_answer": "2. About as activee",
+    "choice_logprobs": {
+      "1. Most active": -2.5667022705078124,
+      "2. About as activee": -2.3102504185267856
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Most active": 0.43623611330986023,
+        "2. About as activee": 0.5637638568878174
+      }
+    }
+  },
+  {
+    "id": 16,
+    "question": "How important, if at all, is it that the U.S. is generally respected by other countries\naround the world?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very important",
+      "2": "Somewhat important",
+      "3": "Not too important",
+      "4": "Not at all important"
+    },
+    "selected_answer": "1. Very important",
+    "choice_logprobs": {
+      "1. Very important": -2.5078250885009767,
+      "2. Somewhat important": -2.78849720954895,
+      "3. Not too important": -2.700513998667399,
+      "4. Not at all important": -3.4689418247767856
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very important": 0.33755502104759216,
+        "2. Somewhat important": 0.2549471855163574,
+        "3. Not too important": 0.2783946096897125,
+        "4. Not at all important": 0.1291031539440155
+      }
+    }
+  },
+  {
+    "id": 17,
+    "question": "Is your overall opinion of Pope Francis",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Mostly favorable",
+      "3": "Mostly unfavorable",
+      "4": "Very unfavorable",
+      "8": "Never heard of this person"
+    },
+    "selected_answer": "8. Never heard of this person",
+    "choice_logprobs": {
+      "1. Very favorable": -2.3172157287597654,
+      "2. Mostly favorable": -3.255859375,
+      "3. Mostly unfavorable": -2.553419494628906,
+      "4. Very unfavorable": -2.921142578125,
+      "8. Never heard of this person": -1.6335334777832031
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.21237745881080627,
+        "2. Mostly favorable": 0.08307314664125443,
+        "3. Mostly unfavorable": 0.16769741475582123,
+        "4. Very unfavorable": 0.11609841883182526,
+        "8. Never heard of this person": 0.4207535982131958
+      }
+    }
+  },
+  {
+    "id": 18,
+    "question": "Is your overall opinion of Vladimir Putin",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Mostly favorable",
+      "3": "Mostly unfavorable",
+      "4": "Very unfavorable",
+      "8": "Never heard of this person"
+    },
+    "selected_answer": "8. Never heard of this person",
+    "choice_logprobs": {
+      "1. Very favorable": -2.281066131591797,
+      "2. Mostly favorable": -3.0388671875,
+      "3. Mostly unfavorable": -2.5125711441040037,
+      "4. Very unfavorable": -2.69361572265625,
+      "8. Never heard of this person": -1.6513957977294922
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.2082904875278473,
+        "2. Mostly favorable": 0.09762491285800934,
+        "3. Mostly unfavorable": 0.1652449369430542,
+        "4. Very unfavorable": 0.13788007199764252,
+        "8. Never heard of this person": 0.39095956087112427
+      }
+    }
+  },
+  {
+    "id": 19,
+    "question": "Is your overall opinion of Benjamin Netanyahu",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Mostly favorable",
+      "3": "Mostly unfavorable",
+      "4": "Very unfavorable",
+      "8": "Never heard of this person"
+    },
+    "selected_answer": "8. Never heard of this person",
+    "choice_logprobs": {
+      "1. Very favorable": -2.38924560546875,
+      "2. Mostly favorable": -3.062841796875,
+      "3. Mostly unfavorable": -2.5683528900146486,
+      "4. Very unfavorable": -2.70313720703125,
+      "8. Never heard of this person": -1.6855475902557373
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.19616694748401642,
+        "2. Mostly favorable": 0.10001995414495468,
+        "3. Mostly unfavorable": 0.16399872303009033,
+        "4. Very unfavorable": 0.14331920444965363,
+        "8. Never heard of this person": 0.3964952230453491
+      }
+    }
+  },
+  {
+    "id": 20,
+    "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Islam",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Major problem",
+      "2": "Minor problem",
+      "3": "Not a problem"
+    },
+    "selected_answer": "3. Not a problem",
+    "choice_logprobs": {
+      "1. Major problem": -3.229627227783203,
+      "2. Minor problem": -4.2701416015625,
+      "3. Not a problem": -3.2266031901041665
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Major problem": 0.4243939518928528,
+        "2. Minor problem": 0.14992688596248627,
+        "3. Not a problem": 0.42567920684814453
+      }
+    }
+  },
+  {
+    "id": 21,
+    "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all, are each of the following for the country today?\nExtremism in the name of Christianity",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Major problem",
+      "2": "Minor problem",
+      "3": "Not a problem"
+    },
+    "selected_answer": "1. Major problem",
+    "choice_logprobs": {
+      "1. Major problem": -3.3889820098876955,
+      "2. Minor problem": -4.28857421875,
+      "3. Not a problem": -3.4071044921875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Major problem": 0.4186243712902069,
+        "2. Minor problem": 0.17026939988136292,
+        "3. Not a problem": 0.4111061990261078
+      }
+    }
+  },
+  {
+    "id": 22,
+    "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views even if neither is exactly right.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "2": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree"
+    },
+    "selected_answer": "1. In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+    "choice_logprobs": {
+      "1. In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them": -0.3895623300756727,
+      "2. In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree": -0.6402182268059772
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them": 0.5623379349708557,
+        "2. In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree": 0.4376620650291443
+      }
+    }
+  },
+  {
+    "id": 23,
+    "question": "In the future, do you think... ",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "U.S. policies should try to keep it so America is the only military superpower",
+      "2": "It would be acceptable if another country became as militarily powerful as the U.S."
+    },
+    "selected_answer": "1. U.S. policies should try to keep it so America is the only military superpower",
+    "choice_logprobs": {
+      "1. U.S. policies should try to keep it so America is the only military superpower": -0.8420548915863038,
+      "2. It would be acceptable if another country became as militarily powerful as the U.S.": -0.9487991213798523
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. U.S. policies should try to keep it so America is the only military superpower": 0.5266607403755188,
+        "2. It would be acceptable if another country became as militarily powerful as the U.S.": 0.4733392596244812
+      }
+    }
+  },
+  {
+    "id": 24,
+    "question": "Next are some pairs of statements that will help us understand how you feel about a number of things.\nPlease choose the statement that comes closer to your own views - even if neither is exactly right.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Islam is more likely than other religions to encourage violence among its\nbelievers",
+      "2": "Islam does not encourage violence more than other religions"
+    },
+    "selected_answer": "1. Islam is more likely than other religions to encourage violence among its\nbelievers",
+    "choice_logprobs": {
+      "1. Islam is more likely than other religions to encourage violence among its\nbelievers": -0.8670793109469943,
+      "2. Islam does not encourage violence more than other religions": -1.3936538696289062
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Islam is more likely than other religions to encourage violence among its\nbelievers": 0.6286838054656982,
+        "2. Islam does not encourage violence more than other religions": 0.37131616473197937
+      }
+    }
+  },
+  {
+    "id": 25,
+    "question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was the",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Right decision",
+      "2": "Wrong decision"
+    },
+    "selected_answer": "1. Right decision",
+    "choice_logprobs": {
+      "1. Right decision": -3.2125457763671874,
+      "2. Wrong decision": -4.15626220703125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Right decision": 0.7198497653007507,
+        "2. Wrong decision": 0.28015023469924927
+      }
+    }
+  },
+  {
+    "id": 27,
+    "question": "How much of a threat, if any, is Taliban control of Afghanistan to the security of the United States?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A major threat",
+      "2": "A minor threat",
+      "3": "Not a threat"
+    },
+    "selected_answer": "1. A major threat",
+    "choice_logprobs": {
+      "1. A major threat": -2.565072218577067,
+      "2. A minor threat": -4.16748046875,
+      "3. Not a threat": -3.7674153645833335
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A major threat": 0.665823221206665,
+        "2. A minor threat": 0.13410405814647675,
+        "3. Not a threat": 0.200072780251503
+      }
+    }
+  },
+  {
+    "id": 32,
+    "question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestinians?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
+      "2": "All of the land is one country, governed jointly by Israelis and Palestinians together",
+      "3": "All of the land is one country, with an Israeli government",
+      "4": "All of the land is one country, with a Palestinian government",
+      "5": "Not sure"
+    },
+    "selected_answer": "1. The land is split into two countries, one country with an Israeli government and one country with a Palestinian government",
+    "choice_logprobs": {
+      "1. The land is split into two countries, one country with an Israeli government and one country with a Palestinian government": -0.5759378472963969,
+      "2. All of the land is one country, governed jointly by Israelis and Palestinians together": -0.9578560458289253,
+      "3. All of the land is one country, with an Israeli government": -1.0868290265401204,
+      "4. All of the land is one country, with a Palestinian government": -1.2920369466145833,
+      "5. Not sure": -3.248309326171875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. The land is split into two countries, one country with an Israeli government and one country with a Palestinian government": 0.3520810902118683,
+        "2. All of the land is one country, governed jointly by Israelis and Palestinians together": 0.24031326174736023,
+        "3. All of the land is one country, with an Israeli government": 0.21123480796813965,
+        "4. All of the land is one country, with a Palestinian government": 0.17204609513282776,
+        "5. Not sure": 0.024324648082256317
+      }
+    }
+  },
+  {
+    "id": 33,
+    "question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "2": "Some",
+      "3": "Not much",
+      "4": "Nothing at all"
+    },
+    "selected_answer": "1. A lot",
+    "choice_logprobs": {
+      "1. A lot": -2.3510564804077148,
+      "2. Some": -4.247314453125,
+      "3. Not much": -2.813895320892334,
+      "4. Nothing at all": -3.012845039367676
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.43562519550323486,
+        "2. Some": 0.0654001384973526,
+        "3. Not much": 0.27422353625297546,
+        "4. Nothing at all": 0.22475114464759827
+      }
+    }
+  },
+  {
+    "id": 34,
+    "question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly support",
+      "2": "Somewhat support",
+      "3": "Neither support nor oppose",
+      "4": "Somewhat oppose",
+      "5": "Strongly oppose",
+      "6": "Not sure"
+    },
+    "selected_answer": "3. Neither support nor oppose",
+    "choice_logprobs": {
+      "1. Strongly support": -2.710677524407705,
+      "2. Somewhat support": -2.962918996810913,
+      "3. Neither support nor oppose": -2.495524457522801,
+      "4. Somewhat oppose": -2.8381645480791726,
+      "5. Strongly oppose": -2.797476847966512,
+      "6. Not sure": -3.1652923583984376
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly support": 0.18352100253105164,
+        "2. Somewhat support": 0.14260630309581757,
+        "3. Neither support nor oppose": 0.22757555544376373,
+        "4. Somewhat oppose": 0.16155442595481873,
+        "5. Strongly oppose": 0.1682633012533188,
+        "6. Not sure": 0.11647940427064896
+      }
+    }
+  },
+  {
+    "id": 35,
+    "question": "Which comes closest to your view, even if none is exactly right?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "God gave the land that is now Israel to the Jewish people",
+      "2": "God did not give the land that is now Israel to the Jewish people",
+      "3": "I don't believe in God",
+      "4": "Not sure"
+    },
+    "selected_answer": "2. God did not give the land that is now Israel to the Jewish people",
+    "choice_logprobs": {
+      "1. God gave the land that is now Israel to the Jewish people": -0.9850761731465657,
+      "2. God did not give the land that is now Israel to the Jewish people": -0.8798781423007741,
+      "3. I don't believe in God": -1.5538211398654513,
+      "4. Not sure": -3.2295166015625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. God gave the land that is now Israel to the Jewish people": 0.3593046963214874,
+        "2. God did not give the land that is now Israel to the Jewish people": 0.3991625905036926,
+        "3. I don't believe in God": 0.20345115661621094,
+        "4. Not sure": 0.038081567734479904
+      }
+    }
+  },
+  {
+    "id": 42,
+    "question": "Do you have a favorable or unfavorable opinion of Israel",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.92606201171875,
+      "2. Somewhat favorable": -2.994940439860026,
+      "3. Somewhat unfavorable": -2.453748424847921,
+      "4. Very unfavorable": -4.67060546875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.2694063186645508,
+        "2. Somewhat favorable": 0.25147467851638794,
+        "3. Somewhat unfavorable": 0.4320469796657562,
+        "4. Very unfavorable": 0.047071944922208786
+      }
+    }
+  },
+  {
+    "id": 43,
+    "question": "When thinking about why countries cooperate with each other, what is more important for bringing nations together?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Common values",
+      "2": "Common problems"
+    },
+    "selected_answer": "1. Common values",
+    "choice_logprobs": {
+      "1. Common values": -3.72265625,
+      "2. Common problems": -4.1232421875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Common values": 0.5988284945487976,
+        "2. Common problems": 0.4011715054512024
+      }
+    }
+  },
+  {
+    "id": 48,
+    "question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Right decision",
+      "2": "Wrong decision"
+    },
+    "selected_answer": "1. Right decision",
+    "choice_logprobs": {
+      "1. Right decision": -2.869673156738281,
+      "2. Wrong decision": -3.9517578125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Right decision": 0.746888279914856,
+        "2. Wrong decision": 0.25311172008514404
+      }
+    }
+  },
+  {
+    "id": 51,
+    "question": "Today, which one of the following do you think is the world's leading MILITARY power?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "The U.S.",
+      "2": "China",
+      "3": "Russia"
+    },
+    "selected_answer": "1. The U.S.",
+    "choice_logprobs": {
+      "1. The U.S.": -2.7306131635393416,
+      "2. China": -5.510498046875,
+      "3. Russia": -5.3155517578125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. The U.S.": 0.8791623115539551,
+        "2. China": 0.054548200219869614,
+        "3. Russia": 0.06628946214914322
+      }
+    }
+  },
+  {
+    "id": 52,
+    "question": "In general, how would you describe relations today between the U.S. and Israel?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very good",
+      "2": "Somewhat good",
+      "3": "Somewhat bad",
+      "4": "Very bad"
+    },
+    "selected_answer": "3. Somewhat bad",
+    "choice_logprobs": {
+      "1. Very good": -3.061279296875,
+      "2. Somewhat good": -3.5693063735961914,
+      "3. Somewhat bad": -2.7676929235458374,
+      "4. Very bad": -4.046728515625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very good": 0.30155161023139954,
+        "2. Somewhat good": 0.18143802881240845,
+        "3. Somewhat bad": 0.4044497311115265,
+        "4. Very bad": 0.11256062239408493
+      }
+    }
+  },
+  {
+    "id": 54,
+    "question": "Please choose the statement that comes closer to your own views - even if neither is exactly right.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+      "2": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree"
+    },
+    "selected_answer": "1. In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them",
+    "choice_logprobs": {
+      "1. In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them": -0.42200513396944317,
+      "2. In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree": -0.7608191552369491
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them": 0.5839024186134338,
+        "2. In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree": 0.41609764099121094
+      }
+    }
+  },
+  {
+    "id": 55,
+    "question": "Please choose the statement that comes closer to your own views - even if neither is exactly right.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "The Islamic religion is more likely than others to encourage violence among its believers",
+      "2": "The Islamic religion does not encourage violence more than others"
+    },
+    "selected_answer": "1. The Islamic religion is more likely than others to encourage violence among its believers",
+    "choice_logprobs": {
+      "1. The Islamic religion is more likely than others to encourage violence among its believers": -0.9437824417563045,
+      "2. The Islamic religion does not encourage violence more than others": -1.4521185067983775
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. The Islamic religion is more likely than others to encourage violence among its believers": 0.6244162917137146,
+        "2. The Islamic religion does not encourage violence more than others": 0.375583678483963
+      }
+    }
+  },
+  {
+    "id": 56,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Black people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.161756181716919,
+      "3. Only a little": -2.96405029296875,
+      "2. Some": -3.3599853515625,
+      "4. None at all": -2.140418370564779
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.36080312728881836,
+        "3. Only a little": 0.16174781322479248,
+        "2. Some": 0.108864426612854,
+        "4. None at all": 0.36858466267585754
+      }
+    }
+  },
+  {
+    "id": 57,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Hispanic people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.1077766895294188,
+      "3. Only a little": -2.70440673828125,
+      "2. Some": -3.224609375,
+      "4. None at all": -2.0591081380844116
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.341547429561615,
+        "3. Only a little": 0.18807794153690338,
+        "2. Some": 0.11179354041814804,
+        "4. None at all": 0.3585811257362366
+      }
+    }
+  },
+  {
+    "id": 58,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n White people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.145667314529419,
+      "3. Only a little": -2.7722981770833335,
+      "2. Some": -3.2401123046875,
+      "4. None at all": -2.074151039123535
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.3397604525089264,
+        "3. Only a little": 0.1815643310546875,
+        "2. Some": 0.11372643709182739,
+        "4. None at all": 0.3649488091468811
+      }
+    }
+  },
+  {
+    "id": 59,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Asian people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.1558653354644775,
+      "3. Only a little": -2.698638916015625,
+      "2. Some": -3.2947998046875,
+      "4. None at all": -2.09386154015859
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.33723846077919006,
+        "3. Only a little": 0.19598081707954407,
+        "2. Some": 0.10797026753425598,
+        "4. None at all": 0.3588103950023651
+      }
+    }
+  },
+  {
+    "id": 60,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Jews",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.180147171020508,
+      "3. Only a little": -2.9913126627604165,
+      "2. Some": -3.402587890625,
+      "4. None at all": -2.1277920405069985
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.35808923840522766,
+        "3. Only a little": 0.1591133028268814,
+        "2. Some": 0.1054610162973404,
+        "4. None at all": 0.37733644247055054
+      }
+    }
+  },
+  {
+    "id": 61,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Muslims",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.1984535217285157,
+      "3. Only a little": -2.9405924479166665,
+      "2. Some": -3.38623046875,
+      "4. None at all": -2.1410085360209146
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.35209783911705017,
+        "3. Only a little": 0.1676318198442459,
+        "2. Some": 0.10735403001308441,
+        "4. None at all": 0.3729162812232971
+      }
+    }
+  },
+  {
+    "id": 62,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Evangelical Christians",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.2065750122070313,
+      "3. Only a little": -2.9804280598958335,
+      "2. Some": -3.3299560546875,
+      "4. None at all": -2.1294123331705728
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.3488418757915497,
+        "3. Only a little": 0.16089719533920288,
+        "2. Some": 0.11343586444854736,
+        "4. None at all": 0.37682512402534485
+      }
+    }
+  },
+  {
+    "id": 63,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Buddhists",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.1565933227539062,
+      "3. Only a little": -2.8130696614583335,
+      "2. Some": -3.2706298828125,
+      "4. None at all": -2.0597763061523438
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.3391479253768921,
+        "3. Only a little": 0.17590782046318054,
+        "2. Some": 0.11131897568702698,
+        "4. None at all": 0.3736252784729004
+      }
+    }
+  },
+  {
+    "id": 64,
+    "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n Hindus",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "3": "Only a little",
+      "2": "Some",
+      "4": "None at all"
+    },
+    "selected_answer": "4. None at all",
+    "choice_logprobs": {
+      "1. A lot": -2.135433006286621,
+      "3. Only a little": -2.6674296061197915,
+      "2. Some": -3.376220703125,
+      "4. None at all": -2.1122504075368247
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.3448227643966675,
+        "3. Only a little": 0.20255953073501587,
+        "2. Some": 0.09970768541097641,
+        "4. None at all": 0.35291004180908203
+      }
+    }
+  },
+  {
+    "id": 65,
+    "question": "Do you have a favorable or unfavorable opinion of The U.S.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.7532958984375,
+      "2. Somewhat favorable": -3.0963834126790366,
+      "3. Somewhat unfavorable": -2.615969737370809,
+      "4. Very unfavorable": -4.62734375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.3321950435638428,
+        "2. Somewhat favorable": 0.23571768403053284,
+        "3. Somewhat unfavorable": 0.38109493255615234,
+        "4. Very unfavorable": 0.050992295145988464
+      }
+    }
+  },
+  {
+    "id": 66,
+    "question": "Do you have a favorable or unfavorable opinion of China",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.74244384765625,
+      "2. Somewhat favorable": -2.8226099014282227,
+      "3. Somewhat unfavorable": -2.4535170793533325,
+      "4. Very unfavorable": -4.47802734375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.29118403792381287,
+        "2. Somewhat favorable": 0.2687520980834961,
+        "3. Somewhat unfavorable": 0.38872894644737244,
+        "4. Very unfavorable": 0.05133495479822159
+      }
+    }
+  },
+  {
+    "id": 67,
+    "question": "Do you have a favorable or unfavorable opinion of The European Union",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.8005126953125,
+      "2. Somewhat favorable": -2.888561566670736,
+      "3. Somewhat unfavorable": -2.527983764807383,
+      "4. Very unfavorable": -4.59404296875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.29451873898506165,
+        "2. Somewhat favorable": 0.26969560980796814,
+        "3. Somewhat unfavorable": 0.3867860734462738,
+        "4. Very unfavorable": 0.04899962246417999
+      }
+    }
+  },
+  {
+    "id": 68,
+    "question": "Do you have a favorable or unfavorable opinion of The United Nations",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.922003173828125,
+      "2. Somewhat favorable": -2.9564491907755532,
+      "3. Somewhat unfavorable": -2.6526630918184915,
+      "4. Very unfavorable": -4.72841796875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.2907413840293884,
+        "2. Somewhat favorable": 0.28089702129364014,
+        "3. Somewhat unfavorable": 0.3806096911430359,
+        "4. Very unfavorable": 0.047751933336257935
+      }
+    }
+  },
+  {
+    "id": 69,
+    "question": "Do you have a favorable or unfavorable opinion of NATO, that is, North Atlantic Treaty Organization",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.8767333984375,
+      "2. Somewhat favorable": -3.139086882273356,
+      "3. Somewhat unfavorable": -2.701633950074514,
+      "4. Very unfavorable": -4.7822509765625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.321610689163208,
+        "2. Somewhat favorable": 0.24739548563957214,
+        "3. Somewhat unfavorable": 0.38315561413764954,
+        "4. Very unfavorable": 0.04783818870782852
+      }
+    }
+  },
+  {
+    "id": 70,
+    "question": "Do you have a favorable or unfavorable opinion of Russia",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.90341796875,
+      "2. Somewhat favorable": -2.6367012659708657,
+      "3. Somewhat unfavorable": -2.455464025338491,
+      "4. Very unfavorable": -4.50244140625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.24552702903747559,
+        "2. Somewhat favorable": 0.3205774128437042,
+        "3. Somewhat unfavorable": 0.38427597284317017,
+        "4. Very unfavorable": 0.04961949214339256
+      }
+    }
+  },
+  {
+    "id": 71,
+    "question": "Do you have a favorable or unfavorable opinion of India",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.7574859619140626,
+      "2. Somewhat favorable": -2.8710912068684897,
+      "3. Somewhat unfavorable": -2.436864733695984,
+      "4. Very unfavorable": -4.58251953125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.2913917601108551,
+        "2. Somewhat favorable": 0.26009926199913025,
+        "3. Somewhat unfavorable": 0.40153297781944275,
+        "4. Very unfavorable": 0.046975914388895035
+      }
+    }
+  },
+  {
+    "id": 72,
+    "question": "Do you have a favorable or unfavorable opinion of Ukraine",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.952099609375,
+      "2. Somewhat favorable": -2.5461934407552085,
+      "3. Somewhat unfavorable": -2.5056185921033225,
+      "4. Very unfavorable": -4.8126953125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.23702046275138855,
+        "2. Somewhat favorable": 0.35568755865097046,
+        "3. Somewhat unfavorable": 0.3704163134098053,
+        "4. Very unfavorable": 0.03687562048435211
+      }
+    }
+  },
+  {
+    "id": 73,
+    "question": "Do you have a favorable or unfavorable opinion of Taiwan",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.94677734375,
+      "2. Somewhat favorable": -2.8851547241210938,
+      "3. Somewhat unfavorable": -2.5624975760777793,
+      "4. Very unfavorable": -4.943505859375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.27263587713241577,
+        "2. Somewhat favorable": 0.289964884519577,
+        "3. Somewhat unfavorable": 0.4003811180591583,
+        "4. Very unfavorable": 0.03701816871762276
+      }
+    }
+  },
+  {
+    "id": 74,
+    "question": "Which statement comes closer to your view, even if neither is exactly right?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "It's best for the future of our country to be active in world affairs",
+      "2": "We should pay less attention to problems overseas and concentrate on problems here at home"
+    },
+    "selected_answer": "1. It's best for the future of our country to be active in world affairs",
+    "choice_logprobs": {
+      "1. It's best for the future of our country to be active in world affairs": -0.5864356226391263,
+      "2. We should pay less attention to problems overseas and concentrate on problems here at home": -0.7841251757409837
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. It's best for the future of our country to be active in world affairs": 0.5492620468139648,
+        "2. We should pay less attention to problems overseas and concentrate on problems here at home": 0.45073795318603516
+      }
+    }
+  },
+  {
+    "id": 75,
+    "question": "Which statement comes closer to your view, even if neither is exactly right?\nWhen dealing with major international issues, our country should...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Take into account the interests of other countries even if it means making compromises with them",
+      "2": "Follow its own interests even when other countries strongly disagree"
+    },
+    "selected_answer": "1. Take into account the interests of other countries even if it means making compromises with them",
+    "choice_logprobs": {
+      "1. Take into account the interests of other countries even if it means making compromises with them": -0.6803894419419138,
+      "2. Follow its own interests even when other countries strongly disagree": -1.2856638064751258
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Take into account the interests of other countries even if it means making compromises with them": 0.6468620300292969,
+        "2. Follow its own interests even when other countries strongly disagree": 0.35313791036605835
+      }
+    }
+  },
+  {
+    "id": 76,
+    "question": "Today, which one of the following do you think is the world's leading ECONOMIC power?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "The U.S.",
+      "2": "China",
+      "3": "Japan",
+      "4": "The countries of the European Union"
+    },
+    "selected_answer": "4. The countries of the European Union",
+    "choice_logprobs": {
+      "1. The U.S.": -2.3975522177559987,
+      "2. China": -5.66162109375,
+      "3. Japan": -4.6612548828125,
+      "4. The countries of the European Union": -1.916910171508789
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. The U.S.": 0.36240947246551514,
+        "2. China": 0.01385582610964775,
+        "3. Japan": 0.037677839398384094,
+        "4. The countries of the European Union": 0.5860568284988403
+      }
+    }
+  },
+  {
+    "id": 77,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nChinese President Xi Jinping",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "3. Not too much confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -2.1211251531328474,
+      "2. Some confidence": -3.29737548828125,
+      "3. Not too much confidence": -1.9736721685954504,
+      "4. No confidence at all": -2.377842698778425
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.30855637788772583,
+        "2. Some confidence": 0.09516900777816772,
+        "3. Not too much confidence": 0.35757946968078613,
+        "4. No confidence at all": 0.23869512975215912
+      }
+    }
+  },
+  {
+    "id": 78,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nRussian President Vladimir Putin",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "3. Not too much confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -2.1543349538530623,
+      "2. Some confidence": -2.7425796508789064,
+      "3. Not too much confidence": -1.9005934510912215,
+      "4. No confidence at all": -2.3011350631713867
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.2697157561779022,
+        "2. Some confidence": 0.1497734785079956,
+        "3. Not too much confidence": 0.3476201295852661,
+        "4. No confidence at all": 0.2328905463218689
+      }
+    }
+  },
+  {
+    "id": 79,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nFrench President Emmanuel Macron",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "3. Not too much confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -2.129749298095703,
+      "2. Some confidence": -2.88470458984375,
+      "3. Not too much confidence": -1.96174533026559,
+      "4. No confidence at all": -2.4072277886526927
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.29319795966148376,
+        "2. Some confidence": 0.1378123164176941,
+        "3. Not too much confidence": 0.3468359708786011,
+        "4. No confidence at all": 0.2221537083387375
+      }
+    }
+  },
+  {
+    "id": 80,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nUkrainian President Volodymyr Zelenskyy",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "1. A lot of confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -1.8184261322021484,
+      "2. Some confidence": -3.329315185546875,
+      "3. Not too much confidence": -1.8608731882912772,
+      "4. No confidence at all": -2.285451446260725
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.3563767671585083,
+        "2. Some confidence": 0.07865721732378006,
+        "3. Not too much confidence": 0.34156617522239685,
+        "4. No confidence at all": 0.22339986264705658
+      }
+    }
+  },
+  {
+    "id": 81,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nIndian Prime Minister Narendra Modi",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "3. Not too much confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -2.057275022779192,
+      "2. Some confidence": -3.055810546875,
+      "3. Not too much confidence": -1.8915526526314872,
+      "4. No confidence at all": -2.3114124706813266
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.30081984400749207,
+        "2. Some confidence": 0.11082762479782104,
+        "3. Not too much confidence": 0.3550412058830261,
+        "4. No confidence at all": 0.23331138491630554
+      }
+    }
+  },
+  {
+    "id": 82,
+    "question": "How much confidence do you have in each of the following leaders to do the right thing regarding world affairs?\nIsraeli Prime Minister Benjamin Netanyahu",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot of confidence",
+      "2": "Some confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all"
+    },
+    "selected_answer": "3. Not too much confidence",
+    "choice_logprobs": {
+      "1. A lot of confidence": -2.001270736966814,
+      "2. Some confidence": -2.8875701904296873,
+      "3. Not too much confidence": -1.8867040872573853,
+      "4. No confidence at all": -2.2904231548309326
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot of confidence": 0.3046492040157318,
+        "2. Some confidence": 0.12556977570056915,
+        "3. Not too much confidence": 0.3416297733783722,
+        "4. No confidence at all": 0.22815120220184326
+      }
+    }
+  },
+  {
+    "id": 83,
+    "question": "Do you approve or disapprove of the Biden administration's response to the Israel-Hamas war?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure"
+    },
+    "selected_answer": "4. Strongly disapprove",
+    "choice_logprobs": {
+      "1. Strongly approve": -2.7596408327420554,
+      "2. Somewhat approve": -2.4265957872072854,
+      "3. Somewhat disapprove": -2.159565414701189,
+      "4. Strongly disapprove": -2.0516355548586165,
+      "5. Not sure": -3.0802215576171874
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly approve": 0.14340758323669434,
+        "2. Somewhat approve": 0.20008374750614166,
+        "3. Somewhat disapprove": 0.2613253593444824,
+        "4. Strongly disapprove": 0.29110854864120483,
+        "5. Not sure": 0.10407481342554092
+      }
+    }
+  },
+  {
+    "id": 84,
+    "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nIsraeli government",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "2": "A little",
+      "3": "None",
+      "4": "Not sure"
+    },
+    "selected_answer": "1. A lot",
+    "choice_logprobs": {
+      "1. A lot": -2.422871398925781,
+      "2. A little": -4.50283203125,
+      "3. None": -3.59564208984375,
+      "4. Not sure": -2.89052734375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.4852219820022583,
+        "2. A little": 0.06062127277255058,
+        "3. None": 0.1501801759004593,
+        "4. Not sure": 0.30397656559944153
+      }
+    }
+  },
+  {
+    "id": 85,
+    "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nHamas, the militant Palestinian group",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "2": "A little",
+      "3": "None",
+      "4": "Not sure"
+    },
+    "selected_answer": "1. A lot",
+    "choice_logprobs": {
+      "1. A lot": -2.9557403564453124,
+      "2. A little": -3.9802734375,
+      "3. None": -3.9319915771484375,
+      "4. Not sure": -3.1525146484375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.39107397198677063,
+        "2. A little": 0.14038150012493134,
+        "3. None": 0.14732566475868225,
+        "4. Not sure": 0.3212187886238098
+      }
+    }
+  },
+  {
+    "id": 86,
+    "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nIsraeli people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "2": "A little",
+      "3": "None",
+      "4": "Not sure"
+    },
+    "selected_answer": "1. A lot",
+    "choice_logprobs": {
+      "1. A lot": -2.64195556640625,
+      "2. A little": -4.39990234375,
+      "3. None": -3.78466796875,
+      "4. Not sure": -3.051220703125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.46393176913261414,
+        "2. A little": 0.07998113334178925,
+        "3. None": 0.14797231554985046,
+        "4. Not sure": 0.30811479687690735
+      }
+    }
+  },
+  {
+    "id": 87,
+    "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nPalestinian people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A lot",
+      "2": "A little",
+      "3": "None",
+      "4": "Not sure"
+    },
+    "selected_answer": "1. A lot",
+    "choice_logprobs": {
+      "1. A lot": -2.7079833984375,
+      "2. A little": -4.0875,
+      "3. None": -3.786529541015625,
+      "4. Not sure": -3.115234375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A lot": 0.44301360845565796,
+        "2. A little": 0.11150661110877991,
+        "3. None": 0.1506643444299698,
+        "4. Not sure": 0.29481545090675354
+      }
+    }
+  },
+  {
+    "id": 88,
+    "question": "Thinking about Israel's current military operation against Hamas, is Israel...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Going too far",
+      "2": "Not going far enough",
+      "3": "Taking about the right approach",
+      "4": "Not sure"
+    },
+    "selected_answer": "3. Taking about the right approach",
+    "choice_logprobs": {
+      "1. Going too far": -2.188030739625295,
+      "2. Not going far enough": -1.9734741960253035,
+      "3. Taking about the right approach": -1.659600704908371,
+      "4. Not sure": -3.357666015625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Going too far": 0.23551249504089355,
+        "2. Not going far enough": 0.2918735146522522,
+        "3. Taking about the right approach": 0.399492084980011,
+        "4. Not sure": 0.07312195748090744
+      }
+    }
+  },
+  {
+    "id": 89,
+    "question": "Do you think Joe Biden is...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Favoring the Israelis too much",
+      "2": "Favoring the Palestinians too much",
+      "3": "Striking about the right balance",
+      "4": "Not sure"
+    },
+    "selected_answer": "1. Favoring the Israelis too much",
+    "choice_logprobs": {
+      "1. Favoring the Israelis too much": -1.398378504647149,
+      "2. Favoring the Palestinians too much": -1.697221279144287,
+      "3. Striking about the right balance": -1.6999223232269287,
+      "4. Not sure": -3.616845703125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Favoring the Israelis too much": 0.3860814571380615,
+        "2. Favoring the Palestinians too much": 0.28634732961654663,
+        "3. Striking about the right balance": 0.28557494282722473,
+        "4. Not sure": 0.04199628159403801
+      }
+    }
+  },
+  {
+    "id": 90,
+    "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?\nThe war expanding to other countries in the region",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Extremely concerned",
+      "2": "Very concerned",
+      "3": "Somewhat concerned",
+      "4": "Not too concerned",
+      "5": "Not at all concerned"
+    },
+    "selected_answer": "5. Not at all concerned",
+    "choice_logprobs": {
+      "1. Extremely concerned": -2.463791275024414,
+      "2. Very concerned": -2.719814682006836,
+      "3. Somewhat concerned": -2.288398047288259,
+      "4. Not too concerned": -2.4491798877716064,
+      "5. Not at all concerned": -2.1713197571890697
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Extremely concerned": 0.18795961141586304,
+        "2. Very concerned": 0.14550401270389557,
+        "3. Somewhat concerned": 0.22399424016475677,
+        "4. Not too concerned": 0.1907261312007904,
+        "5. Not at all concerned": 0.2518160045146942
+      }
+    }
+  },
+  {
+    "id": 91,
+    "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?\nThe war leading to a terrorist attack in the United States",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Extremely concerned",
+      "2": "Very concerned",
+      "3": "Somewhat concerned",
+      "4": "Not too concerned",
+      "5": "Not at all concerned"
+    },
+    "selected_answer": "5. Not at all concerned",
+    "choice_logprobs": {
+      "1. Extremely concerned": -2.261978530883789,
+      "2. Very concerned": -2.8149810791015626,
+      "3. Somewhat concerned": -2.174796462059021,
+      "4. Not too concerned": -2.32743771870931,
+      "5. Not at all concerned": -1.9593544687543596
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Extremely concerned": 0.20176102221012115,
+        "2. Very concerned": 0.11605700850486755,
+        "3. Somewhat concerned": 0.2201405018568039,
+        "4. Not too concerned": 0.18897691369056702,
+        "5. Not at all concerned": 0.2730644941329956
+      }
+    }
+  },
+  {
+    "id": 92,
+    "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?\nThe war going on for a very long time",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Extremely concerned",
+      "2": "Very concerned",
+      "3": "Somewhat concerned",
+      "4": "Not too concerned",
+      "5": "Not at all concerned"
+    },
+    "selected_answer": "3. Somewhat concerned",
+    "choice_logprobs": {
+      "1. Extremely concerned": -2.4548103332519533,
+      "2. Very concerned": -2.9336151123046874,
+      "3. Somewhat concerned": -2.2504109938939414,
+      "4. Not too concerned": -2.4957923094431558,
+      "5. Not at all concerned": -2.2610442297799245
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Extremely concerned": 0.19920437037944794,
+        "2. Very concerned": 0.12341176718473434,
+        "3. Somewhat concerned": 0.24438153207302094,
+        "4. Not too concerned": 0.19120560586452484,
+        "5. Not at all concerned": 0.24179673194885254
+      }
+    }
+  },
+  {
+    "id": 93,
+    "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?\nIncreasing violence against Jewish people in the U.S.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Extremely concerned",
+      "2": "Very concerned",
+      "3": "Somewhat concerned",
+      "4": "Not too concerned",
+      "5": "Not at all concerned"
+    },
+    "selected_answer": "5. Not at all concerned",
+    "choice_logprobs": {
+      "1. Extremely concerned": -2.4007667541503905,
+      "2. Very concerned": -3.442022705078125,
+      "3. Somewhat concerned": -2.298304557800293,
+      "4. Not too concerned": -2.537677447001139,
+      "5. Not at all concerned": -2.166904994419643
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Extremely concerned": 0.21756039559841156,
+        "2. Very concerned": 0.07680121809244156,
+        "3. Somewhat concerned": 0.24103419482707977,
+        "4. Not too concerned": 0.18972313404083252,
+        "5. Not at all concerned": 0.2748810350894928
+      }
+    }
+  },
+  {
+    "id": 94,
+    "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each of the following?\nIncreasing violence against Muslim people in the U.S.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Extremely concerned",
+      "2": "Very concerned",
+      "3": "Somewhat concerned",
+      "4": "Not too concerned",
+      "5": "Not at all concerned"
+    },
+    "selected_answer": "5. Not at all concerned",
+    "choice_logprobs": {
+      "1. Extremely concerned": -2.3220893859863283,
+      "2. Very concerned": -3.3111968994140626,
+      "3. Somewhat concerned": -2.243150552113851,
+      "4. Not too concerned": -2.5356015165646872,
+      "5. Not at all concerned": -2.13252523967198
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Extremely concerned": 0.2236880213022232,
+        "2. Very concerned": 0.08319147676229477,
+        "3. Somewhat concerned": 0.24206136167049408,
+        "4. Not too concerned": 0.18068228662014008,
+        "5. Not at all concerned": 0.2703768014907837
+      }
+    }
+  },
+  {
+    "id": 95,
+    "question": "Now, thinking about the future, and not just the current conflict...\n\n Do you think a way can be found for Israel and an independent Palestinian state to coexist peacefully with each other?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Yes, can coexist peacefully",
+      "2": "No, cannot coexist peacefully"
+    },
+    "selected_answer": "1. Yes, can coexist peacefully",
+    "choice_logprobs": {
+      "1. Yes, can coexist peacefully": -1.4929482142130535,
+      "2. No, cannot coexist peacefully": -1.7508806652492948
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Yes, can coexist peacefully": 0.5641279816627502,
+        "2. No, cannot coexist peacefully": 0.43587201833724976
+      }
+    }
+  },
+  {
+    "id": 96,
+    "question": "Do you agree or disagree with the following statement?\nThe Holocaust is a myth",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly agree",
+      "2": "Tend to agree",
+      "3": "Neither agree nor disagree",
+      "4": "Tend to disagree",
+      "5": "Strongly disagree"
+    },
+    "selected_answer": "4. Tend to disagree",
+    "choice_logprobs": {
+      "1. Strongly agree": -2.2812907695770264,
+      "2. Tend to agree": -2.0024298429489136,
+      "3. Neither agree nor disagree": -1.964838913508824,
+      "4. Tend to disagree": -1.9367623329162598,
+      "5. Strongly disagree": -2.103628675142924
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly agree": 0.15873974561691284,
+        "2. Tend to agree": 0.20979416370391846,
+        "3. Neither agree nor disagree": 0.21783065795898438,
+        "4. Tend to disagree": 0.22403325140476227,
+        "5. Strongly disagree": 0.18960219621658325
+      }
+    }
+  },
+  {
+    "id": 97,
+    "question": "Do you agree or disagree with the following statement?\nJews have too much power in America",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly agree",
+      "2": "Tend to agree",
+      "3": "Neither agree nor disagree",
+      "4": "Tend to disagree",
+      "5": "Strongly disagree"
+    },
+    "selected_answer": "2. Tend to agree",
+    "choice_logprobs": {
+      "1. Strongly agree": -2.3599612514177957,
+      "2. Tend to agree": -2.1207570178168162,
+      "3. Neither agree nor disagree": -2.174267360142299,
+      "4. Tend to disagree": -2.131999594824655,
+      "5. Strongly disagree": -2.5151551564534507
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly agree": 0.17900045216083527,
+        "2. Tend to agree": 0.2273731529712677,
+        "3. Neither agree nor disagree": 0.21552616357803345,
+        "4. Tend to disagree": 0.2248312532901764,
+        "5. Strongly disagree": 0.1532689929008484
+      }
+    }
+  },
+  {
+    "id": 98,
+    "question": "Do you agree or disagree with the following statement?\nAmerican Jews make a positive contribution to American society",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly agree",
+      "2": "Tend to agree",
+      "3": "Neither agree nor disagree",
+      "4": "Tend to disagree",
+      "5": "Strongly disagree"
+    },
+    "selected_answer": "2. Tend to agree",
+    "choice_logprobs": {
+      "1. Strongly agree": -2.0947477221488953,
+      "2. Tend to agree": -1.7072893721716744,
+      "3. Neither agree nor disagree": -1.9204226561955042,
+      "4. Tend to disagree": -1.9121611969811576,
+      "5. Strongly disagree": -2.299531618754069
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly agree": 0.17609305679798126,
+        "2. Tend to agree": 0.2594258785247803,
+        "3. Neither agree nor disagree": 0.2096286565065384,
+        "4. Tend to disagree": 0.211367666721344,
+        "5. Strongly disagree": 0.14348474144935608
+      }
+    }
+  },
+  {
+    "id": 99,
+    "question": "Do you agree or disagree with the following statement?\nThe State of Israel has the right to exist",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly agree",
+      "2": "Tend to agree",
+      "3": "Neither agree nor disagree",
+      "4": "Tend to disagree",
+      "5": "Strongly disagree"
+    },
+    "selected_answer": "2. Tend to agree",
+    "choice_logprobs": {
+      "1. Strongly agree": -1.9645893375078838,
+      "2. Tend to agree": -1.7741723571504866,
+      "3. Neither agree nor disagree": -1.9115452425820487,
+      "4. Tend to disagree": -1.8897325651986259,
+      "5. Strongly disagree": -2.225245714187622
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly agree": 0.1955988109111786,
+        "2. Tend to agree": 0.23662644624710083,
+        "3. Neither agree nor disagree": 0.2062542736530304,
+        "4. Tend to disagree": 0.21080265939235687,
+        "5. Strongly disagree": 0.1507178097963333
+      }
+    }
+  },
+  {
+    "id": 100,
+    "question": "Who is the current prime minister of Israel?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Benjamin Netanyahu",
+      "2": "Rishi Sunak",
+      "3": "Benny Gantz",
+      "4": "Abdel Fattah el-Sisi",
+      "98": "Not sure"
+    },
+    "selected_answer": "4. Abdel Fattah el-Sisi",
+    "choice_logprobs": {
+      "1. Benjamin Netanyahu": -2.331859588623047,
+      "2. Rishi Sunak": -2.1845380578722273,
+      "3. Benny Gantz": -2.300143321355184,
+      "4. Abdel Fattah el-Sisi": -1.4477770566940307,
+      "98. Not sure": -1.6398605346679687
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Benjamin Netanyahu": 0.13141608238220215,
+        "2. Rishi Sunak": 0.15227527916431427,
+        "3. Benny Gantz": 0.13565091788768768,
+        "4. Abdel Fattah el-Sisi": 0.3181271255016327,
+        "98. Not sure": 0.2625305950641632
+      }
+    }
+  },
+  {
+    "id": 101,
+    "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our society increased, decreased, or stayed about the same?\nArabs",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Increased",
+      "2": "Decreased",
+      "3": "Stayed about the same",
+      "98": "Not sure"
+    },
+    "selected_answer": "3. Stayed about the same",
+    "choice_logprobs": {
+      "1. Increased": -3.0054473876953125,
+      "2. Decreased": -2.7626378297805787,
+      "3. Stayed about the same": -1.6512138545513153,
+      "98. Not sure": -1.966119384765625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Increased": 0.11140903830528259,
+        "2. Decreased": 0.1420271098613739,
+        "3. Stayed about the same": 0.4315752685070038,
+        "98. Not sure": 0.3149885833263397
+      }
+    }
+  },
+  {
+    "id": 102,
+    "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our society increased, decreased, or stayed about the same?\nJews",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Increased",
+      "2": "Decreased",
+      "3": "Stayed about the same",
+      "98": "Not sure"
+    },
+    "selected_answer": "3. Stayed about the same",
+    "choice_logprobs": {
+      "1. Increased": -3.0947799682617188,
+      "2. Decreased": -2.825734806060791,
+      "3. Stayed about the same": -1.6385141164064407,
+      "98. Not sure": -2.0056121826171873
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Increased": 0.10448857396841049,
+        "2. Decreased": 0.13674567639827728,
+        "3. Stayed about the same": 0.4482465982437134,
+        "98. Not sure": 0.31051912903785706
+      }
+    }
+  },
+  {
+    "id": 103,
+    "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our society increased, decreased, or stayed about the same?\nMuslims",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Increased",
+      "2": "Decreased",
+      "3": "Stayed about the same",
+      "98": "Not sure"
+    },
+    "selected_answer": "3. Stayed about the same",
+    "choice_logprobs": {
+      "1. Increased": -3.041482925415039,
+      "2. Decreased": -2.7289486646652223,
+      "3. Stayed about the same": -1.6717638224363327,
+      "98. Not sure": -2.0822418212890623
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Increased": 0.11222279071807861,
+        "2. Decreased": 0.1533956378698349,
+        "3. Stayed about the same": 0.44151201844215393,
+        "98. Not sure": 0.29286953806877136
+      }
+    }
+  },
+  {
+    "id": 104,
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli government",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.876025390625,
+      "2. Somewhat favorable": -2.694783926010132,
+      "3. Somewhat unfavorable": -2.6233447790145874,
+      "4. Very unfavorable": -4.3770263671875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.26960840821266174,
+        "2. Somewhat favorable": 0.3231808543205261,
+        "3. Somewhat unfavorable": 0.3471132516860962,
+        "4. Very unfavorable": 0.06009757146239281
+      }
+    }
+  },
+  {
+    "id": 105,
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian Authority, which controls the West Bank",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "2. Somewhat favorable",
+    "choice_logprobs": {
+      "1. Very favorable": -3.103131103515625,
+      "2. Somewhat favorable": -2.6258617639541626,
+      "3. Somewhat unfavorable": -2.6771092414855957,
+      "4. Very unfavorable": -4.64285888671875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.22950194776058197,
+        "2. Somewhat favorable": 0.3698808550834656,
+        "3. Somewhat unfavorable": 0.3514028787612915,
+        "4. Very unfavorable": 0.04921426624059677
+      }
+    }
+  },
+  {
+    "id": 106,
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nHamas, which has controlled Gaza",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -3.4809326171875,
+      "2. Somewhat favorable": -3.2314550081888833,
+      "3. Somewhat unfavorable": -3.022742728392283,
+      "4. Very unfavorable": -5.1535400390625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.2467721551656723,
+        "2. Somewhat favorable": 0.31669625639915466,
+        "3. Somewhat unfavorable": 0.3901984393596649,
+        "4. Very unfavorable": 0.04633316397666931
+      }
+    }
+  },
+  {
+    "id": 107,
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Israeli people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -2.733929443359375,
+      "2. Somewhat favorable": -2.6874528725941977,
+      "3. Somewhat unfavorable": -2.5711126128832498,
+      "4. Very unfavorable": -4.2989013671875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.29124897718429565,
+        "2. Somewhat favorable": 0.30510473251342773,
+        "3. Somewhat unfavorable": 0.34274792671203613,
+        "4. Very unfavorable": 0.06089836359024048
+      }
+    }
+  },
+  {
+    "id": 108,
+    "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or unfavorable opinion of each of the following?\nThe Palestinian people",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very favorable",
+      "2": "Somewhat favorable",
+      "3": "Somewhat unfavorable",
+      "4": "Very unfavorable"
+    },
+    "selected_answer": "3. Somewhat unfavorable",
+    "choice_logprobs": {
+      "1. Very favorable": -3.0394287109375,
+      "2. Somewhat favorable": -2.6353110869725547,
+      "3. Somewhat unfavorable": -2.627914090951284,
+      "4. Very unfavorable": -4.4748779296875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very favorable": 0.23556627333164215,
+        "2. Somewhat favorable": 0.3528735637664795,
+        "3. Somewhat unfavorable": 0.355493426322937,
+        "4. Very unfavorable": 0.056066758930683136
+      }
+    }
+  },
+  {
+    "id": 109,
+    "question": "Would you say your sympathies lie...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Entirely with the Israeli people",
+      "2": "Mostly with the Israeli people but also somewhat with the Palestinian people",
+      "3": "Mostly with the Palestinian people but also somewhat with the Israeli people",
+      "4": "Entirely with the Palestinian people",
+      "5": "Equally with both of them",
+      "6": "With neither of them",
+      "98": "Not sure"
+    },
+    "selected_answer": "3. Mostly with the Palestinian people but also somewhat with the Israeli people",
+    "choice_logprobs": {
+      "1. Entirely with the Israeli people": -1.2333485550350614,
+      "2. Mostly with the Israeli people but also somewhat with the Palestinian people": -0.8881733814875284,
+      "3. Mostly with the Palestinian people but also somewhat with the Israeli people": -0.8672898451487223,
+      "4. Entirely with the Palestinian people": -1.621748447418213,
+      "5. Equally with both of them": -1.5253683990902371,
+      "6. With neither of them": -2.008157593863351,
+      "98. Not sure": -1.8306060791015626
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Entirely with the Israeli people": 0.15897534787654877,
+        "2. Mostly with the Israeli people but also somewhat with the Palestinian people": 0.22451093792915344,
+        "3. Mostly with the Palestinian people but also somewhat with the Israeli people": 0.22924882173538208,
+        "4. Entirely with the Palestinian people": 0.10780773311853409,
+        "5. Equally with both of them": 0.11871543526649475,
+        "6. With neither of them": 0.0732545405626297,
+        "98. Not sure": 0.08748713880777359
+      }
+    }
+  },
+  {
+    "id": 110,
+    "question": "Regardless of how acceptable you find the way Hamas carried out the Oct. 7 attack, do you think Hamas' reasons for fighting Israel are...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Completely valid",
+      "2": "Somewhat valid",
+      "3": "Not too valid",
+      "4": "Not at all valid",
+      "98": "Not sure"
+    },
+    "selected_answer": "98. Not sure",
+    "choice_logprobs": {
+      "1. Completely valid": -2.7120452880859376,
+      "2. Somewhat valid": -2.1976588567097983,
+      "3. Not too valid": -2.2980029582977295,
+      "4. Not at all valid": -1.9693449565342493,
+      "98. Not sure": -1.964617919921875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Completely valid": 0.11906610429286957,
+        "2. Somewhat valid": 0.19915138185024261,
+        "3. Not too valid": 0.18013761937618256,
+        "4. Not at all valid": 0.2502296566963196,
+        "98. Not sure": 0.25141528248786926
+      }
+    }
+  },
+  {
+    "id": 111,
+    "question": "Regardless of how acceptable you find the way Israel is carrying out the war in Gaza, do you think Israel's reasons for fighting Hamas are...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Completely valid",
+      "2": "Somewhat valid",
+      "3": "Not too valid",
+      "4": "Not at all valid",
+      "98": "Not sure"
+    },
+    "selected_answer": "98. Not sure",
+    "choice_logprobs": {
+      "1. Completely valid": -2.75172119140625,
+      "2. Somewhat valid": -2.1785350243250527,
+      "3. Not too valid": -2.2610644499460855,
+      "4. Not at all valid": -1.974888869694301,
+      "98. Not sure": -1.8721405029296876
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Completely valid": 0.11121293157339096,
+        "2. Somewhat valid": 0.19728173315525055,
+        "3. Not too valid": 0.18165390193462372,
+        "4. Not at all valid": 0.24184061586856842,
+        "98. Not sure": 0.26801079511642456
+      }
+    }
+  },
+  {
+    "id": 112,
+    "question": "Do you favor or oppose the U.S. providing military aid to Israel to help in its war against Hamas?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly favor",
+      "2": "Somewhat favor",
+      "3": "Neither favor nor oppose",
+      "4": "Somewhat oppose",
+      "5": "Strongly oppose",
+      "98": "Not sure"
+    },
+    "selected_answer": "3. Neither favor nor oppose",
+    "choice_logprobs": {
+      "1. Strongly favor": -2.3351766069730124,
+      "2. Somewhat favor": -2.1942771474520364,
+      "3. Neither favor nor oppose": -1.9333093166351318,
+      "4. Somewhat oppose": -2.2642465233802795,
+      "5. Strongly oppose": -2.295390864213308,
+      "98. Not sure": -1.9934585571289063
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly favor": 0.13952100276947021,
+        "2. Somewhat favor": 0.16063179075717926,
+        "3. Neither favor nor oppose": 0.20852991938591003,
+        "4. Somewhat oppose": 0.1497766673564911,
+        "5. Strongly oppose": 0.14518387615680695,
+        "98. Not sure": 0.19635678827762604
+      }
+    }
+  },
+  {
+    "id": 113,
+    "question": "Do you favor or oppose the U.S. providing humanitarian aid to help Palestinian civilians in Gaza?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly favor",
+      "2": "Somewhat favor",
+      "3": "Neither favor nor oppose",
+      "4": "Somewhat oppose",
+      "5": "Strongly oppose",
+      "98": "Not sure"
+    },
+    "selected_answer": "3. Neither favor nor oppose",
+    "choice_logprobs": {
+      "1. Strongly favor": -2.282319704691569,
+      "2. Somewhat favor": -2.2878591418266296,
+      "3. Neither favor nor oppose": -2.0058185202734813,
+      "4. Somewhat oppose": -2.376359701156616,
+      "5. Strongly oppose": -2.367292861143748,
+      "98. Not sure": -2.1818923950195312
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly favor": 0.16006630659103394,
+        "2. Somewhat favor": 0.1591820865869522,
+        "3. Neither favor nor oppose": 0.21104878187179565,
+        "4. Somewhat oppose": 0.14569978415966034,
+        "5. Strongly oppose": 0.14702682197093964,
+        "98. Not sure": 0.1769762486219406
+      }
+    }
+  },
+  {
+    "id": 114,
+    "question": "Overall, do you think the way the Israeli government is carrying out the war against Hamas will make the Israeli people...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "More secure than they were before the war",
+      "2": "Less secure than they were before the war",
+      "3": "Not really have much effect",
+      "98": "Not sure"
+    },
+    "selected_answer": "1. More secure than they were before the war",
+    "choice_logprobs": {
+      "1. More secure than they were before the war": -1.0180674899708142,
+      "2. Less secure than they were before the war": -1.172099763696844,
+      "3. Not really have much effect": -1.8145920038223267,
+      "98. Not sure": -2.1583526611328123
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. More secure than they were before the war": 0.3805369734764099,
+        "2. Less secure than they were before the war": 0.32621318101882935,
+        "3. Not really have much effect": 0.17158158123493195,
+        "98. Not sure": 0.1216682642698288
+      }
+    }
+  },
+  {
+    "id": 115,
+    "question": "Overall, do you think Hamas' Oct. 7 attack against Israel and the subsequent war will make the creation of an independent Palestinian state...",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "More likely than before the war",
+      "2": "Less likely than before the war",
+      "3": "Not really have much effect",
+      "98": "Not sure"
+    },
+    "selected_answer": "1. More likely than before the war",
+    "choice_logprobs": {
+      "1. More likely than before the war": -1.30129955874549,
+      "2. Less likely than before the war": -1.4431210888756647,
+      "3. Not really have much effect": -1.6754210591316223,
+      "98. Not sure": -2.062701416015625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. More likely than before the war": 0.3308321535587311,
+        "2. Less likely than before the war": 0.2870882451534271,
+        "3. Not really have much effect": 0.22757725417613983,
+        "98. Not sure": 0.15450234711170197
+      }
+    }
+  },
+  {
+    "id": 116,
+    "question": "How likely do you think it is that there will eventually be lasting peace between Israelis and Palestinians? ",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Extremely likely",
+      "2": "Very likely",
+      "3": "Somewhat likely",
+      "4": "Not too likely",
+      "5": "Not at all likely",
+      "98": "Not sure"
+    },
+    "selected_answer": "5. Not at all likely",
+    "choice_logprobs": {
+      "1. Extremely likely": -2.801409912109375,
+      "2. Very likely": -2.7073440551757812,
+      "3. Somewhat likely": -2.23936665058136,
+      "4. Not too likely": -2.313152472178141,
+      "5. Not at all likely": -1.9124599184308733,
+      "98. Not sure": -2.101080322265625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Extremely likely": 0.10071151703596115,
+        "2. Very likely": 0.11064491420984268,
+        "3. Somewhat likely": 0.1766735315322876,
+        "4. Not too likely": 0.1641068309545517,
+        "5. Not at all likely": 0.24498823285102844,
+        "98. Not sure": 0.20287494361400604
+      }
+    }
+  },
+  {
+    "id": 117,
+    "question": "Should the U.S. play a major role, a minor role or no role at all in diplomatically resolving the Israel-Hamas war?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A major role",
+      "2": "A minor role",
+      "3": "No role",
+      "98": "Not sure"
+    },
+    "selected_answer": "98. Not sure",
+    "choice_logprobs": {
+      "1. A major role": -2.473330497741699,
+      "2. A minor role": -2.628208796183268,
+      "3. No role": -3.071045684814453,
+      "98. Not sure": -2.174957275390625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A major role": 0.266364723443985,
+        "2. A minor role": 0.2281465232372284,
+        "3. No role": 0.14651845395565033,
+        "98. Not sure": 0.3589703142642975
+      }
+    }
+  },
+  {
+    "id": 118,
+    "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that supports Israel's right to exist as a Jewish state",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Yes, this should be allowed",
+      "2": "No, this should not be allowed",
+      "98": "Not sure"
+    },
+    "selected_answer": "2. No, this should not be allowed",
+    "choice_logprobs": {
+      "1. Yes, this should be allowed": -1.7527837223476834,
+      "2. No, this should not be allowed": -1.561152410507202,
+      "98. Not sure": -2.369793701171875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Yes, this should be allowed": 0.3635333478450775,
+        "2. No, this should not be allowed": 0.4403202533721924,
+        "98. Not sure": 0.19614635407924652
+      }
+    }
+  },
+  {
+    "id": 119,
+    "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that opposes Israel's right to exist as a Jewish state",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Yes, this should be allowed",
+      "2": "No, this should not be allowed",
+      "98": "Not sure"
+    },
+    "selected_answer": "2. No, this should not be allowed",
+    "choice_logprobs": {
+      "1. Yes, this should be allowed": -1.7675758997599285,
+      "2. No, this should not be allowed": -1.5643755435943603,
+      "98. Not sure": -2.425537109375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Yes, this should be allowed": 0.36453455686569214,
+        "2. No, this should not be allowed": 0.4466707408428192,
+        "98. Not sure": 0.18879470229148865
+      }
+    }
+  },
+  {
+    "id": 120,
+    "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that supports Palestinians having their own state",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Yes, this should be allowed",
+      "2": "No, this should not be allowed",
+      "98": "Not sure"
+    },
+    "selected_answer": "2. No, this should not be allowed",
+    "choice_logprobs": {
+      "1. Yes, this should be allowed": -1.7289701832665338,
+      "2. No, this should not be allowed": -1.5633442521095275,
+      "98. Not sure": -2.457672119140625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Yes, this should be allowed": 0.375563383102417,
+        "2. No, this should not be allowed": 0.44321420788764954,
+        "98. Not sure": 0.18122245371341705
+      }
+    }
+  },
+  {
+    "id": 121,
+    "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that opposes Palestinians having their own state",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Yes, this should be allowed",
+      "2": "No, this should not be allowed",
+      "98": "Not sure"
+    },
+    "selected_answer": "2. No, this should not be allowed",
+    "choice_logprobs": {
+      "1. Yes, this should be allowed": -1.7780620521969266,
+      "2. No, this should not be allowed": -1.5632420301437377,
+      "98. Not sure": -2.50936279296875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Yes, this should be allowed": 0.36752256751060486,
+        "2. No, this should not be allowed": 0.4555951952934265,
+        "98. Not sure": 0.17688222229480743
+      }
+    }
+  },
+  {
+    "id": 122,
+    "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that calls for violence against Jews",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Yes, this should be allowed",
+      "2": "No, this should not be allowed",
+      "98": "Not sure"
+    },
+    "selected_answer": "2. No, this should not be allowed",
+    "choice_logprobs": {
+      "1. Yes, this should be allowed": -1.7037363052368164,
+      "2. No, this should not be allowed": -1.522352361679077,
+      "98. Not sure": -2.466717529296875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Yes, this should be allowed": 0.3752134144306183,
+        "2. No, this should not be allowed": 0.4498341381549835,
+        "98. Not sure": 0.17495237290859222
+      }
+    }
+  },
+  {
+    "id": 123,
+    "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each of the following in public, even if it might offend others? \nSpeech that calls for violence against Muslims",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Yes, this should be allowed",
+      "2": "No, this should not be allowed",
+      "98": "Not sure"
+    },
+    "selected_answer": "2. No, this should not be allowed",
+    "choice_logprobs": {
+      "1. Yes, this should be allowed": -1.7872913678487141,
+      "2. No, this should not be allowed": -1.5695473670959472,
+      "98. Not sure": -2.553961181640625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Yes, this should be allowed": 0.36929991841316223,
+        "2. No, this should not be allowed": 0.45913904905319214,
+        "98. Not sure": 0.17156106233596802
+      }
+    }
+  },
+  {
+    "id": 124,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nStrengthening the United Nations",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -2.953848648071289,
+      "2. Some priority": -3.61181640625,
+      "3. No priority": -3.3392822265625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.45494696497917175,
+        "2. Some priority": 0.23561827838420868,
+        "3. No priority": 0.3094347417354584
+      }
+    }
+  },
+  {
+    "id": 125,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nReducing U.S. military commitments overseas",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -3.159035491943359,
+      "2. Some priority": -3.807958984375,
+      "3. No priority": -3.4898193359375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.44623562693595886,
+        "2. Some priority": 0.23320630192756653,
+        "3. No priority": 0.32055801153182983
+      }
+    }
+  },
+  {
+    "id": 126,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of Russia",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -3.1637901306152343,
+      "2. Some priority": -3.6969970703125,
+      "3. No priority": -3.44296875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.42678046226501465,
+        "2. Some priority": 0.2504007816314697,
+        "3. No priority": 0.322818785905838
+      }
+    }
+  },
+  {
+    "id": 127,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of China",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -3.189254379272461,
+      "2. Some priority": -3.610986328125,
+      "3. No priority": -3.423388671875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.40863606333732605,
+        "2. Some priority": 0.2680284082889557,
+        "3. No priority": 0.3233354985713959
+      }
+    }
+  },
+  {
+    "id": 128,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nFinding a solution to the conflict between Israelis and Palestinians",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -3.1986331939697266,
+      "2. Some priority": -3.553515625,
+      "3. No priority": -3.3685546875
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.3929293155670166,
+        "2. Some priority": 0.2755439877510071,
+        "3. No priority": 0.3315266966819763
+      }
+    }
+  },
+  {
+    "id": 129,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of Iran",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -3.165231704711914,
+      "2. Some priority": -3.572802734375,
+      "3. No priority": -3.4342041015625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.4116194248199463,
+        "2. Some priority": 0.2738356590270996,
+        "3. No priority": 0.3145448863506317
+      }
+    }
+  },
+  {
+    "id": 130,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nLimiting the power and influence of North Korea",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -3.079452896118164,
+      "2. Some priority": -3.4923828125,
+      "3. No priority": -3.3859375
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.4170595705509186,
+        "2. Some priority": 0.2759719789028168,
+        "3. No priority": 0.3069683611392975
+      }
+    }
+  },
+  {
+    "id": 131,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nStrengthening NATO",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -2.7975608825683596,
+      "2. Some priority": -3.850537109375,
+      "3. No priority": -3.47178955078125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.5380836725234985,
+        "2. Some priority": 0.18773622810840607,
+        "3. No priority": 0.27418017387390137
+      }
+    }
+  },
+  {
+    "id": 132,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nSupporting Israel",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -2.8600696563720702,
+      "2. Some priority": -3.646533203125,
+      "3. No priority": -3.5149658203125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.5063422322273254,
+        "2. Some priority": 0.23061491549015045,
+        "3. No priority": 0.2630428075790405
+      }
+    }
+  },
+  {
+    "id": 133,
+    "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the following should be given?\nSupporting Ukraine",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Top priority",
+      "2": "Some priority",
+      "3": "No priority"
+    },
+    "selected_answer": "1. Top priority",
+    "choice_logprobs": {
+      "1. Top priority": -2.67742805480957,
+      "2. Some priority": -3.509521484375,
+      "3. No priority": -3.3304931640625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Top priority": 0.5113558173179626,
+        "2. Some priority": 0.22251003980636597,
+        "3. No priority": 0.266134113073349
+      }
+    }
+  },
+  {
+    "id": 134,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nChina",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -1.8635144233703613,
+      "2. Getting weaker": -2.455126953125,
+      "3. Staying about the same": -1.6565943956375122
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.35928335785865784,
+        "2. Getting weaker": 0.19883966445922852,
+        "3. Staying about the same": 0.44187694787979126
+      }
+    }
+  },
+  {
+    "id": 135,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nRussia",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -1.95872802734375,
+      "2. Getting weaker": -2.4700653076171877,
+      "3. Staying about the same": -1.6897676587104797
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.34384387731552124,
+        "2. Getting weaker": 0.20620079338550568,
+        "3. Staying about the same": 0.4499552845954895
+      }
+    }
+  },
+  {
+    "id": 136,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nIndia",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -1.952825927734375,
+      "2. Getting weaker": -2.52347412109375,
+      "3. Staying about the same": -1.6804821342229843
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.3474396765232086,
+        "2. Getting weaker": 0.19635863602161407,
+        "3. Staying about the same": 0.45620161294937134
+      }
+    }
+  },
+  {
+    "id": 137,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nGermany",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -2.0020660400390624,
+      "2. Getting weaker": -2.58006591796875,
+      "3. Staying about the same": -1.7412225753068924
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.34976726770401,
+        "2. Getting weaker": 0.19622620940208435,
+        "3. Staying about the same": 0.45400649309158325
+      }
+    }
+  },
+  {
+    "id": 138,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nFrance",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -2.021307373046875,
+      "2. Getting weaker": -2.513092041015625,
+      "3. Staying about the same": -1.7144194543361664
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.33661842346191406,
+        "2. Getting weaker": 0.2058536261320114,
+        "3. Staying about the same": 0.45752793550491333
+      }
+    }
+  },
+  {
+    "id": 139,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nThe United Kingdom",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -2.0401885986328123,
+      "2. Getting weaker": -2.41092529296875,
+      "3. Staying about the same": -1.6054351478815079
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.30913737416267395,
+        "2. Getting weaker": 0.21337451040744781,
+        "3. Staying about the same": 0.47748807072639465
+      }
+    }
+  },
+  {
+    "id": 140,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nIran",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -2.00076904296875,
+      "2. Getting weaker": -2.48997802734375,
+      "3. Staying about the same": -1.681292861700058
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.33450210094451904,
+        "2. Getting weaker": 0.20508699119091034,
+        "3. Staying about the same": 0.4604109227657318
+      }
+    }
+  },
+  {
+    "id": 141,
+    "question": "For each of the following countries, would you say its influence in the world in recent years has been...\nThe U.S.",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -1.884564208984375,
+      "2. Getting weaker": -3.8601806640625,
+      "3. Staying about the same": -1.616482064127922
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.40880894660949707,
+        "2. Getting weaker": 0.05669190734624863,
+        "3. Staying about the same": 0.5344991087913513
+      }
+    }
+  },
+  {
+    "id": 142,
+    "question": "For each of the following international organizations, would you say its influence in the world in recent years has been...\nNATO, that is, North Atlantic Treaty Organization",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -2.258544921875,
+      "2. Getting weaker": -3.99833984375,
+      "3. Staying about the same": -1.8224753439426422
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.3673535883426666,
+        "2. Getting weaker": 0.06449126452207565,
+        "3. Staying about the same": 0.5681551098823547
+      }
+    }
+  },
+  {
+    "id": 143,
+    "question": "For each of the following international organizations, would you say its influence in the world in recent years has been...\nThe European Union",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -2.083404541015625,
+      "2. Getting weaker": -3.7236328125,
+      "3. Staying about the same": -1.7953379154205322
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.395603746175766,
+        "2. Getting weaker": 0.07672172039747238,
+        "3. Staying about the same": 0.5276745557785034
+      }
+    }
+  },
+  {
+    "id": 144,
+    "question": "For each of the following international organizations, would you say its influence in the world in recent years has been...\nThe United Nations",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Getting stronger",
+      "2": "Getting weaker",
+      "3": "Staying about the same"
+    },
+    "selected_answer": "3. Staying about the same",
+    "choice_logprobs": {
+      "1. Getting stronger": -2.147265625,
+      "2. Getting weaker": -3.6052734375,
+      "3. Staying about the same": -1.7055709213018417
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Getting stronger": 0.35867488384246826,
+        "2. Getting weaker": 0.08346342295408249,
+        "3. Staying about the same": 0.5578616857528687
+      }
+    }
+  },
+  {
+    "id": 145,
+    "question": "How much confidence do you have in the ability of the United Nations to Provide effective humanitarian aid to Gaza",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A great deal of confidence",
+      "2": "A fair amount of confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all",
+      "5": "Not sure"
+    },
+    "selected_answer": "1. A great deal of confidence",
+    "choice_logprobs": {
+      "1. A great deal of confidence": -1.5312793552875519,
+      "2. A fair amount of confidence": -1.895216464996338,
+      "3. Not too much confidence": -1.8504788364682878,
+      "4. No confidence at all": -1.8988783700125558,
+      "5. Not sure": -2.56851806640625
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A great deal of confidence": 0.2883097231388092,
+        "2. A fair amount of confidence": 0.20035646855831146,
+        "3. Not too much confidence": 0.20952345430850983,
+        "4. No confidence at all": 0.19962413609027863,
+        "5. Not sure": 0.1021861881017685
+      }
+    }
+  },
+  {
+    "id": 146,
+    "question": "How much confidence do you have in the ability of the United Nations to Enforce a ceasefire between Israel and Hamas",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "A great deal of confidence",
+      "2": "A fair amount of confidence",
+      "3": "Not too much confidence",
+      "4": "No confidence at all",
+      "5": "Not sure"
+    },
+    "selected_answer": "1. A great deal of confidence",
+    "choice_logprobs": {
+      "1. A great deal of confidence": -1.627619743347168,
+      "2. A fair amount of confidence": -1.7883615493774414,
+      "3. Not too much confidence": -1.8881206512451172,
+      "4. No confidence at all": -1.927438701902117,
+      "5. Not sure": -2.615283203125
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. A great deal of confidence": 0.2676963806152344,
+        "2. A fair amount of confidence": 0.22794665396213531,
+        "3. Not too much confidence": 0.20630435645580292,
+        "4. No confidence at all": 0.19835025072097778,
+        "5. Not sure": 0.09970241785049438
+      }
+    }
+  },
+  {
+    "id": 147,
+    "question": "In your opinion, to what extent is the security of Israel one of President Trump's main considerations?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "To a very large extent",
+      "2": "To a fairly large extent",
+      "3": "To a fairly small extent",
+      "4": "To a very small extent",
+      "5": "Don't know"
+    },
+    "selected_answer": "3. To a fairly small extent",
+    "choice_logprobs": {
+      "1. To a very large extent": -1.9821062684059143,
+      "2. To a fairly large extent": -2.889331817626953,
+      "3. To a fairly small extent": -1.9624738842248917,
+      "4. To a very small extent": -1.9974676370620728,
+      "5. Don't know": -2.522655487060547
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. To a very large extent": 0.25058555603027344,
+        "2. To a fairly large extent": 0.10114699602127075,
+        "3. To a fairly small extent": 0.2555537521839142,
+        "4. To a very small extent": 0.2467656284570694,
+        "5. Don't know": 0.1459481120109558
+      }
+    }
+  },
+  {
+    "id": 148,
+    "question": "Recently, US President Trump has turned away from Ukraine and moved closer to Russia. In your opinion, what is the likelihood that he will also turn away from Israel, if he thinks that its policies are not aligned with the interests of the United States?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Very high likelihood",
+      "2": "Fairly high likelihood",
+      "3": "Fairly low likelihood",
+      "4": "Very low likelihood/no likelihood at all",
+      "5": "Don't know"
+    },
+    "selected_answer": "4. Very low likelihood/no likelihood at all",
+    "choice_logprobs": {
+      "1. Very high likelihood": -2.5000858306884766,
+      "2. Fairly high likelihood": -2.208742414202009,
+      "3. Fairly low likelihood": -2.1245520966393605,
+      "4. Very low likelihood/no likelihood at all": -1.4258957505226135,
+      "5. Don't know": -2.4308497111002603
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Very high likelihood": 0.1283152997493744,
+        "2. Fairly high likelihood": 0.1717146337032318,
+        "3. Fairly low likelihood": 0.1867973506450653,
+        "4. Very low likelihood/no likelihood at all": 0.3756585717201233,
+        "5. Don't know": 0.1375141143798828
+      }
+    }
+  },
+  {
+    "id": 149,
+    "question": "To what extent, in your opinion, does Iran now constitute an existential danger to Israel?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Not at all",
+      "2": "To a small extent",
+      "3": "To a medium extent",
+      "4": "To a great extent",
+      "5": "To a very great extent",
+      "6": "Don't know"
+    },
+    "selected_answer": "5. To a very great extent",
+    "choice_logprobs": {
+      "1. Not at all": -2.729968845844269,
+      "2. To a small extent": -3.167302812848772,
+      "3. To a medium extent": -2.428778495107378,
+      "4. To a great extent": -2.43215240750994,
+      "5. To a very great extent": -2.1160709261894226,
+      "6. Don't know": -2.7438977559407554
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Not at all": 0.13931606709957123,
+        "2. To a small extent": 0.08996414393186569,
+        "3. To a medium extent": 0.18828101456165314,
+        "4. To a great extent": 0.1876468062400818,
+        "5. To a very great extent": 0.25740301609039307,
+        "6. Don't know": 0.13738900423049927
+      }
+    }
+  },
+  {
+    "id": 150,
+    "question": "Do you agree or disagree with the view that Israel should militarily attack Iran's nuclear facilities even without American consent?",
+    "variant": "no_refusal",
+    "original_answers": {
+      "1": "Strongly agree",
+      "2": "Moderately agree",
+      "3": "Don't agree so much",
+      "4": "Don't agree at all",
+      "5": "Don't know"
+    },
+    "selected_answer": "4. Don't agree at all",
+    "choice_logprobs": {
+      "1. Strongly agree": -2.660552740097046,
+      "2. Moderately agree": -2.3757319847742715,
+      "3. Don't agree so much": -1.6579048037528992,
+      "4. Don't agree at all": -1.5734433978796005,
+      "5. Don't know": -2.7535324096679688
+    },
+    "refusal_analysis": {
+      "variant": "no_refusal",
+      "has_refusal": false,
+      "choice_probabilities": {
+        "1. Strongly agree": 0.1119580939412117,
+        "2. Moderately agree": 0.1488509476184845,
+        "3. Don't agree so much": 0.30514055490493774,
+        "4. Don't agree at all": 0.33203285932540894,
+        "5. Don't know": 0.10201755911111832
+      }
+    }
+  }
+]

@@ -57,12 +57,13 @@ def main():
     # Handle multiple datasets (languages)
     datasets = config.get("datasets", [{"data_file": config["data_file"], "language": "english"}])
     
-    # Run experiments for each dataset and model combination
+    # Load all datasets first
+    loaded_datasets = []
     for dataset_config in datasets:
         data_file = dataset_config["data_file"]
         language = dataset_config.get("language", "english")
         
-        logger.info(f"Processing dataset: {data_file} (Language: {language})")
+        logger.info(f"Loading dataset: {data_file} (Language: {language})")
         
         # Handle different encodings for different languages
         try:
@@ -103,48 +104,64 @@ def main():
             if invalid_count > 0:
                 logger.warning(f"Found {invalid_count} rows with invalid 'answers' data")
         
-        # Run both refusal experiments for all models
-        for model_config in config["models"]:
-            current_config = {
-                **config,
-                **model_config,
-                "language": language,
-                "current_data_file": data_file
-            }
-            
-            if current_config["debug"]:
-                current_data = data.sample(
-                    n=current_config["num_samples"], 
-                    random_state=current_config["seed"]
-                )
-            else:
-                current_data = data
-            
-            # Load model once for both experiments
-            logger.info(f"Loading model: {current_config['model']} for {language} dataset")
-            model_result = get_model(
-                current_config["model"],
-                current_config["temperature"],
-                current_config.get("use_rate_limiter", False),
-                requests_per_second=current_config.get("requests_per_second"),
-                check_every_n_seconds=current_config.get("check_every_n_seconds"),
-                local_model_id=current_config.get("local")
-            )
-            
-            # Handle different return formats
-            if isinstance(model_result, tuple):
-                base_llm, raw_model, tokenizer = model_result
-                is_local_model = True
-                logger.info("Local model loaded successfully")
-            else:
-                base_llm = model_result
-                raw_model = None
-                tokenizer = None
-                is_local_model = False
-                logger.info("OpenAI model loaded successfully")
-            
-            try:
-                # Run both variants with the same loaded model
+        loaded_datasets.append({
+            "data": data,
+            "language": language,
+            "data_file": data_file
+        })
+    
+    # Run experiments for each model across all datasets
+    for model_config in config["models"]:
+        logger.info(f"=== Processing model: {model_config['model']} ===")
+        
+        # Load model once for all datasets and experiments
+        base_config = {**config, **model_config}
+        logger.info(f"Loading model: {base_config['model']} for all datasets")
+        model_result = get_model(
+            base_config["model"],
+            base_config["temperature"],
+            base_config.get("use_rate_limiter", False),
+            requests_per_second=base_config.get("requests_per_second"),
+            check_every_n_seconds=base_config.get("check_every_n_seconds"),
+            local_model_id=base_config.get("local")
+        )
+        
+        # Handle different return formats
+        if isinstance(model_result, tuple):
+            base_llm, raw_model, tokenizer = model_result
+            is_local_model = True
+            logger.info("Local model loaded successfully")
+        else:
+            base_llm = model_result
+            raw_model = None
+            tokenizer = None
+            is_local_model = False
+            logger.info("OpenAI model loaded successfully")
+        
+        try:
+            # Run experiments on all datasets with this model
+            for dataset_info in loaded_datasets:
+                data = dataset_info["data"]
+                language = dataset_info["language"]
+                data_file = dataset_info["data_file"]
+                
+                logger.info(f"Processing {language} dataset with model {base_config['model']}")
+                
+                current_config = {
+                    **base_config,
+                    "language": language,
+                    "current_data_file": data_file
+                }
+                
+                if current_config["debug"]:
+                    current_data = data.sample(
+                        n=current_config["num_samples"], 
+                        random_state=current_config["seed"]
+                    )
+                else:
+                    current_data = data
+                
+                # Run both variants for this dataset
                 for variant in ["no_refusal", "with_refusal"]:
                     variant_config = {**current_config, "variant": variant}
                     exp_dir = setup_experiment_dir(variant_config)
@@ -152,9 +169,10 @@ def main():
                         variant_config, current_data, exp_dir, logger,
                         base_llm, raw_model, tokenizer, is_local_model
                     )
-            finally:
-                # Always unload model after both experiments
-                unload_model(base_llm, raw_model, tokenizer, is_local_model, logger)
+        finally:
+            # Unload model after all datasets and experiments
+            logger.info(f"Completed all experiments for model: {base_config['model']}")
+            unload_model(base_llm, raw_model, tokenizer, is_local_model, logger)
 
 
 def parse_args():

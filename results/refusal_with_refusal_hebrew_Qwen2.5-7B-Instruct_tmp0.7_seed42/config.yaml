@@ -1,0 +1,31 @@
+config_file: 2_train_eval/config_refusal.yaml
+current_data_file: 1_data/translated_questions.json
+data_file: 1_data/converted_questions.json
+datasets:
+- data_file: 1_data/converted_questions.json
+  language: english
+- data_file: 1_data/translated_questions.json
+  language: hebrew
+debug: false
+keys_file: 2_train_eval/keys.yaml.example
+language: hebrew
+local: Qwen/Qwen2.5-7B-Instruct
+logs_dir: results
+model: Qwen2.5-7B-Instruct
+models:
+- local: HuggingFaceH4/zephyr-7b-beta
+  model: zephyr-7b-beta
+  num_samples: 5
+  temperature: 0.7
+  use_rate_limiter: false
+- local: Qwen/Qwen2.5-7B-Instruct
+  model: Qwen2.5-7B-Instruct
+  num_samples: 5
+  temperature: 0.7
+  use_rate_limiter: false
+num_samples: 5
+prompt_type: zero_shot
+seed: 42
+temperature: 0.7
+use_rate_limiter: false
+variant: with_refusal
