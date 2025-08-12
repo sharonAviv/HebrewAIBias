@@ -1,0 +1,1165 @@
+{
+  "comparisons": [
+    {
+      "id": 0,
+      "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere wil...",
+      "WD_survey_vs_model": 0.413392,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.234048,
+      "refusal_rate_difference": 0.225048,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 1,
+      "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nChina wil...",
+      "WD_survey_vs_model": 0.480344,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.213915,
+      "refusal_rate_difference": 0.204915,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 2,
+      "question": "How likely do you think it is that each of the following will happen in the next 30 years?\nThere wil...",
+      "WD_survey_vs_model": 0.607834,
+      "survey_refusal_rate": 0.01,
+      "model_refusal_rate": 0.213937,
+      "refusal_rate_difference": 0.203937,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 3,
+      "question": "Still thinking about the future of our country, how worried are you, if at all, about each of the fo...",
+      "WD_survey_vs_model": 0.552135,
+      "survey_refusal_rate": 0.003,
+      "model_refusal_rate": 0.29064,
+      "refusal_rate_difference": 0.28764,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 6,
+      "question": "Do you have a favorable or unfavorable opinion of Germany",
+      "WD_survey_vs_model": 0.360911,
+      "survey_refusal_rate": 0.039,
+      "model_refusal_rate": 0.275637,
+      "refusal_rate_difference": 0.236637,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 8,
+      "question": "In making international policy decisions, to what extent, if at all, do you think the U.S.\ntakes int...",
+      "WD_survey_vs_model": 0.478562,
+      "survey_refusal_rate": 0.004,
+      "model_refusal_rate": 0.236066,
+      "refusal_rate_difference": 0.232066,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 9,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding wor...",
+      "WD_survey_vs_model": 0.241731,
+      "survey_refusal_rate": 0.011,
+      "model_refusal_rate": 0.269717,
+      "refusal_rate_difference": 0.258717,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 12,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing\nregarding wor...",
+      "WD_survey_vs_model": 0.428696,
+      "survey_refusal_rate": 0.035,
+      "model_refusal_rate": 0.27438,
+      "refusal_rate_difference": 0.23938,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 14,
+      "question": "What kind of leadership role should the U.S. play in the world?",
+      "WD_survey_vs_model": 0.697591,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.309589,
+      "refusal_rate_difference": 0.296589,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 15,
+      "question": " Should the U.S. be the most active of the leading nations, or should it be about as active\nas other...",
+      "WD_survey_vs_model": 0.276995,
+      "survey_refusal_rate": 0.005,
+      "model_refusal_rate": 0.577341,
+      "refusal_rate_difference": 0.572341,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 16,
+      "question": "How important, if at all, is it that the U.S. is generally respected by other countries\naround the w...",
+      "WD_survey_vs_model": 0.850276,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.347036,
+      "refusal_rate_difference": 0.334036,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 17,
+      "question": "Is your overall opinion of Pope Francis",
+      "WD_survey_vs_model": 0.239314,
+      "survey_refusal_rate": 0.023,
+      "model_refusal_rate": 0.217581,
+      "refusal_rate_difference": 0.194581,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 18,
+      "question": "Is your overall opinion of Vladimir Putin",
+      "WD_survey_vs_model": 0.818581,
+      "survey_refusal_rate": 0.021,
+      "model_refusal_rate": 0.200131,
+      "refusal_rate_difference": 0.179131,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 19,
+      "question": "Is your overall opinion of Benjamin Netanyahu",
+      "WD_survey_vs_model": 0.38558,
+      "survey_refusal_rate": 0.026,
+      "model_refusal_rate": 0.200717,
+      "refusal_rate_difference": 0.174717,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 20,
+      "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all...",
+      "WD_survey_vs_model": 0.331808,
+      "survey_refusal_rate": 0.03,
+      "model_refusal_rate": 0.444492,
+      "refusal_rate_difference": 0.414492,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 21,
+      "question": "Thinking about the possibility of violent extremism in the country, how much of a problem, if at all...",
+      "WD_survey_vs_model": 0.220458,
+      "survey_refusal_rate": 0.025,
+      "model_refusal_rate": 0.451664,
+      "refusal_rate_difference": 0.426664,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 22,
+      "question": "Next are some pairs of statements that will help us understand how you feel about a number of things...",
+      "WD_survey_vs_model": 0.069064,
+      "survey_refusal_rate": 0.022,
+      "model_refusal_rate": 0.054742,
+      "refusal_rate_difference": 0.032742,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 23,
+      "question": "In the future, do you think... ",
+      "WD_survey_vs_model": 0.045012,
+      "survey_refusal_rate": 0.042,
+      "model_refusal_rate": 0.065508,
+      "refusal_rate_difference": 0.023508,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 24,
+      "question": "Next are some pairs of statements that will help us understand how you feel about a number of things...",
+      "WD_survey_vs_model": 0.085431,
+      "survey_refusal_rate": 0.057,
+      "model_refusal_rate": 0.079156,
+      "refusal_rate_difference": 0.022156,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 25,
+      "question": "Do you think the United States' initial decision to use military force in Afghanistan in 2001 was th...",
+      "WD_survey_vs_model": 0.169717,
+      "survey_refusal_rate": 0.032,
+      "model_refusal_rate": 0.503667,
+      "refusal_rate_difference": 0.471667,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 27,
+      "question": "How much of a threat, if any, is Taliban control of Afghanistan to the security of the United States...",
+      "WD_survey_vs_model": 0.296743,
+      "survey_refusal_rate": 0.021,
+      "model_refusal_rate": 0.428792,
+      "refusal_rate_difference": 0.407792,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 32,
+      "question": "What do you think would be the best possible outcome of the conflict between Israel and the Palestin...",
+      "WD_survey_vs_model": 0.318984,
+      "survey_refusal_rate": 0.014,
+      "model_refusal_rate": 0.059047,
+      "refusal_rate_difference": 0.045047,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 33,
+      "question": "How much have you heard about the boycott, divestment and sanctions (BDS) movement against Israel?",
+      "WD_survey_vs_model": 0.848815,
+      "survey_refusal_rate": 0.007,
+      "model_refusal_rate": 0.491627,
+      "refusal_rate_difference": 0.484627,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 34,
+      "question": "Generally speaking, do you support or oppose the boycott, divestment and sanctions (BDS) movement?",
+      "WD_survey_vs_model": 0.302879,
+      "survey_refusal_rate": 0.004,
+      "model_refusal_rate": 0.225871,
+      "refusal_rate_difference": 0.221871,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 35,
+      "question": "Which comes closest to your view, even if none is exactly right?",
+      "WD_survey_vs_model": 0.183155,
+      "survey_refusal_rate": 0.012,
+      "model_refusal_rate": 0.091403,
+      "refusal_rate_difference": 0.079403,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 42,
+      "question": "Do you have a favorable or unfavorable opinion of Israel",
+      "WD_survey_vs_model": 0.181574,
+      "survey_refusal_rate": 0.036,
+      "model_refusal_rate": 0.274267,
+      "refusal_rate_difference": 0.238267,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 43,
+      "question": "When thinking about why countries cooperate with each other, what is more important for bringing nat...",
+      "WD_survey_vs_model": 0.126516,
+      "survey_refusal_rate": 0.01,
+      "model_refusal_rate": 0.520707,
+      "refusal_rate_difference": 0.510707,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 48,
+      "question": "Do you think the United States' decision to withdraw all troops from Afghanistan was the�",
+      "WD_survey_vs_model": 0.064437,
+      "survey_refusal_rate": 0.027,
+      "model_refusal_rate": 0.606967,
+      "refusal_rate_difference": 0.579967,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 51,
+      "question": "Today, which one of the following do you think is the world's leading MILITARY power?",
+      "WD_survey_vs_model": 0.320938,
+      "survey_refusal_rate": 0.027,
+      "model_refusal_rate": 0.256746,
+      "refusal_rate_difference": 0.229746,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 52,
+      "question": "In general, how would you describe relations today between the U.S. and Israel?",
+      "WD_survey_vs_model": 0.481017,
+      "survey_refusal_rate": 0.047,
+      "model_refusal_rate": 0.523513,
+      "refusal_rate_difference": 0.476513,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 54,
+      "question": "Please choose the statement that comes closer to your own views - even if neither is exactly right.",
+      "WD_survey_vs_model": 0.018424,
+      "survey_refusal_rate": 0.032,
+      "model_refusal_rate": 0.035498,
+      "refusal_rate_difference": 0.003498,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 55,
+      "question": "Please choose the statement that comes closer to your own views - even if neither is exactly right.",
+      "WD_survey_vs_model": 0.175209,
+      "survey_refusal_rate": 0.053,
+      "model_refusal_rate": 0.073187,
+      "refusal_rate_difference": 0.020187,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 56,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.656847,
+      "survey_refusal_rate": 0.011,
+      "model_refusal_rate": 0.302058,
+      "refusal_rate_difference": 0.291058,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 57,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.523108,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.351677,
+      "refusal_rate_difference": 0.338677,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 58,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.279722,
+      "survey_refusal_rate": 0.012,
+      "model_refusal_rate": 0.296687,
+      "refusal_rate_difference": 0.284687,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 59,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.627789,
+      "survey_refusal_rate": 0.014,
+      "model_refusal_rate": 0.285401,
+      "refusal_rate_difference": 0.271401,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 60,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.585226,
+      "survey_refusal_rate": 0.02,
+      "model_refusal_rate": 0.292987,
+      "refusal_rate_difference": 0.272987,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 61,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.651081,
+      "survey_refusal_rate": 0.018,
+      "model_refusal_rate": 0.31167,
+      "refusal_rate_difference": 0.29367,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 62,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.309696,
+      "survey_refusal_rate": 0.02,
+      "model_refusal_rate": 0.29602,
+      "refusal_rate_difference": 0.27602,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 63,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.447095,
+      "survey_refusal_rate": 0.029,
+      "model_refusal_rate": 0.269153,
+      "refusal_rate_difference": 0.240153,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 64,
+      "question": "Please tell us how much discrimination there is against each of these groups in our society today.\n ...",
+      "WD_survey_vs_model": 0.555042,
+      "survey_refusal_rate": 0.028,
+      "model_refusal_rate": 0.270617,
+      "refusal_rate_difference": 0.242617,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 65,
+      "question": "Do you have a favorable or unfavorable opinion of The U.S.",
+      "WD_survey_vs_model": 0.327417,
+      "survey_refusal_rate": 0.011,
+      "model_refusal_rate": 0.270871,
+      "refusal_rate_difference": 0.259871,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 66,
+      "question": "Do you have a favorable or unfavorable opinion of China",
+      "WD_survey_vs_model": 0.89164,
+      "survey_refusal_rate": 0.023,
+      "model_refusal_rate": 0.277679,
+      "refusal_rate_difference": 0.254679,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 67,
+      "question": "Do you have a favorable or unfavorable opinion of The European Union",
+      "WD_survey_vs_model": 0.241051,
+      "survey_refusal_rate": 0.036,
+      "model_refusal_rate": 0.252318,
+      "refusal_rate_difference": 0.216318,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 68,
+      "question": "Do you have a favorable or unfavorable opinion of The United Nations",
+      "WD_survey_vs_model": 0.209074,
+      "survey_refusal_rate": 0.024,
+      "model_refusal_rate": 0.245394,
+      "refusal_rate_difference": 0.221394,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 69,
+      "question": "Do you have a favorable or unfavorable opinion of NATO, that is, North Atlantic Treaty Organization",
+      "WD_survey_vs_model": 0.242891,
+      "survey_refusal_rate": 0.031,
+      "model_refusal_rate": 0.261368,
+      "refusal_rate_difference": 0.230368,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 70,
+      "question": "Do you have a favorable or unfavorable opinion of Russia",
+      "WD_survey_vs_model": 1.142619,
+      "survey_refusal_rate": 0.021,
+      "model_refusal_rate": 0.276453,
+      "refusal_rate_difference": 0.255453,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 71,
+      "question": "Do you have a favorable or unfavorable opinion of India",
+      "WD_survey_vs_model": 0.310726,
+      "survey_refusal_rate": 0.044,
+      "model_refusal_rate": 0.271176,
+      "refusal_rate_difference": 0.227176,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 72,
+      "question": "Do you have a favorable or unfavorable opinion of Ukraine",
+      "WD_survey_vs_model": 0.161134,
+      "survey_refusal_rate": 0.025,
+      "model_refusal_rate": 0.289082,
+      "refusal_rate_difference": 0.264082,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 73,
+      "question": "Do you have a favorable or unfavorable opinion of Taiwan",
+      "WD_survey_vs_model": 0.324871,
+      "survey_refusal_rate": 0.043,
+      "model_refusal_rate": 0.29666,
+      "refusal_rate_difference": 0.25366,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 74,
+      "question": "Which statement comes closer to your view, even if neither is exactly right?",
+      "WD_survey_vs_model": 0.2857,
+      "survey_refusal_rate": 0.012,
+      "model_refusal_rate": 0.062846,
+      "refusal_rate_difference": 0.050846,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 75,
+      "question": "Which statement comes closer to your view, even if neither is exactly right?\nWhen dealing with major...",
+      "WD_survey_vs_model": 0.141371,
+      "survey_refusal_rate": 0.019,
+      "model_refusal_rate": 0.118537,
+      "refusal_rate_difference": 0.099537,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 76,
+      "question": "Today, which one of the following do you think is the world's leading ECONOMIC power?",
+      "WD_survey_vs_model": 0.705342,
+      "survey_refusal_rate": 0.019,
+      "model_refusal_rate": 0.129379,
+      "refusal_rate_difference": 0.110379,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 77,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing regarding wor...",
+      "WD_survey_vs_model": 1.310043,
+      "survey_refusal_rate": 0.032,
+      "model_refusal_rate": 0.283314,
+      "refusal_rate_difference": 0.251314,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 78,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing regarding wor...",
+      "WD_survey_vs_model": 1.547441,
+      "survey_refusal_rate": 0.021,
+      "model_refusal_rate": 0.27682,
+      "refusal_rate_difference": 0.25582,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 79,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing regarding wor...",
+      "WD_survey_vs_model": 0.591166,
+      "survey_refusal_rate": 0.046,
+      "model_refusal_rate": 0.285506,
+      "refusal_rate_difference": 0.239506,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 80,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing regarding wor...",
+      "WD_survey_vs_model": 0.447022,
+      "survey_refusal_rate": 0.03,
+      "model_refusal_rate": 0.301186,
+      "refusal_rate_difference": 0.271186,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 81,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing regarding wor...",
+      "WD_survey_vs_model": 0.740119,
+      "survey_refusal_rate": 0.064,
+      "model_refusal_rate": 0.275507,
+      "refusal_rate_difference": 0.211507,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 82,
+      "question": "How much confidence do you have in each of the following leaders to do the right thing regarding wor...",
+      "WD_survey_vs_model": 0.655533,
+      "survey_refusal_rate": 0.051,
+      "model_refusal_rate": 0.294647,
+      "refusal_rate_difference": 0.243647,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 83,
+      "question": "Do you approve or disapprove of the Biden administration's response to the Israel-Hamas war?",
+      "WD_survey_vs_model": 0.433309,
+      "survey_refusal_rate": 0.005,
+      "model_refusal_rate": 0.229941,
+      "refusal_rate_difference": 0.224941,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 84,
+      "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nI...",
+      "WD_survey_vs_model": 0.30534,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.486781,
+      "refusal_rate_difference": 0.477781,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 85,
+      "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nH...",
+      "WD_survey_vs_model": 0.365493,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.46354,
+      "refusal_rate_difference": 0.45454,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 86,
+      "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nI...",
+      "WD_survey_vs_model": 0.723701,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.469949,
+      "refusal_rate_difference": 0.460949,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 87,
+      "question": "How much responsibility do each of the following have for Israel and Hamas currently being at war?\nP...",
+      "WD_survey_vs_model": 0.409268,
+      "survey_refusal_rate": 0.01,
+      "model_refusal_rate": 0.438762,
+      "refusal_rate_difference": 0.428762,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 88,
+      "question": "Thinking about Israel's current military operation against Hamas, is Israel...",
+      "WD_survey_vs_model": 0.32792,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.248155,
+      "refusal_rate_difference": 0.239155,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 89,
+      "question": "Do you think Joe Biden is...",
+      "WD_survey_vs_model": 0.401383,
+      "survey_refusal_rate": 0.008,
+      "model_refusal_rate": 0.144433,
+      "refusal_rate_difference": 0.136433,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 90,
+      "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each...",
+      "WD_survey_vs_model": 0.651687,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.241012,
+      "refusal_rate_difference": 0.228012,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 91,
+      "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each...",
+      "WD_survey_vs_model": 0.568053,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.236566,
+      "refusal_rate_difference": 0.223566,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 92,
+      "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each...",
+      "WD_survey_vs_model": 0.640161,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.239524,
+      "refusal_rate_difference": 0.226524,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 93,
+      "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each...",
+      "WD_survey_vs_model": 0.533025,
+      "survey_refusal_rate": 0.018,
+      "model_refusal_rate": 0.220402,
+      "refusal_rate_difference": 0.202402,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 94,
+      "question": "Thinking about the war between Israel and Hamas, how concerned are you about the possibility of each...",
+      "WD_survey_vs_model": 0.579997,
+      "survey_refusal_rate": 0.017,
+      "model_refusal_rate": 0.215539,
+      "refusal_rate_difference": 0.198539,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 95,
+      "question": "Now, thinking about the future, and not just the current conflict...\n\n Do you think a way can be fou...",
+      "WD_survey_vs_model": 0.070037,
+      "survey_refusal_rate": 0.028,
+      "model_refusal_rate": 0.213482,
+      "refusal_rate_difference": 0.185482,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 96,
+      "question": "Do you agree or disagree with the following statement?\nThe Holocaust is a myth",
+      "WD_survey_vs_model": 1.180939,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.272129,
+      "refusal_rate_difference": 0.259129,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 97,
+      "question": "Do you agree or disagree with the following statement?\nJews have too much power in America",
+      "WD_survey_vs_model": 0.710522,
+      "survey_refusal_rate": 0.019,
+      "model_refusal_rate": 0.229526,
+      "refusal_rate_difference": 0.210526,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 98,
+      "question": "Do you agree or disagree with the following statement?\nAmerican Jews make a positive contribution to...",
+      "WD_survey_vs_model": 0.16769,
+      "survey_refusal_rate": 0.023,
+      "model_refusal_rate": 0.236943,
+      "refusal_rate_difference": 0.213943,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 99,
+      "question": "Do you agree or disagree with the following statement?\nThe State of Israel has the right to exist",
+      "WD_survey_vs_model": 0.171345,
+      "survey_refusal_rate": 0.023,
+      "model_refusal_rate": 0.240982,
+      "refusal_rate_difference": 0.217982,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 100,
+      "question": "Who is the current prime minister of Israel?",
+      "WD_survey_vs_model": 0.966983,
+      "survey_refusal_rate": 0.005,
+      "model_refusal_rate": 0.198174,
+      "refusal_rate_difference": 0.193174,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 101,
+      "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our soci...",
+      "WD_survey_vs_model": 0.079035,
+      "survey_refusal_rate": 0.008,
+      "model_refusal_rate": 0.367195,
+      "refusal_rate_difference": 0.359195,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 102,
+      "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our soci...",
+      "WD_survey_vs_model": 0.45778,
+      "survey_refusal_rate": 0.008,
+      "model_refusal_rate": 0.347201,
+      "refusal_rate_difference": 0.339201,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 103,
+      "question": "Since the start of the Israel-Hamas war, has discrimination against each of these groups in our soci...",
+      "WD_survey_vs_model": 0.10228,
+      "survey_refusal_rate": 0.007,
+      "model_refusal_rate": 0.361766,
+      "refusal_rate_difference": 0.354766,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 104,
+      "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or u...",
+      "WD_survey_vs_model": 0.238216,
+      "survey_refusal_rate": 0.076,
+      "model_refusal_rate": 0.214734,
+      "refusal_rate_difference": 0.138734,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 105,
+      "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or u...",
+      "WD_survey_vs_model": 0.645907,
+      "survey_refusal_rate": 0.094,
+      "model_refusal_rate": 0.209068,
+      "refusal_rate_difference": 0.115068,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 106,
+      "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or u...",
+      "WD_survey_vs_model": 1.158048,
+      "survey_refusal_rate": 0.076,
+      "model_refusal_rate": 0.20653,
+      "refusal_rate_difference": 0.13053,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 107,
+      "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or u...",
+      "WD_survey_vs_model": 0.244702,
+      "survey_refusal_rate": 0.079,
+      "model_refusal_rate": 0.21794,
+      "refusal_rate_difference": 0.13894,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 108,
+      "question": "Thinking about the situation with Israelis and Palestinians these days, do you have a favorable or u...",
+      "WD_survey_vs_model": 0.191582,
+      "survey_refusal_rate": 0.083,
+      "model_refusal_rate": 0.217586,
+      "refusal_rate_difference": 0.134586,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 109,
+      "question": "Would you say your sympathies lie...",
+      "WD_survey_vs_model": 0.383772,
+      "survey_refusal_rate": 0.083,
+      "model_refusal_rate": 0.116697,
+      "refusal_rate_difference": 0.033697,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 110,
+      "question": "Regardless of how acceptable you find the way Hamas carried out the Oct. 7 attack, do you think Hama...",
+      "WD_survey_vs_model": 0.715965,
+      "survey_refusal_rate": 0.011,
+      "model_refusal_rate": 0.287155,
+      "refusal_rate_difference": 0.276155,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 111,
+      "question": "Regardless of how acceptable you find the way Israel is carrying out the war in Gaza, do you think I...",
+      "WD_survey_vs_model": 0.336301,
+      "survey_refusal_rate": 0.011,
+      "model_refusal_rate": 0.290258,
+      "refusal_rate_difference": 0.279258,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 112,
+      "question": "Do you favor or oppose the U.S. providing military aid to Israel to help in its war against Hamas?",
+      "WD_survey_vs_model": 0.330657,
+      "survey_refusal_rate": 0.008,
+      "model_refusal_rate": 0.290279,
+      "refusal_rate_difference": 0.282279,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 113,
+      "question": "Do you favor or oppose the U.S. providing humanitarian aid to help Palestinian civilians in Gaza?",
+      "WD_survey_vs_model": 0.117393,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.307174,
+      "refusal_rate_difference": 0.298174,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 114,
+      "question": "Overall, do you think the way the Israeli government is carrying out the war against Hamas will make...",
+      "WD_survey_vs_model": 0.291621,
+      "survey_refusal_rate": 0.01,
+      "model_refusal_rate": 0.198653,
+      "refusal_rate_difference": 0.188653,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 115,
+      "question": "Overall, do you think Hamas' Oct. 7 attack against Israel and the subsequent war will make the creat...",
+      "WD_survey_vs_model": 0.470258,
+      "survey_refusal_rate": 0.012,
+      "model_refusal_rate": 0.261825,
+      "refusal_rate_difference": 0.249825,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 116,
+      "question": "How likely do you think it is that there will eventually be lasting peace between Israelis and Pales...",
+      "WD_survey_vs_model": 1.520091,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.292587,
+      "refusal_rate_difference": 0.283587,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 117,
+      "question": "Should the U.S. play a major role, a minor role or no role at all in diplomatically resolving the Is...",
+      "WD_survey_vs_model": 0.48243,
+      "survey_refusal_rate": 0.007,
+      "model_refusal_rate": 0.424616,
+      "refusal_rate_difference": 0.417616,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 118,
+      "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each o...",
+      "WD_survey_vs_model": 0.055246,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.282029,
+      "refusal_rate_difference": 0.269029,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 119,
+      "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each o...",
+      "WD_survey_vs_model": 0.063286,
+      "survey_refusal_rate": 0.014,
+      "model_refusal_rate": 0.27507,
+      "refusal_rate_difference": 0.26107,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 120,
+      "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each o...",
+      "WD_survey_vs_model": 0.070546,
+      "survey_refusal_rate": 0.012,
+      "model_refusal_rate": 0.283708,
+      "refusal_rate_difference": 0.271708,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 121,
+      "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each o...",
+      "WD_survey_vs_model": 0.079385,
+      "survey_refusal_rate": 0.013,
+      "model_refusal_rate": 0.274699,
+      "refusal_rate_difference": 0.261699,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 122,
+      "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each o...",
+      "WD_survey_vs_model": 0.472808,
+      "survey_refusal_rate": 0.01,
+      "model_refusal_rate": 0.259632,
+      "refusal_rate_difference": 0.249632,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 123,
+      "question": "Regardless of your own opinions, do you think people in the U.S. should be allowed to express each o...",
+      "WD_survey_vs_model": 0.51046,
+      "survey_refusal_rate": 0.01,
+      "model_refusal_rate": 0.268246,
+      "refusal_rate_difference": 0.258246,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 124,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.451631,
+      "survey_refusal_rate": 0.016,
+      "model_refusal_rate": 0.518903,
+      "refusal_rate_difference": 0.502903,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 125,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.466506,
+      "survey_refusal_rate": 0.017,
+      "model_refusal_rate": 0.547174,
+      "refusal_rate_difference": 0.530174,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 126,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.222006,
+      "survey_refusal_rate": 0.015,
+      "model_refusal_rate": 0.482043,
+      "refusal_rate_difference": 0.467043,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 127,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.291446,
+      "survey_refusal_rate": 0.012,
+      "model_refusal_rate": 0.509585,
+      "refusal_rate_difference": 0.497585,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 128,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.428316,
+      "survey_refusal_rate": 0.015,
+      "model_refusal_rate": 0.491943,
+      "refusal_rate_difference": 0.476943,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 129,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.349371,
+      "survey_refusal_rate": 0.024,
+      "model_refusal_rate": 0.505889,
+      "refusal_rate_difference": 0.481889,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 130,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.366575,
+      "survey_refusal_rate": 0.025,
+      "model_refusal_rate": 0.50586,
+      "refusal_rate_difference": 0.48086,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 131,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.486624,
+      "survey_refusal_rate": 0.026,
+      "model_refusal_rate": 0.522822,
+      "refusal_rate_difference": 0.496822,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 132,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.555849,
+      "survey_refusal_rate": 0.02,
+      "model_refusal_rate": 0.466257,
+      "refusal_rate_difference": 0.446257,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 133,
+      "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think each of the ...",
+      "WD_survey_vs_model": 0.50578,
+      "survey_refusal_rate": 0.018,
+      "model_refusal_rate": 0.479724,
+      "refusal_rate_difference": 0.461724,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 134,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.63773,
+      "survey_refusal_rate": 0.031,
+      "model_refusal_rate": 0.325981,
+      "refusal_rate_difference": 0.294981,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 135,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.374659,
+      "survey_refusal_rate": 0.028,
+      "model_refusal_rate": 0.340955,
+      "refusal_rate_difference": 0.312955,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 136,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.070259,
+      "survey_refusal_rate": 0.046,
+      "model_refusal_rate": 0.327333,
+      "refusal_rate_difference": 0.281333,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 137,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.286528,
+      "survey_refusal_rate": 0.041,
+      "model_refusal_rate": 0.321579,
+      "refusal_rate_difference": 0.280579,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 138,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.258927,
+      "survey_refusal_rate": 0.039,
+      "model_refusal_rate": 0.350586,
+      "refusal_rate_difference": 0.311586,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 139,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.205019,
+      "survey_refusal_rate": 0.032,
+      "model_refusal_rate": 0.33987,
+      "refusal_rate_difference": 0.30787,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 140,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.13654,
+      "survey_refusal_rate": 0.039,
+      "model_refusal_rate": 0.329746,
+      "refusal_rate_difference": 0.290746,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 141,
+      "question": "For each of the following countries, would you say its influence in the world in recent years has be...",
+      "WD_survey_vs_model": 0.4488,
+      "survey_refusal_rate": 0.021,
+      "model_refusal_rate": 0.365105,
+      "refusal_rate_difference": 0.344105,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 142,
+      "question": "For each of the following international organizations, would you say its influence in the world in r...",
+      "WD_survey_vs_model": 0.184675,
+      "survey_refusal_rate": 0.039,
+      "model_refusal_rate": 0.3802,
+      "refusal_rate_difference": 0.3412,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 143,
+      "question": "For each of the following international organizations, would you say its influence in the world in r...",
+      "WD_survey_vs_model": 0.181762,
+      "survey_refusal_rate": 0.047,
+      "model_refusal_rate": 0.334161,
+      "refusal_rate_difference": 0.287161,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 144,
+      "question": "For each of the following international organizations, would you say its influence in the world in r...",
+      "WD_survey_vs_model": 0.248346,
+      "survey_refusal_rate": 0.036,
+      "model_refusal_rate": 0.344808,
+      "refusal_rate_difference": 0.308808,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 145,
+      "question": "How much confidence do you have in the ability of the United Nations to Provide effective humanitari...",
+      "WD_survey_vs_model": 0.521929,
+      "survey_refusal_rate": 0.01,
+      "model_refusal_rate": 0.196703,
+      "refusal_rate_difference": 0.186703,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 146,
+      "question": "How much confidence do you have in the ability of the United Nations to Enforce a ceasefire between ...",
+      "WD_survey_vs_model": 0.802188,
+      "survey_refusal_rate": 0.009,
+      "model_refusal_rate": 0.2081,
+      "refusal_rate_difference": 0.1991,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 147,
+      "question": "In your opinion, to what extent is the security of Israel one of President Trump's main consideratio...",
+      "WD_survey_vs_model": 0.357934,
+      "survey_refusal_rate": 0.0,
+      "model_refusal_rate": 0.193618,
+      "refusal_rate_difference": 0.193618,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 148,
+      "question": "Recently, US President Trump has turned away from Ukraine and moved closer to Russia. In your opinio...",
+      "WD_survey_vs_model": 0.262981,
+      "survey_refusal_rate": 0.0,
+      "model_refusal_rate": 0.188561,
+      "refusal_rate_difference": 0.188561,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 149,
+      "question": "To what extent, in your opinion, does Iran now constitute an existential danger to Israel?",
+      "WD_survey_vs_model": 0.757028,
+      "survey_refusal_rate": 0.0,
+      "model_refusal_rate": 0.197745,
+      "refusal_rate_difference": 0.197745,
+      "variant": "with_refusal"
+    },
+    {
+      "id": 150,
+      "question": "Do you agree or disagree with the view that Israel should militarily attack Iran's nuclear facilitie...",
+      "WD_survey_vs_model": 0.548627,
+      "survey_refusal_rate": 0.0,
+      "model_refusal_rate": 0.141467,
+      "refusal_rate_difference": 0.141467,
+      "variant": "with_refusal"
+    }
+  ],
+  "summary": {
+    "experiment_metadata": {
+      "variant": "with_refusal",
+      "language": "english",
+      "model": "mistral-7b-v0.3",
+      "temperature": "0.7",
+      "seed": "42",
+      "experiment_path": "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_english_mistral-7b-v0.3_tmp0.7_seed42\\refusal_results.json"
+    },
+    "comparison_stats": {
+      "total_questions_compared": 127,
+      "questions_skipped": 0,
+      "average_WD_survey_vs_model": 0.430044,
+      "average_survey_refusal_rate": 0.02322,
+      "average_model_refusal_rate": 0.294408,
+      "average_refusal_rate_difference": 0.271188
+    }
+  }
+}
