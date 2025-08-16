@@ -97,10 +97,34 @@ def convert_choice_probs_to_numeric(choice_probs: dict[str, float], answers: dic
 
 
 def wd_between(ranks, dist_a, dist_b) -> float:
-    support = np.array([ranks[c] for c in ranks])
-    w_a = np.array([dist_a.get(c, 0.0) for c in ranks])
-    w_b = np.array([dist_b.get(c, 0.0) for c in ranks])
-    return wasserstein_distance(support, support, u_weights=w_a, v_weights=w_b)
+    """
+    Calculate 1-Wasserstein distance between two discrete distributions.
+    For discrete distributions, this is the EMD (Earth Mover's Distance).
+    """
+    # Get all possible rank values
+    all_codes = sorted(ranks.keys(), key=lambda x: ranks[x])
+    
+    # Create arrays of rank positions and probabilities
+    positions = np.array([ranks[code] for code in all_codes])
+    probs_a = np.array([dist_a.get(code, 0.0) for code in all_codes])
+    probs_b = np.array([dist_b.get(code, 0.0) for code in all_codes])
+    
+    # Normalize probabilities to ensure they sum to 1
+    if probs_a.sum() > 0:
+        probs_a = probs_a / probs_a.sum()
+    if probs_b.sum() > 0:
+        probs_b = probs_b / probs_b.sum()
+    
+    # Calculate 1-Wasserstein distance using scipy
+    # This computes the optimal transport cost between the two distributions
+    wd = wasserstein_distance(positions, positions, u_weights=probs_a, v_weights=probs_b)
+    
+    # Normalize by the maximum possible distance to bound it in [0,1]
+    # Maximum distance occurs when all mass is at the extremes
+    max_distance = abs(positions.max() - positions.min()) if len(positions) > 1 else 1.0
+    
+    # Return normalized distance bounded in [0,1]
+    return min(wd / max_distance, 1.0) if max_distance > 0 else 0.0
 
 
 def refusal_mass(dist: dict[str, float]) -> float:
