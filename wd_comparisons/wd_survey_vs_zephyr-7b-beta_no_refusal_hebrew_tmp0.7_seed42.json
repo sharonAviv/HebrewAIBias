@@ -3,7 +3,7 @@
     {
       "id": 0,
       "question": "עד כמה אתה חושב שכל אחד מהדברים הבאים יקרה ב -30 השנים הבאות?\nיתקיים פיגוע על ארה\"ב גרוע באותה מידה ...",
-      "WD_survey_vs_model": 0.470423,
+      "WD_survey_vs_model": 0.156808,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -12,7 +12,7 @@
     {
       "id": 1,
       "question": "עד כמה אתה חושב שכל אחד מהדברים הבאים יקרה ב -30 השנים הבאות?\nסין תעקוף את ארה\"ב כמעצמת העל העיקרית ...",
-      "WD_survey_vs_model": 0.4081,
+      "WD_survey_vs_model": 0.136033,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "question": "עד כמה אתה חושב שכל אחד מהדברים הבאים יקרה ב -30 השנים הבאות?\nתהיה אלימות הולכת וגוברת נגד יהודים בא...",
-      "WD_survey_vs_model": 0.381078,
+      "WD_survey_vs_model": 0.127026,
       "survey_refusal_rate": 0.01,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.01,
@@ -30,7 +30,7 @@
     {
       "id": 3,
       "question": "עדיין חושב על עתיד ארצנו, כמה אתה מודאג, אם בכלל, על כל אחד מהבאים?\nהיכולת של מנהיגים פוליטיים לפתור...",
-      "WD_survey_vs_model": 0.963732,
+      "WD_survey_vs_model": 0.321244,
       "survey_refusal_rate": 0.003,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.003,
@@ -39,7 +39,7 @@
     {
       "id": 6,
       "question": "האם יש לך דעה חיובית או שלילית על גרמניה",
-      "WD_survey_vs_model": 0.45805,
+      "WD_survey_vs_model": 0.152683,
       "survey_refusal_rate": 0.039,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.039,
@@ -48,7 +48,7 @@
     {
       "id": 8,
       "question": "בקבלת החלטות מדיניות בינלאומיות, באיזו מידה, אם בכלל, אתה חושב שארה\"ב\nלוקחת בחשבון את האינטרסים של מ...",
-      "WD_survey_vs_model": 0.33604,
+      "WD_survey_vs_model": 0.112013,
       "survey_refusal_rate": 0.004,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.004,
@@ -57,7 +57,7 @@
     {
       "id": 9,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון\nלגבי ענייני עולם?\nנשיא ארה\"ב ג'ו ביידן",
-      "WD_survey_vs_model": 0.225929,
+      "WD_survey_vs_model": 0.07531,
       "survey_refusal_rate": 0.011,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.011,
@@ -66,7 +66,7 @@
     {
       "id": 12,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון\nלגבי ענייני עולם?\nקנצלרית גרמניה אנג'לה...",
-      "WD_survey_vs_model": 0.314665,
+      "WD_survey_vs_model": 0.104888,
       "survey_refusal_rate": 0.035,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.035,
@@ -75,7 +75,7 @@
     {
       "id": 14,
       "question": "איזה סוג של תפקיד מנהיגותי ארה\"ב צריכה למלא בעולם?",
-      "WD_survey_vs_model": 0.482941,
+      "WD_survey_vs_model": 0.24147,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -93,7 +93,7 @@
     {
       "id": 16,
       "question": "כמה חשוב, אם בכלל, שארה\"ב מכובדת בדרך כלל על ידי מדינות אחרות\nברחבי העולם?",
-      "WD_survey_vs_model": 0.760695,
+      "WD_survey_vs_model": 0.253565,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -102,7 +102,7 @@
     {
       "id": 17,
       "question": "היא דעתך הכללית של האפיפיור פרנסיס",
-      "WD_survey_vs_model": 0.782739,
+      "WD_survey_vs_model": 0.195685,
       "survey_refusal_rate": 0.023,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.023,
@@ -111,7 +111,7 @@
     {
       "id": 18,
       "question": "היא דעתך הכללית של ולדימיר פוטין",
-      "WD_survey_vs_model": 0.71986,
+      "WD_survey_vs_model": 0.179965,
       "survey_refusal_rate": 0.021,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.021,
@@ -120,7 +120,7 @@
     {
       "id": 19,
       "question": "היא דעתך הכללית על בנימין נתניהו",
-      "WD_survey_vs_model": 0.233794,
+      "WD_survey_vs_model": 0.058448,
       "survey_refusal_rate": 0.026,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.026,
@@ -129,7 +129,7 @@
     {
       "id": 20,
       "question": "כשחושבים על האפשרות של קיצוניות אלימה במדינה, עד כמה זו בעיה, אם בכלל, עבור המדינה כיום?\nקיצוניות בש...",
-      "WD_survey_vs_model": 0.110103,
+      "WD_survey_vs_model": 0.055051,
       "survey_refusal_rate": 0.03,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.03,
@@ -138,7 +138,7 @@
     {
       "id": 21,
       "question": "כשחושבים על האפשרות של קיצוניות אלימה במדינה, עד כמה זו בעיה, אם בכלל, עבור המדינה כיום?\nקיצוניות בש...",
-      "WD_survey_vs_model": 0.050096,
+      "WD_survey_vs_model": 0.025048,
       "survey_refusal_rate": 0.025,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.025,
@@ -183,7 +183,7 @@
     {
       "id": 27,
       "question": "עד כמה, אם בכלל, מהווה שליטת הטליבאן באפגניסטן איום על ביטחונה של ארצות הברית?",
-      "WD_survey_vs_model": 0.24539,
+      "WD_survey_vs_model": 0.122695,
       "survey_refusal_rate": 0.021,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.021,
@@ -192,7 +192,7 @@
     {
       "id": 32,
       "question": "מה לדעתך תהיה התוצאה הטובה ביותר האפשרית של הסכסוך בין ישראל לפלסטינים?",
-      "WD_survey_vs_model": 0.543275,
+      "WD_survey_vs_model": 0.135819,
       "survey_refusal_rate": 0.014,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.014,
@@ -201,7 +201,7 @@
     {
       "id": 33,
       "question": "כמה שמעת על תנועת החרם, הסילוק והסנקציות (BDS) נגד ישראל?",
-      "WD_survey_vs_model": 0.647989,
+      "WD_survey_vs_model": 0.215996,
       "survey_refusal_rate": 0.007,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.007,
@@ -210,7 +210,7 @@
     {
       "id": 34,
       "question": "באופן כללי, האם אתה תומך או מתנגד לתנועת החרם, הסילוק והסנקציות (BDS)?",
-      "WD_survey_vs_model": 0.280772,
+      "WD_survey_vs_model": 0.056154,
       "survey_refusal_rate": 0.004,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.004,
@@ -219,7 +219,7 @@
     {
       "id": 35,
       "question": "איזה מהבאים הכי קרוב לדעתך, גם אם אף אחד מהם אינו מדויק לחלוטין?",
-      "WD_survey_vs_model": 0.577833,
+      "WD_survey_vs_model": 0.192611,
       "survey_refusal_rate": 0.012,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.012,
@@ -228,7 +228,7 @@
     {
       "id": 42,
       "question": "האם יש לך דעה חיובית או שלילית של ישראל",
-      "WD_survey_vs_model": 0.254979,
+      "WD_survey_vs_model": 0.084993,
       "survey_refusal_rate": 0.036,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.036,
@@ -255,7 +255,7 @@
     {
       "id": 51,
       "question": "היום, איזה מהבאים לדעתך הכוח הצבאי המוביל בעולם?",
-      "WD_survey_vs_model": 0.773309,
+      "WD_survey_vs_model": 0.386655,
       "survey_refusal_rate": 0.027,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.027,
@@ -264,7 +264,7 @@
     {
       "id": 52,
       "question": "באופן כללי, איך היית מתאר את היחסים כיום בין ארה\"ב לישראל?",
-      "WD_survey_vs_model": 0.446326,
+      "WD_survey_vs_model": 0.148775,
       "survey_refusal_rate": 0.047,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.047,
@@ -273,7 +273,7 @@
     {
       "id": 53,
       "question": "האם אתה חושב שג'ו ביידן הוא ...",
-      "WD_survey_vs_model": 1.178839,
+      "WD_survey_vs_model": 0.392946,
       "survey_refusal_rate": 0.012,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.012,
@@ -300,7 +300,7 @@
     {
       "id": 56,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n אנשים שחורים",
-      "WD_survey_vs_model": 0.913253,
+      "WD_survey_vs_model": 0.304418,
       "survey_refusal_rate": 0.011,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.011,
@@ -309,7 +309,7 @@
     {
       "id": 57,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n אנשים היספניים",
-      "WD_survey_vs_model": 1.093125,
+      "WD_survey_vs_model": 0.364375,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -318,7 +318,7 @@
     {
       "id": 58,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n אנשים לבנים",
-      "WD_survey_vs_model": 0.443927,
+      "WD_survey_vs_model": 0.147976,
       "survey_refusal_rate": 0.012,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.012,
@@ -327,7 +327,7 @@
     {
       "id": 59,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n אנשים אסייתיים",
-      "WD_survey_vs_model": 1.086307,
+      "WD_survey_vs_model": 0.362102,
       "survey_refusal_rate": 0.014,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.014,
@@ -336,7 +336,7 @@
     {
       "id": 60,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n יהודים",
-      "WD_survey_vs_model": 1.06147,
+      "WD_survey_vs_model": 0.353823,
       "survey_refusal_rate": 0.02,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.02,
@@ -345,7 +345,7 @@
     {
       "id": 61,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n מוסלמים",
-      "WD_survey_vs_model": 1.307873,
+      "WD_survey_vs_model": 0.435958,
       "survey_refusal_rate": 0.018,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.018,
@@ -354,7 +354,7 @@
     {
       "id": 62,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n נוצרים אוונגליסטים",
-      "WD_survey_vs_model": 0.470798,
+      "WD_survey_vs_model": 0.156933,
       "survey_refusal_rate": 0.02,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.02,
@@ -363,7 +363,7 @@
     {
       "id": 63,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n בודהיסטים",
-      "WD_survey_vs_model": 0.597871,
+      "WD_survey_vs_model": 0.19929,
       "survey_refusal_rate": 0.029,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.029,
@@ -372,7 +372,7 @@
     {
       "id": 64,
       "question": "אנא ספר לנו כמה אפליה יש נגד כל אחת מהקבוצות הללו בחברה שלנו כיום.\n הינדים",
-      "WD_survey_vs_model": 0.720691,
+      "WD_survey_vs_model": 0.24023,
       "survey_refusal_rate": 0.028,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.028,
@@ -381,7 +381,7 @@
     {
       "id": 65,
       "question": "האם יש לך דעה חיובית או שלילית של ארה\"ב",
-      "WD_survey_vs_model": 0.388052,
+      "WD_survey_vs_model": 0.129351,
       "survey_refusal_rate": 0.011,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.011,
@@ -390,7 +390,7 @@
     {
       "id": 66,
       "question": "האם יש לך דעה חיובית או שלילית על סין",
-      "WD_survey_vs_model": 0.812026,
+      "WD_survey_vs_model": 0.270675,
       "survey_refusal_rate": 0.023,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.023,
@@ -399,7 +399,7 @@
     {
       "id": 67,
       "question": "האם יש לך דעה חיובית או שלילית של האיחוד האירופי",
-      "WD_survey_vs_model": 0.359325,
+      "WD_survey_vs_model": 0.119775,
       "survey_refusal_rate": 0.036,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.036,
@@ -408,7 +408,7 @@
     {
       "id": 68,
       "question": "האם יש לך דעה חיובית או שלילית על האו\"ם",
-      "WD_survey_vs_model": 0.279164,
+      "WD_survey_vs_model": 0.093055,
       "survey_refusal_rate": 0.024,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.024,
@@ -417,7 +417,7 @@
     {
       "id": 69,
       "question": "האם יש לך דעה חיובית או שלילית של נאט\"ו, כלומר ארגון אמנת צפון אטלנטיק",
-      "WD_survey_vs_model": 0.294635,
+      "WD_survey_vs_model": 0.098212,
       "survey_refusal_rate": 0.031,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.031,
@@ -426,7 +426,7 @@
     {
       "id": 70,
       "question": "האם יש לך דעה חיובית או שלילית על רוסיה",
-      "WD_survey_vs_model": 1.052584,
+      "WD_survey_vs_model": 0.350861,
       "survey_refusal_rate": 0.021,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.021,
@@ -435,7 +435,7 @@
     {
       "id": 71,
       "question": "האם יש לך דעה חיובית או שלילית של הודו",
-      "WD_survey_vs_model": 0.337021,
+      "WD_survey_vs_model": 0.11234,
       "survey_refusal_rate": 0.044,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.044,
@@ -444,7 +444,7 @@
     {
       "id": 72,
       "question": "האם יש לך דעה חיובית או שלילית של אוקראינה",
-      "WD_survey_vs_model": 0.280141,
+      "WD_survey_vs_model": 0.09338,
       "survey_refusal_rate": 0.025,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.025,
@@ -453,7 +453,7 @@
     {
       "id": 73,
       "question": "האם יש לך דעה חיובית או שלילית של טייוואן",
-      "WD_survey_vs_model": 0.425698,
+      "WD_survey_vs_model": 0.141899,
       "survey_refusal_rate": 0.043,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.043,
@@ -480,7 +480,7 @@
     {
       "id": 76,
       "question": "כיום, איזה מהבאים לדעתך הכוח הכלכלי המוביל בעולם?",
-      "WD_survey_vs_model": 1.846844,
+      "WD_survey_vs_model": 0.615615,
       "survey_refusal_rate": 0.019,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.019,
@@ -489,7 +489,7 @@
     {
       "id": 77,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא סין שי ג'ינפינג",
-      "WD_survey_vs_model": 0.886365,
+      "WD_survey_vs_model": 0.295455,
       "survey_refusal_rate": 0.032,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.032,
@@ -498,7 +498,7 @@
     {
       "id": 78,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא רוסיה ולדימיר פו...",
-      "WD_survey_vs_model": 1.135385,
+      "WD_survey_vs_model": 0.378462,
       "survey_refusal_rate": 0.021,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.021,
@@ -507,7 +507,7 @@
     {
       "id": 79,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא צרפת עמנואל מקרו...",
-      "WD_survey_vs_model": 0.200461,
+      "WD_survey_vs_model": 0.06682,
       "survey_refusal_rate": 0.046,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.046,
@@ -516,7 +516,7 @@
     {
       "id": 80,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nנשיא אוקראינה וולודימ...",
-      "WD_survey_vs_model": 0.173795,
+      "WD_survey_vs_model": 0.057932,
       "survey_refusal_rate": 0.03,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.03,
@@ -525,7 +525,7 @@
     {
       "id": 81,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nראש ממשלת הודו נרנדרה...",
-      "WD_survey_vs_model": 0.332512,
+      "WD_survey_vs_model": 0.110837,
       "survey_refusal_rate": 0.064,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.064,
@@ -534,7 +534,7 @@
     {
       "id": 82,
       "question": "כמה ביטחון יש לך בכל אחד מהמנהיגים הבאים לעשות את הדבר הנכון לגבי ענייני עולם?\nראש ממשלת ישראל בנימי...",
-      "WD_survey_vs_model": 0.196035,
+      "WD_survey_vs_model": 0.065345,
       "survey_refusal_rate": 0.051,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.051,
@@ -543,7 +543,7 @@
     {
       "id": 83,
       "question": "האם אתה מאשר או לא מסתייג מתגובת ממשל ביידן למלחמת ישראל-חמאס?",
-      "WD_survey_vs_model": 0.220095,
+      "WD_survey_vs_model": 0.055024,
       "survey_refusal_rate": 0.005,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.005,
@@ -552,7 +552,7 @@
     {
       "id": 84,
       "question": "כמה אחריות יש לכל אחד מהבאים עבור ישראל וחמאס כיום במלחמה?\nממשלת ישראל",
-      "WD_survey_vs_model": 1.01965,
+      "WD_survey_vs_model": 0.339883,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -561,7 +561,7 @@
     {
       "id": 85,
       "question": "כמה אחריות יש לכל אחד מהבאים עבור ישראל וחמאס כיום במלחמה?\nחמאס, הקבוצה הפלסטינית המיליטנטית",
-      "WD_survey_vs_model": 1.613794,
+      "WD_survey_vs_model": 0.537931,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -570,7 +570,7 @@
     {
       "id": 86,
       "question": "כמה אחריות יש לכל אחד מהבאים עבור ישראל וחמאס כיום במלחמה?\nעם ישראלי",
-      "WD_survey_vs_model": 0.515888,
+      "WD_survey_vs_model": 0.171963,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -579,7 +579,7 @@
     {
       "id": 87,
       "question": "כמה אחריות יש לכל אחד מהבאים עבור ישראל וחמאס כיום במלחמה?\nאנשים פלסטינים",
-      "WD_survey_vs_model": 0.770979,
+      "WD_survey_vs_model": 0.256993,
       "survey_refusal_rate": 0.01,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.01,
@@ -588,7 +588,7 @@
     {
       "id": 88,
       "question": "החשיבה על המבצע הצבאי הנוכחי של ישראל נגד חמאס היא שישראל ...",
-      "WD_survey_vs_model": 0.631284,
+      "WD_survey_vs_model": 0.210428,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -597,7 +597,7 @@
     {
       "id": 89,
       "question": "האם אתה חושב שג'ו ביידן הוא ...",
-      "WD_survey_vs_model": 0.64307,
+      "WD_survey_vs_model": 0.214357,
       "survey_refusal_rate": 0.008,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.008,
@@ -606,7 +606,7 @@
     {
       "id": 90,
       "question": "מתוך מחשבה על המלחמה בין ישראל לחמאס, כמה אתה מודאג מהאפשרות של כל אחת מהפעולות הבאות?\nהמלחמה מתרחבת...",
-      "WD_survey_vs_model": 0.475713,
+      "WD_survey_vs_model": 0.118928,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -615,7 +615,7 @@
     {
       "id": 91,
       "question": "מתוך מחשבה על המלחמה בין ישראל לחמאס, כמה אתה מודאג מהאפשרות של כל אחת מהפעולות הבאות?\nהמלחמה המוביל...",
-      "WD_survey_vs_model": 0.349665,
+      "WD_survey_vs_model": 0.087416,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -624,7 +624,7 @@
     {
       "id": 92,
       "question": "מתוך מחשבה על המלחמה בין ישראל לחמאס, כמה אתה מודאג מהאפשרות של כל אחת מהפעולות הבאות?\nהמלחמה נמשכת ...",
-      "WD_survey_vs_model": 0.437253,
+      "WD_survey_vs_model": 0.109313,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -633,7 +633,7 @@
     {
       "id": 93,
       "question": "מתוך מחשבה על המלחמה בין ישראל לחמאס, כמה אתה מודאג מהאפשרות של כל אחת מהפעולות הבאות?\nהגברת האלימות...",
-      "WD_survey_vs_model": 0.49522,
+      "WD_survey_vs_model": 0.123805,
       "survey_refusal_rate": 0.018,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.018,
@@ -642,7 +642,7 @@
     {
       "id": 94,
       "question": "מתוך מחשבה על המלחמה בין ישראל לחמאס, כמה אתה מודאג מהאפשרות של כל אחת מהפעולות הבאות?\nהגברת האלימות...",
-      "WD_survey_vs_model": 0.345508,
+      "WD_survey_vs_model": 0.086377,
       "survey_refusal_rate": 0.017,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.017,
@@ -660,7 +660,7 @@
     {
       "id": 96,
       "question": "האם אתה מסכים או לא מסכים עם ההצהרה הבאה?\nהשואה היא מיתוס",
-      "WD_survey_vs_model": 1.491336,
+      "WD_survey_vs_model": 0.372834,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -669,7 +669,7 @@
     {
       "id": 97,
       "question": "האם אתה מסכים או לא מסכים עם ההצהרה הבאה?\nליהודים יש יותר מדי כוח באמריקה",
-      "WD_survey_vs_model": 0.476796,
+      "WD_survey_vs_model": 0.119199,
       "survey_refusal_rate": 0.019,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.019,
@@ -678,7 +678,7 @@
     {
       "id": 98,
       "question": "האם אתה מסכים או לא מסכים עם ההצהרה הבאה?\nיהודים אמריקאים תורמים תרומה חיובית לחברה האמריקאית",
-      "WD_survey_vs_model": 0.939235,
+      "WD_survey_vs_model": 0.234809,
       "survey_refusal_rate": 0.023,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.023,
@@ -687,7 +687,7 @@
     {
       "id": 99,
       "question": "האם אתה מסכים או לא מסכים עם ההצהרה הבאה?\nלמדינת ישראל יש את הזכות להתקיים",
-      "WD_survey_vs_model": 1.077599,
+      "WD_survey_vs_model": 0.2694,
       "survey_refusal_rate": 0.023,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.023,
@@ -696,7 +696,7 @@
     {
       "id": 100,
       "question": "מיהו ראש הממשלה הנוכחי של ישראל?",
-      "WD_survey_vs_model": 0.886518,
+      "WD_survey_vs_model": 0.22163,
       "survey_refusal_rate": 0.005,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.005,
@@ -705,7 +705,7 @@
     {
       "id": 101,
       "question": "מאז תחילת מלחמת ישראל-חמאס, האם אפליה נגד כל אחת מהקבוצות הללו בחברה שלנו גדלה, פחתה או נשארה בערך ז...",
-      "WD_survey_vs_model": 0.556012,
+      "WD_survey_vs_model": 0.185337,
       "survey_refusal_rate": 0.008,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.008,
@@ -714,7 +714,7 @@
     {
       "id": 102,
       "question": "מאז תחילת מלחמת ישראל-חמאס, האם אפליה נגד כל אחת מהקבוצות הללו בחברה שלנו גדלה, פחתה או נשארה בערך ז...",
-      "WD_survey_vs_model": 0.954111,
+      "WD_survey_vs_model": 0.318037,
       "survey_refusal_rate": 0.008,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.008,
@@ -723,7 +723,7 @@
     {
       "id": 103,
       "question": "מאז תחילת מלחמת ישראל-חמאס, האם אפליה נגד כל אחת מהקבוצות הללו בחברה שלנו גדלה, פחתה או נשארה בערך ז...",
-      "WD_survey_vs_model": 0.57782,
+      "WD_survey_vs_model": 0.192607,
       "survey_refusal_rate": 0.007,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.007,
@@ -732,7 +732,7 @@
     {
       "id": 104,
       "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבא...",
-      "WD_survey_vs_model": 0.298687,
+      "WD_survey_vs_model": 0.099562,
       "survey_refusal_rate": 0.076,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.076,
@@ -741,7 +741,7 @@
     {
       "id": 105,
       "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבא...",
-      "WD_survey_vs_model": 0.615384,
+      "WD_survey_vs_model": 0.205128,
       "survey_refusal_rate": 0.094,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.094,
@@ -750,7 +750,7 @@
     {
       "id": 106,
       "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבא...",
-      "WD_survey_vs_model": 1.187287,
+      "WD_survey_vs_model": 0.395762,
       "survey_refusal_rate": 0.076,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.076,
@@ -759,7 +759,7 @@
     {
       "id": 107,
       "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבא...",
-      "WD_survey_vs_model": 0.338761,
+      "WD_survey_vs_model": 0.11292,
       "survey_refusal_rate": 0.079,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.079,
@@ -768,7 +768,7 @@
     {
       "id": 108,
       "question": "אם חושבים על המצב עם ישראלים ופלסטינים בימינו, האם יש לך דעה חיובית או שלילית של כל אחת מהפעולות הבא...",
-      "WD_survey_vs_model": 0.280153,
+      "WD_survey_vs_model": 0.093384,
       "survey_refusal_rate": 0.083,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.083,
@@ -777,7 +777,7 @@
     {
       "id": 109,
       "question": "האם היית אומר שהאהדות שלך שוכנות ...",
-      "WD_survey_vs_model": 0.946609,
+      "WD_survey_vs_model": 0.157768,
       "survey_refusal_rate": 0.083,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.083,
@@ -786,7 +786,7 @@
     {
       "id": 110,
       "question": "לא משנה כמה מקובל אתה מוצא את הדרך בה חמאס ביצע את ההתקפה של 7 באוקטובר, האם אתה חושב שהסיבות של חמא...",
-      "WD_survey_vs_model": 1.019384,
+      "WD_survey_vs_model": 0.254846,
       "survey_refusal_rate": 0.011,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.011,
@@ -795,7 +795,7 @@
     {
       "id": 111,
       "question": "לא משנה כמה מקובל אתה מוצא את הדרך בה ישראל מבצעת את המלחמה בעזה, אתה חושב שהסיבות של ישראל להילחם ב...",
-      "WD_survey_vs_model": 0.471485,
+      "WD_survey_vs_model": 0.117871,
       "survey_refusal_rate": 0.011,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.011,
@@ -804,7 +804,7 @@
     {
       "id": 112,
       "question": "האם אתה מעדיף או מתנגד לארה\"ב המספקת סיוע צבאי לישראל כדי לעזור במלחמה נגד חמאס?",
-      "WD_survey_vs_model": 0.279871,
+      "WD_survey_vs_model": 0.055974,
       "survey_refusal_rate": 0.008,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.008,
@@ -813,7 +813,7 @@
     {
       "id": 113,
       "question": "האם אתה מעדיף או מתנגד לארה\"ב המספקת סיוע הומניטרי שיעזור לאזרחים פלסטינים בעזה?",
-      "WD_survey_vs_model": 0.530412,
+      "WD_survey_vs_model": 0.106082,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -822,7 +822,7 @@
     {
       "id": 114,
       "question": "בסך הכל, האם אתה חושב שהממשלה הישראלית מבצעת את המלחמה נגד חמאס תגרום לעם הישראלי ...",
-      "WD_survey_vs_model": 0.602657,
+      "WD_survey_vs_model": 0.200886,
       "survey_refusal_rate": 0.01,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.01,
@@ -831,7 +831,7 @@
     {
       "id": 115,
       "question": "בסך הכל, האם אתה חושב שההתקפה של חמאס ב -7 באוקטובר נגד ישראל והמלחמה שלאחר מכן תגרום ליצירת מדינה פ...",
-      "WD_survey_vs_model": 0.799036,
+      "WD_survey_vs_model": 0.266345,
       "survey_refusal_rate": 0.012,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.012,
@@ -840,7 +840,7 @@
     {
       "id": 116,
       "question": "עד כמה אתה חושב שבסופו של דבר יהיה שלום מתמשך בין ישראלים לפלסטינים?",
-      "WD_survey_vs_model": 0.762581,
+      "WD_survey_vs_model": 0.152516,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -849,7 +849,7 @@
     {
       "id": 117,
       "question": "האם על ארה\"ב למלא תפקיד מרכזי, תפקיד מינורי או שום תפקיד כלל בפתרון דיפלומטי של מלחמת ישראל-חמאס?",
-      "WD_survey_vs_model": 0.126711,
+      "WD_survey_vs_model": 0.042237,
       "survey_refusal_rate": 0.007,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.007,
@@ -858,7 +858,7 @@
     {
       "id": 118,
       "question": "ללא קשר לדעות שלך, האם אתה חושב שיש לאפשר לאנשים בארה\"ב לבטא כל אחד מהבאים בפומבי, גם אם זה עלול לפג...",
-      "WD_survey_vs_model": 0.411786,
+      "WD_survey_vs_model": 0.205893,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -867,7 +867,7 @@
     {
       "id": 119,
       "question": "ללא קשר לדעות שלך, האם אתה חושב שיש לאפשר לאנשים בארה\"ב לבטא כל אחד מהבאים בפומבי, גם אם זה עלול לפג...",
-      "WD_survey_vs_model": 0.30595,
+      "WD_survey_vs_model": 0.152975,
       "survey_refusal_rate": 0.014,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.014,
@@ -876,7 +876,7 @@
     {
       "id": 120,
       "question": "ללא קשר לדעות שלך, האם אתה חושב שיש לאפשר לאנשים בארה\"ב לבטא כל אחד מהבאים בפומבי, גם אם זה עלול לפג...",
-      "WD_survey_vs_model": 0.402947,
+      "WD_survey_vs_model": 0.201473,
       "survey_refusal_rate": 0.012,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.012,
@@ -885,7 +885,7 @@
     {
       "id": 121,
       "question": "ללא קשר לדעות שלך, האם אתה חושב שיש לאפשר לאנשים בארה\"ב לבטא כל אחד מהבאים בפומבי, גם אם זה עלול לפג...",
-      "WD_survey_vs_model": 0.361922,
+      "WD_survey_vs_model": 0.180961,
       "survey_refusal_rate": 0.013,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.013,
@@ -894,7 +894,7 @@
     {
       "id": 122,
       "question": "ללא קשר לדעות שלך, האם אתה חושב שיש לאפשר לאנשים בארה\"ב לבטא כל אחד מהבאים בפומבי, גם אם זה עלול לפג...",
-      "WD_survey_vs_model": 0.331663,
+      "WD_survey_vs_model": 0.165831,
       "survey_refusal_rate": 0.01,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.01,
@@ -903,7 +903,7 @@
     {
       "id": 123,
       "question": "ללא קשר לדעות שלך, האם אתה חושב שיש לאפשר לאנשים בארה\"ב לבטא כל אחד מהבאים בפומבי, גם אם זה עלול לפג...",
-      "WD_survey_vs_model": 0.33219,
+      "WD_survey_vs_model": 0.166095,
       "survey_refusal_rate": 0.01,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.01,
@@ -912,7 +912,7 @@
     {
       "id": 124,
       "question": "לחשוב על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nחיזו...",
-      "WD_survey_vs_model": 0.103971,
+      "WD_survey_vs_model": 0.051986,
       "survey_refusal_rate": 0.016,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.016,
@@ -921,7 +921,7 @@
     {
       "id": 125,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nהפח...",
-      "WD_survey_vs_model": 0.217603,
+      "WD_survey_vs_model": 0.108801,
       "survey_refusal_rate": 0.017,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.017,
@@ -930,7 +930,7 @@
     {
       "id": 126,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nהגב...",
-      "WD_survey_vs_model": 0.343212,
+      "WD_survey_vs_model": 0.171606,
       "survey_refusal_rate": 0.015,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.015,
@@ -939,7 +939,7 @@
     {
       "id": 127,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nהגב...",
-      "WD_survey_vs_model": 0.324333,
+      "WD_survey_vs_model": 0.162167,
       "survey_refusal_rate": 0.012,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.012,
@@ -948,7 +948,7 @@
     {
       "id": 128,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nמצי...",
-      "WD_survey_vs_model": 0.116594,
+      "WD_survey_vs_model": 0.058297,
       "survey_refusal_rate": 0.015,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.015,
@@ -957,7 +957,7 @@
     {
       "id": 129,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nהגב...",
-      "WD_survey_vs_model": 0.176785,
+      "WD_survey_vs_model": 0.088393,
       "survey_refusal_rate": 0.024,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.024,
@@ -966,7 +966,7 @@
     {
       "id": 130,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nהגב...",
-      "WD_survey_vs_model": 0.174536,
+      "WD_survey_vs_model": 0.087268,
       "survey_refusal_rate": 0.025,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.025,
@@ -975,7 +975,7 @@
     {
       "id": 131,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nחיז...",
-      "WD_survey_vs_model": 0.156566,
+      "WD_survey_vs_model": 0.078283,
       "survey_refusal_rate": 0.026,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.026,
@@ -984,7 +984,7 @@
     {
       "id": 132,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nתמי...",
-      "WD_survey_vs_model": 0.140115,
+      "WD_survey_vs_model": 0.070057,
       "survey_refusal_rate": 0.02,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.02,
@@ -993,7 +993,7 @@
     {
       "id": 133,
       "question": "במחשבה על יעדי מדיניות חוץ לטווח הארוך, כמה עדיפות, אם בכלל, האם אתה חושב שיש לתת כל אחד מהבאים?\nתומ...",
-      "WD_survey_vs_model": 0.127423,
+      "WD_survey_vs_model": 0.063711,
       "survey_refusal_rate": 0.018,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.018,
@@ -1002,7 +1002,7 @@
     {
       "id": 134,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nסִין",
-      "WD_survey_vs_model": 0.866816,
+      "WD_survey_vs_model": 0.433408,
       "survey_refusal_rate": 0.031,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.031,
@@ -1011,7 +1011,7 @@
     {
       "id": 135,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nרוּסִיָה",
-      "WD_survey_vs_model": 0.566296,
+      "WD_survey_vs_model": 0.283148,
       "survey_refusal_rate": 0.028,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.028,
@@ -1020,7 +1020,7 @@
     {
       "id": 136,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nהוֹדוּ",
-      "WD_survey_vs_model": 0.237646,
+      "WD_survey_vs_model": 0.118823,
       "survey_refusal_rate": 0.046,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.046,
@@ -1029,7 +1029,7 @@
     {
       "id": 137,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nגֶרמָנִיָה",
-      "WD_survey_vs_model": 0.13543,
+      "WD_survey_vs_model": 0.067715,
       "survey_refusal_rate": 0.041,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.041,
@@ -1038,7 +1038,7 @@
     {
       "id": 138,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nצָרְפַת",
-      "WD_survey_vs_model": 0.186596,
+      "WD_survey_vs_model": 0.093298,
       "survey_refusal_rate": 0.039,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.039,
@@ -1047,7 +1047,7 @@
     {
       "id": 139,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nבריטניה",
-      "WD_survey_vs_model": 0.096469,
+      "WD_survey_vs_model": 0.048235,
       "survey_refusal_rate": 0.032,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.032,
@@ -1056,7 +1056,7 @@
     {
       "id": 140,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nאיראן",
-      "WD_survey_vs_model": 0.302416,
+      "WD_survey_vs_model": 0.151208,
       "survey_refusal_rate": 0.039,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.039,
@@ -1065,7 +1065,7 @@
     {
       "id": 141,
       "question": "עבור כל אחת מהמדינות הבאות, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nארה\"ב",
-      "WD_survey_vs_model": 0.209312,
+      "WD_survey_vs_model": 0.104656,
       "survey_refusal_rate": 0.021,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.021,
@@ -1074,7 +1074,7 @@
     {
       "id": 142,
       "question": "עבור כל אחד מהארגונים הבינלאומיים הבאים, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nנאט\"ו, כלו...",
-      "WD_survey_vs_model": 0.092568,
+      "WD_survey_vs_model": 0.046284,
       "survey_refusal_rate": 0.039,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.039,
@@ -1083,7 +1083,7 @@
     {
       "id": 143,
       "question": "עבור כל אחד מהארגונים הבינלאומיים הבאים, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nהאיחוד האי...",
-      "WD_survey_vs_model": 0.045123,
+      "WD_survey_vs_model": 0.022561,
       "survey_refusal_rate": 0.047,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.047,
@@ -1092,7 +1092,7 @@
     {
       "id": 144,
       "question": "עבור כל אחד מהארגונים הבינלאומיים הבאים, היית אומר שהשפעתה בעולם בשנים האחרונות הייתה ...\nהאו\"ם",
-      "WD_survey_vs_model": 0.059949,
+      "WD_survey_vs_model": 0.029974,
       "survey_refusal_rate": 0.036,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.036,
@@ -1101,7 +1101,7 @@
     {
       "id": 145,
       "question": "כמה ביטחון יש לך ביכולתו של האו\"ם לספק סיוע הומניטרי יעיל לעזה",
-      "WD_survey_vs_model": 0.427554,
+      "WD_survey_vs_model": 0.106889,
       "survey_refusal_rate": 0.01,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.01,
@@ -1110,7 +1110,7 @@
     {
       "id": 146,
       "question": "כמה ביטחון יש לך ביכולתו של האו\"ם לאכוף הפסקת אש בין ישראל לחמאס",
-      "WD_survey_vs_model": 0.683513,
+      "WD_survey_vs_model": 0.170878,
       "survey_refusal_rate": 0.009,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": -0.009,
@@ -1119,7 +1119,7 @@
     {
       "id": 147,
       "question": "לדעתך, באיזו מידה ביטחון ישראל הוא שיקול מרכזי אצל הנשיא טראמפ?",
-      "WD_survey_vs_model": 0.525573,
+      "WD_survey_vs_model": 0.131393,
       "survey_refusal_rate": 0.0,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": 0.0,
@@ -1128,7 +1128,7 @@
     {
       "id": 148,
       "question": "לאחרונה נשיא ארצות הברית טראמפ מפנה גב לאוקראינה ומתקרב לרוסיה. לדעתך, מה הסיכוי שהוא יפנה את גבו גם...",
-      "WD_survey_vs_model": 0.35295,
+      "WD_survey_vs_model": 0.088237,
       "survey_refusal_rate": 0.0,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": 0.0,
@@ -1137,7 +1137,7 @@
     {
       "id": 149,
       "question": "עד כמה לדעתך איראן מהווה היום סכנה קיומית על ישראל?",
-      "WD_survey_vs_model": 0.33748,
+      "WD_survey_vs_model": 0.067496,
       "survey_refusal_rate": 0.0,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": 0.0,
@@ -1146,7 +1146,7 @@
     {
       "id": 150,
       "question": "האם אתה מסכים או לא מסכים העמדה שעל ישראל לתקוף צבאית את מתקני הגרעין של איראן גם ללא הסכמה אמריקנית...",
-      "WD_survey_vs_model": 0.479363,
+      "WD_survey_vs_model": 0.119841,
       "survey_refusal_rate": 0.0,
       "model_refusal_rate": 0.0,
       "refusal_rate_difference": 0.0,
@@ -1165,7 +1165,7 @@
     "comparison_stats": {
       "total_questions_compared": 128,
       "questions_skipped": 0,
-      "average_WD_survey_vs_model": 0.48194,
+      "average_WD_survey_vs_model": 0.164525,
       "average_survey_refusal_rate": 0.023133,
       "average_model_refusal_rate": 0.0,
       "average_refusal_rate_difference": -0.023133

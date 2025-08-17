@@ -8,6 +8,13 @@
                                    "ErrorMessage":  ""
                                },
                                {
+                                   "ExperimentDirectory":  "refusal_no_refusal_english_Gemma3-1b-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_english_Gemma3-1b-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Gemma3-1b-Instruct_no_refusal_english_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
                                    "ExperimentDirectory":  "refusal_no_refusal_english_gpt-4o-mini_tmp0.7_seed42",
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_english_gpt-4o-mini_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
@@ -26,6 +33,20 @@
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_english_mistral-7b-v0.3_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
                                    "OutputFile":  "wd_survey_vs_mistral-7b-v0.3_no_refusal_english_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_no_refusal_english_Phi-3-medium-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_english_Phi-3-medium-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-medium-Instruct_no_refusal_english_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_no_refusal_english_Phi-3-mini-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_english_Phi-3-mini-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-mini-Instruct_no_refusal_english_tmp0.7_seed42.json",
                                    "ErrorMessage":  ""
                                },
                                {
@@ -64,6 +85,13 @@
                                    "ErrorMessage":  ""
                                },
                                {
+                                   "ExperimentDirectory":  "refusal_no_refusal_hebrew_Gemma3-1b-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_hebrew_Gemma3-1b-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Gemma3-1b-Instruct_no_refusal_hebrew_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
                                    "ExperimentDirectory":  "refusal_no_refusal_hebrew_gpt-4o-mini_tmp0.7_seed42",
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_hebrew_gpt-4o-mini_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
@@ -82,6 +110,20 @@
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_hebrew_mistral-7b-v0.3_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
                                    "OutputFile":  "wd_survey_vs_mistral-7b-v0.3_no_refusal_hebrew_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_no_refusal_hebrew_Phi-3-medium-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_hebrew_Phi-3-medium-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-medium-Instruct_no_refusal_hebrew_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_no_refusal_hebrew_Phi-3-mini-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_no_refusal_hebrew_Phi-3-mini-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-mini-Instruct_no_refusal_hebrew_tmp0.7_seed42.json",
                                    "ErrorMessage":  ""
                                },
                                {
@@ -120,6 +162,13 @@
                                    "ErrorMessage":  ""
                                },
                                {
+                                   "ExperimentDirectory":  "refusal_with_refusal_english_Gemma3-1b-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_english_Gemma3-1b-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Gemma3-1b-Instruct_with_refusal_english_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
                                    "ExperimentDirectory":  "refusal_with_refusal_english_gpt-4o-mini_tmp0.7_seed42",
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_english_gpt-4o-mini_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
@@ -138,6 +187,20 @@
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_english_mistral-7b-v0.3_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
                                    "OutputFile":  "wd_survey_vs_mistral-7b-v0.3_with_refusal_english_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_with_refusal_english_Phi-3-medium-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_english_Phi-3-medium-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-medium-Instruct_with_refusal_english_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_with_refusal_english_Phi-3-mini-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_english_Phi-3-mini-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-mini-Instruct_with_refusal_english_tmp0.7_seed42.json",
                                    "ErrorMessage":  ""
                                },
                                {
@@ -176,6 +239,13 @@
                                    "ErrorMessage":  ""
                                },
                                {
+                                   "ExperimentDirectory":  "refusal_with_refusal_hebrew_Gemma3-1b-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_hebrew_Gemma3-1b-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Gemma3-1b-Instruct_with_refusal_hebrew_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
                                    "ExperimentDirectory":  "refusal_with_refusal_hebrew_gpt-4o-mini_tmp0.7_seed42",
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_hebrew_gpt-4o-mini_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
@@ -194,6 +264,20 @@
                                    "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_hebrew_mistral-7b-v0.3_tmp0.7_seed42\\refusal_results.json",
                                    "Success":  true,
                                    "OutputFile":  "wd_survey_vs_mistral-7b-v0.3_with_refusal_hebrew_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_with_refusal_hebrew_Phi-3-medium-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_hebrew_Phi-3-medium-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-medium-Instruct_with_refusal_hebrew_tmp0.7_seed42.json",
+                                   "ErrorMessage":  ""
+                               },
+                               {
+                                   "ExperimentDirectory":  "refusal_with_refusal_hebrew_Phi-3-mini-Instruct_tmp0.7_seed42",
+                                   "ResultFile":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\results\\refusal_with_refusal_hebrew_Phi-3-mini-Instruct_tmp0.7_seed42\\refusal_results.json",
+                                   "Success":  true,
+                                   "OutputFile":  "wd_survey_vs_Phi-3-mini-Instruct_with_refusal_hebrew_tmp0.7_seed42.json",
                                    "ErrorMessage":  ""
                                },
                                {
@@ -227,9 +311,9 @@
                            ],
     "batch_processing_summary":  {
                                      "failed_comparisons":  0,
-                                     "total_experiments_found":  32,
-                                     "processed_date":  "2025-08-12 14:26:31",
+                                     "total_experiments_found":  44,
+                                     "processed_date":  "2025-08-17 21:37:11",
                                      "output_directory":  "C:\\Users\\gijhi\\Desktop\\nlp\\NLP_final_project\\wd_comparisons",
-                                     "successful_comparisons":  32
+                                     "successful_comparisons":  44
                                  }
 }
